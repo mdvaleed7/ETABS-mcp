@@ -23,7 +23,7 @@ It uses the `comtypes` library in Python to interact directly with the ETABSv1 C
 ## Repository Layout
 
 ```
-mdvaleed7/
+ETABS-mcp/
 ├── pyproject.toml                # build config & entry point
 ├── README.md
 ├── etabs_mcp_config.json         # runtime config (units, auto-connect, …)
@@ -45,9 +45,10 @@ mdvaleed7/
 │           ├── model_geometry.py
 │           ├── properties.py
 │           ├── results.py
+│           ├── seismic.py                 # IS 1893 modal + RSA + drift
 │           ├── selection.py
+│           ├── stiffness_modifiers.py     # ACI 318 + IS 456 cracked-section presets
 │           └── stories_grids.py
-└── (auxiliary research scripts: extract_chm.* / parse_hhc.py / debug_chm.py)
 ```
 
 ## Installation
@@ -55,8 +56,8 @@ mdvaleed7/
 1. Clone the repo and install the package in editable mode:
 
    ```bash
-   git clone https://github.com/mdvaleed7/mdvaleed7.git
-   cd mdvaleed7
+   git clone https://github.com/mdvaleed7/ETABS-mcp.git
+   cd ETABS-mcp
    pip install -e .
    ```
 
@@ -202,12 +203,14 @@ Defaults applied:
 
 - `etabs_assign_frame_stiffness_modifiers` — apply to specific frames with any
   of the presets `aci_beam`, `aci_beam_conservative`, `aci_column`,
-  `aci_column_conservative`, `aci_spandrel`, `aisc_beam` — or pass individual
+  `aci_column_conservative`, `aci_spandrel`, `aisc_beam`, `is456_beam`,
+  `is456_column`, `is456_beam_seismic`, `is456_shear_wall` — or pass individual
   `area / m2 / m3 / torsion / mass / weight` values to override.
 - `etabs_assign_area_stiffness_modifiers` — apply to specific areas with any of
   the presets `aci_wall`, `aci_wall_cracked`, `aci_slab`, `aci_slab_joist`,
-  `aci_drop_panel`, `steel_deck` — or override individual `f11 / f22 / f12 /
-  m11 / m22 / m12 / v13 / v23` values.
+  `aci_drop_panel`, `steel_deck`, `is456_wall`, `is456_wall_cracked`,
+  `is456_slab`, `is456_flat_slab`, `is456_ribbed_slab` — or override individual
+  `f11 / f22 / f12 / m11 / m22 / m12 / v13 / v23` values.
 
 > **Note on modifier ordering.** Frame modifiers are passed to ETABS as
 > `[Area, M2, M3, Torsion, M2_weight, M3_weight, Mass, Weight]` and area

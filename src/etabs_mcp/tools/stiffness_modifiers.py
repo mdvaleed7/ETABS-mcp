@@ -78,6 +78,18 @@ AREA_PRESETS: dict[str, list[float]] = {
     "aci_drop_panel":        [1.00, 1.00, 1.00, 0.50, 0.50, 0.50, 1.0, 1.0],
     # Steel deck (unmodified)
     "steel_deck":            [1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.0, 1.0],
+
+    # ── IS 456:2000 / IS 13920:2016 — Indian practice for walls and slabs ──
+    # Shear wall — uncracked (matches ACI wall value, common Indian practice)
+    "is456_wall":            [0.70, 0.70, 0.70, 0.70, 0.70, 0.70, 1.0, 1.0],
+    # Shear wall — cracked per IS 13920:2016 (heavily cracked, ductile)
+    "is456_wall_cracked":    [0.35, 0.35, 0.35, 0.35, 0.35, 0.35, 1.0, 1.0],
+    # Two-way slab — IS 456:2000 effective moment of inertia (gross × 0.25-0.35)
+    "is456_slab":            [1.00, 1.00, 1.00, 0.25, 0.25, 0.25, 1.0, 1.0],
+    # Flat slab / drop-panel system — slightly higher bending stiffness
+    "is456_flat_slab":       [1.00, 1.00, 1.00, 0.35, 0.35, 0.35, 1.0, 1.0],
+    # Ribbed / joist slab — closer to gross-section behavior
+    "is456_ribbed_slab":     [1.00, 1.00, 1.00, 0.50, 0.50, 0.50, 1.0, 1.0],
 }
 
 
@@ -181,13 +193,17 @@ def register(mcp: FastMCP) -> None:
         Pick a `preset` for ACI defaults, OR supply individual modifier
         values. If both are given, individual values override the preset.
 
-        Presets (ACI 318-19 Table 6.6.3.1.1(a)):
+        Presets (ACI 318-19 Table 6.6.3.1.1(a) + IS 456:2000 / IS 13920:2016):
           - "aci_beam"               I = 0.35 Ig, torsion = 0.20
           - "aci_beam_conservative"  I = 0.25 Ig, torsion = 0.10
           - "aci_column"             I = 0.70 Ig, A = 0.70 Ag
           - "aci_column_conservative" I = 0.50 Ig
           - "aci_spandrel"           I = 0.20 Ig  (coupling beams)
           - "aisc_beam"              unmodified (steel)
+          - "is456_beam"             I = 0.35 Ig, torsion = 0.10 (IS 456 RC beam)
+          - "is456_column"           I = 0.70 Ig, A = 0.70 Ag (IS 456 RC column)
+          - "is456_beam_seismic"     I = 0.25 Ig, torsion = 0.10 (SMRF / IS 13920)
+          - "is456_shear_wall"       I = 0.70 Ig, A = 0.70 Ag (IS 13920 uncracked)
 
         Args:
             names: List of frame object names (e.g. ["B1", "B2"]).
@@ -290,13 +306,18 @@ def register(mcp: FastMCP) -> None:
 
         Pick a target with `names`, `group`, or leave both blank for ALL areas.
 
-        Presets (ACI 318-19 Table 6.6.3.1.1(a)):
-          - "aci_wall"          I = 0.70 Ig, A = 0.70 Ag (uncracked)
-          - "aci_wall_cracked"  I = 0.35 Ig, A = 0.35 Ag
-          - "aci_slab"          I = 0.25 Ig (flat plate / two-way slab)
-          - "aci_slab_joist"    I = 0.50 Ig (slab with joists / ribs)
-          - "aci_drop_panel"    I = 0.50 Ig
-          - "steel_deck"        unmodified
+        Presets (ACI 318-19 Table 6.6.3.1.1(a) + IS 456:2000 / IS 13920:2016):
+          - "aci_wall"            I = 0.70 Ig, A = 0.70 Ag (uncracked)
+          - "aci_wall_cracked"    I = 0.35 Ig, A = 0.35 Ag
+          - "aci_slab"            I = 0.25 Ig (flat plate / two-way slab)
+          - "aci_slab_joist"      I = 0.50 Ig (slab with joists / ribs)
+          - "aci_drop_panel"      I = 0.50 Ig
+          - "steel_deck"          unmodified
+          - "is456_wall"          I = 0.70 Ig, A = 0.70 Ag (IS 13920 uncracked)
+          - "is456_wall_cracked"  I = 0.35 Ig, A = 0.35 Ag (IS 13920 ductile)
+          - "is456_slab"          I = 0.25 Ig (IS 456 two-way slab)
+          - "is456_flat_slab"     I = 0.35 Ig (IS 456 flat slab / drop panel)
+          - "is456_ribbed_slab"   I = 0.50 Ig (IS 456 ribbed / joist slab)
 
         Args:
             names: List of area object names. None → group, or all areas.

@@ -26,8 +26,8 @@ dependencies = [
 etabs-mcp = "etabs_mcp.server:main"
 
 [project.urls]
-Homepage = "https://github.com/mdvaleed7/mdvaleed7"
-Repository = "https://github.com/mdvaleed7/mdvaleed7"
+Homepage = "https://github.com/mdvaleed7/ETABS-mcp"
+Repository = "https://github.com/mdvaleed7/ETABS-mcp"
 
 [build-system]
 requires = ["hatchling"]
