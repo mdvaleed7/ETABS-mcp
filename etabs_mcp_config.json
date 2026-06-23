@@ -1,0 +1,6 @@
+{
+  "etabs_executable_path": "",
+  "default_units": "kip_ft_F",
+  "auto_connect_on_startup": true,
+  "logging_level": "INFO"
+}

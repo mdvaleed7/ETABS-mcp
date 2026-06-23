@@ -1,0 +1,6313 @@
+{
+  "cAnalysisResults": {
+    "properties": [
+      {
+        "name": "Setup",
+        "local": "html/1060f888-cf6d-80b8-5d18-87892b8ca373.htm"
+      }
+    ],
+    "methods": [
+      {
+        "name": "AreaForceShell",
+        "local": "html/cc92bdd3-f712-d741-1805-4c7c9bbbb2d7.htm"
+      },
+      {
+        "name": "AreaJointForceShell",
+        "local": "html/e83ea1bd-2d2c-a16d-1f82-230a5507d21d.htm"
+      },
+      {
+        "name": "AreaStrainShell",
+        "local": "html/e3af8854-2722-5c0b-0b64-f89c3bde3ae9.htm"
+      },
+      {
+        "name": "AreaStrainShellLayered",
+        "local": "html/cc09c570-9398-aa93-04e3-a140cb43a56e.htm"
+      },
+      {
+        "name": "AreaStressShell",
+        "local": "html/23519273-ad66-603c-48a3-b4bba4a42f89.htm"
+      },
+      {
+        "name": "AreaStressShellLayered",
+        "local": "html/650241c3-e7c4-f4ab-b291-a264031c3a1a.htm"
+      },
+      {
+        "name": "AssembledJointMass",
+        "local": "html/fc9f1192-cb22-44d9-b8ae-65e824d41f30.htm"
+      },
+      {
+        "name": "AssembledJointMass_1",
+        "local": "html/87cf0f6a-b145-4788-620b-4b5e0d377ef0.htm"
+      },
+      {
+        "name": "BaseReact",
+        "local": "html/b1254c38-a9f8-0f7b-3aa4-e7bde8a96e3a.htm"
+      },
+      {
+        "name": "BaseReactWithCentroid",
+        "local": "html/e2cbc77a-9631-e2bc-b6ad-83d31c727360.htm"
+      },
+      {
+        "name": "BucklingFactor",
+        "local": "html/4c601f77-172b-00c9-8ac2-bd528c32a3ff.htm"
+      },
+      {
+        "name": "FrameForce",
+        "local": "html/5efb0061-e25c-363c-1191-6fb001f48978.htm"
+      },
+      {
+        "name": "FrameJointForce",
+        "local": "html/548786a1-f0ec-a2d0-a63f-006270f14a2a.htm"
+      },
+      {
+        "name": "GeneralizedDispl",
+        "local": "html/519448d1-d939-0e13-78b6-277524f006d3.htm"
+      },
+      {
+        "name": "JointAcc",
+        "local": "html/ec67238a-c59c-b8ca-6173-0abc1d78bd3a.htm"
+      },
+      {
+        "name": "JointAccAbs",
+        "local": "html/ef3a4790-6beb-f608-92cf-95ebcfdfcaad.htm"
+      },
+      {
+        "name": "JointDispl",
+        "local": "html/993054d6-91df-b03c-5f1f-79ab0dfce583.htm"
+      },
+      {
+        "name": "JointDisplAbs",
+        "local": "html/b34d2e86-416a-2fa7-0d85-5dd976de9485.htm"
+      },
+      {
+        "name": "JointDrifts",
+        "local": "html/b2807bfa-64f8-514d-c61a-9840d6cd6712.htm"
+      },
+      {
+        "name": "JointReact",
+        "local": "html/10645966-190c-ff74-46f2-a87da774df65.htm"
+      },
+      {
+        "name": "JointVel",
+        "local": "html/5fe1fc79-a7a5-20b9-0e10-f15c5e1527c5.htm"
+      },
+      {
+        "name": "JointVelAbs",
+        "local": "html/80dc677c-8a12-6eac-9fde-52aa5a7c73b3.htm"
+      },
+      {
+        "name": "LinkDeformation",
+        "local": "html/f9d1cea0-6835-a029-e1ad-c5cb15cb3646.htm"
+      },
+      {
+        "name": "LinkForce",
+        "local": "html/d2d21dfe-986f-d503-0684-a464aad70a41.htm"
+      },
+      {
+        "name": "LinkJointForce",
+        "local": "html/9bd1b7db-a41e-e6b8-72de-bcd26f0b3cbb.htm"
+      },
+      {
+        "name": "ModalLoadParticipationRatios",
+        "local": "html/d4a55aa7-88e9-b9ec-64a2-76d1afa84314.htm"
+      },
+      {
+        "name": "ModalParticipatingMassRatios",
+        "local": "html/97d6a0a9-ed2e-ce1c-061b-ea0791157e7b.htm"
+      },
+      {
+        "name": "ModalParticipationFactors",
+        "local": "html/967c4d0a-8c94-890c-55af-bb4169411ea4.htm"
+      },
+      {
+        "name": "ModalPeriod",
+        "local": "html/c0865d18-6586-a23a-b8dd-f25e132845b2.htm"
+      },
+      {
+        "name": "ModeShape",
+        "local": "html/92a9bfef-a6f8-8252-8097-4b09423e10a7.htm"
+      },
+      {
+        "name": "PanelZoneDeformation",
+        "local": "html/7a2b313c-fc1d-8ee7-51b6-5872f473f6d5.htm"
+      },
+      {
+        "name": "PanelZoneForce",
+        "local": "html/0d526d7d-7435-16c8-0ccb-13fd534f3458.htm"
+      },
+      {
+        "name": "PierForce",
+        "local": "html/a724ff58-b1e9-5faa-621d-de7b535c1afe.htm"
+      },
+      {
+        "name": "SectionCutAnalysis",
+        "local": "html/c10bd12f-ed43-cb2b-4fc9-95922251b017.htm"
+      },
+      {
+        "name": "SectionCutDesign",
+        "local": "html/f0710aaf-08b4-6dfc-2c67-29b27bb9acbb.htm"
+      },
+      {
+        "name": "SpandrelForce",
+        "local": "html/67d2885e-e75b-b11b-8e2b-6912d697c336.htm"
+      },
+      {
+        "name": "StoryDrifts",
+        "local": "html/34ebac17-0e58-0071-0ec1-81f3b572cf75.htm"
+      }
+    ],
+    "local": "html/b64f2f6e-9759-e542-faf2-0905474a04a7.htm"
+  },
+  "cAnalysisResultsSetup": {
+    "properties": [],
+    "methods": [
+      {
+        "name": "DeselectAllCasesAndCombosForOutput",
+        "local": "html/59e98a30-56bc-d6b7-00ff-e622b8f38224.htm"
+      },
+      {
+        "name": "GetCaseSelectedForOutput",
+        "local": "html/76ee3052-9f18-fd0a-368c-828ff880318d.htm"
+      },
+      {
+        "name": "GetComboSelectedForOutput",
+        "local": "html/a079962d-9455-ecc8-6667-f8bc6bf40317.htm"
+      },
+      {
+        "name": "GetOptionBaseReactLoc",
+        "local": "html/13d5546b-9997-5097-0f36-4c20eb88a54b.htm"
+      },
+      {
+        "name": "GetOptionBucklingMode",
+        "local": "html/cc52d5f2-f222-4442-5e84-58393d112a8d.htm"
+      },
+      {
+        "name": "GetOptionDirectHist",
+        "local": "html/a6f3b13b-1c0d-f8d4-2050-92365655df5d.htm"
+      },
+      {
+        "name": "GetOptionModalHist",
+        "local": "html/503e9679-30d3-0826-6505-c08bd9a2f2f8.htm"
+      },
+      {
+        "name": "GetOptionModeShape",
+        "local": "html/fc4249b0-7abc-6a81-a81d-b6f34233b0ec.htm"
+      },
+      {
+        "name": "GetOptionMultiStepStatic",
+        "local": "html/59a5a183-5d00-3734-2c6a-a82516839872.htm"
+      },
+      {
+        "name": "GetOptionMultiValuedCombo",
+        "local": "html/2e7a93d5-4dd6-7b49-8825-47a8dafa1fc1.htm"
+      },
+      {
+        "name": "GetOptionNLStatic",
+        "local": "html/c860a7a1-9ebb-e0c5-249a-ae3c4e88f208.htm"
+      },
+      {
+        "name": "SetCaseSelectedForOutput",
+        "local": "html/9a897e48-fbcd-d8cc-90f3-8aab80ae0e51.htm"
+      },
+      {
+        "name": "SetComboSelectedForOutput",
+        "local": "html/50252dbb-7c20-eee8-ac7f-a58d8d50a695.htm"
+      },
+      {
+        "name": "SetOptionBaseReactLoc",
+        "local": "html/e97dc297-8881-1400-795c-8a3dcd4250c8.htm"
+      },
+      {
+        "name": "SetOptionBucklingMode",
+        "local": "html/4e7ecd46-19ce-4334-33c9-ce00fec190f8.htm"
+      },
+      {
+        "name": "SetOptionDirectHist",
+        "local": "html/18e76e12-b578-e6dd-e1c2-0fc065dcebae.htm"
+      },
+      {
+        "name": "SetOptionModalHist",
+        "local": "html/0f2ce067-2764-ca48-83ef-4ef8c2e7c0f2.htm"
+      },
+      {
+        "name": "SetOptionModeShape",
+        "local": "html/7e39a7f0-7090-87fc-ad6f-b4c252733246.htm"
+      },
+      {
+        "name": "SetOptionMultiStepStatic",
+        "local": "html/d11ccc1a-11c1-84a9-ae06-76581f787e44.htm"
+      },
+      {
+        "name": "SetOptionMultiValuedCombo",
+        "local": "html/aa1ed7b4-1be1-638e-8050-bc38910a550c.htm"
+      },
+      {
+        "name": "SetOptionNLStatic",
+        "local": "html/70ee8920-c6e4-ae91-d223-4320b1090ca5.htm"
+      }
+    ],
+    "local": "html/25527ed4-d035-9576-e3ec-a63103f2c352.htm"
+  },
+  "cAnalyze": {
+    "properties": [],
+    "methods": [
+      {
+        "name": "CreateAnalysisModel",
+        "local": "html/4e608741-8192-d3b4-84e3-e6c550a1c2db.htm"
+      },
+      {
+        "name": "DeleteResults",
+        "local": "html/78802e8a-ceff-bb3b-4f27-a805ef90d148.htm"
+      },
+      {
+        "name": "GetActiveDOF",
+        "local": "html/95b62dec-d494-53d7-1c3d-5d4b77cc51bf.htm"
+      },
+      {
+        "name": "GetCaseStatus",
+        "local": "html/94fc4a33-5784-228c-62ad-edcc74eaf034.htm"
+      },
+      {
+        "name": "GetDesignResponseOption",
+        "local": "html/5be30001-f29e-f709-abf2-a9ec6ca1b958.htm"
+      },
+      {
+        "name": "GetRunCaseFlag",
+        "local": "html/b3d6546c-93c6-fc1a-d017-21984aa3bc12.htm"
+      },
+      {
+        "name": "GetSolverOption",
+        "local": "html/64847815-d20b-32b8-42fd-b2dc2e9a126b.htm"
+      },
+      {
+        "name": "GetSolverOption_1",
+        "local": "html/d0def199-7ee4-873f-5016-a1d8a11f7b1f.htm"
+      },
+      {
+        "name": "GetSolverOption_2",
+        "local": "html/f07d0feb-6508-0ec3-b47a-f5186f578689.htm"
+      },
+      {
+        "name": "GetSolverOption_3",
+        "local": "html/be3d8ebc-bc94-8008-4c90-24bc79442266.htm"
+      },
+      {
+        "name": "MergeAnalysisResults",
+        "local": "html/26af0e87-c842-7e4d-a961-4da0a6c10252.htm"
+      },
+      {
+        "name": "ModifyUndeformedGeometry",
+        "local": "html/a9bbb6f9-14eb-b4ee-1605-7c12b76194a5.htm"
+      },
+      {
+        "name": "ModifyUndeformedGeometryModeShape",
+        "local": "html/e3fc25af-bf08-962f-a11a-000ceecb4191.htm"
+      },
+      {
+        "name": "RunAnalysis",
+        "local": "html/516e7b74-8cb4-af27-31d5-38bb95b3c1d1.htm"
+      },
+      {
+        "name": "SetActiveDOF",
+        "local": "html/a4c9b05e-c2cc-364a-7f26-63cc50d098ba.htm"
+      },
+      {
+        "name": "SetDesignResponseOption",
+        "local": "html/24f58704-0fea-a875-67f9-d1f4d4b68044.htm"
+      },
+      {
+        "name": "SetRunCaseFlag",
+        "local": "html/7ff1159c-d38b-1c69-1eaa-a25957f5abe8.htm"
+      },
+      {
+        "name": "SetSolverOption",
+        "local": "html/cbc26a3c-b6e6-d05f-494d-9b7b2d2f15bc.htm"
+      },
+      {
+        "name": "SetSolverOption_1",
+        "local": "html/e3777e3a-2d74-9045-aeef-e98c78c5f14f.htm"
+      },
+      {
+        "name": "SetSolverOption_2",
+        "local": "html/ff5e11c8-9a3f-a8aa-859b-663d8a11804e.htm"
+      },
+      {
+        "name": "SetSolverOption_3",
+        "local": "html/1c3fbc28-90b1-2cf7-ebad-cce5f53883ba.htm"
+      }
+    ],
+    "local": "html/025793e2-df8b-7de9-b63c-3a76763bae64.htm"
+  },
+  "cAreaElm": {
+    "properties": [],
+    "methods": [
+      {
+        "name": "Count",
+        "local": "html/3386ce79-de99-2031-38c4-c533e0fe1055.htm"
+      },
+      {
+        "name": "GetLoadTemperature",
+        "local": "html/936908e7-9a69-ae27-82e1-8d1bd50fd83c.htm"
+      },
+      {
+        "name": "GetLoadUniform",
+        "local": "html/a68cab9e-7ce5-9834-b555-8272e9c453d7.htm"
+      },
+      {
+        "name": "GetLocalAxes",
+        "local": "html/219cafa5-3fbe-822d-64fb-5ee4fd47c16b.htm"
+      },
+      {
+        "name": "GetMaterialOverwrite",
+        "local": "html/bf62ac17-aa04-b15e-e981-59bd39b6b9bd.htm"
+      },
+      {
+        "name": "GetModifiers",
+        "local": "html/b9c837fb-9bd0-7718-10bb-6f3570e79452.htm"
+      },
+      {
+        "name": "GetNameList",
+        "local": "html/1d7aed8e-8bf9-d709-89b9-74d8bd2a6419.htm"
+      },
+      {
+        "name": "GetObj",
+        "local": "html/d3b6abc1-eded-1b1f-72f5-81d6e419018b.htm"
+      },
+      {
+        "name": "GetOffsets",
+        "local": "html/ab68d7b3-193c-40b5-5b4e-d54a7fe50f2d.htm"
+      },
+      {
+        "name": "GetPoints",
+        "local": "html/95a1c079-a280-a948-f914-0524808565fa.htm"
+      },
+      {
+        "name": "GetProperty",
+        "local": "html/20bb09b1-ff5f-deff-0c09-357ae2fdd55b.htm"
+      },
+      {
+        "name": "GetThickness",
+        "local": "html/893716e6-a788-96ad-1b48-3b2ad639a5a8.htm"
+      },
+      {
+        "name": "GetTransformationMatrix",
+        "local": "html/4307a2bb-de1e-c04b-f42a-9b36f6329cdd.htm"
+      }
+    ],
+    "local": "html/acb57064-1690-8643-a153-8afe57d5852d.htm"
+  },
+  "cAreaObj": {
+    "properties": [],
+    "methods": [
+      {
+        "name": "AddByCoord",
+        "local": "html/71ca5d8f-4d86-1446-4ff7-65dbdf9c08f6.htm"
+      },
+      {
+        "name": "AddByPoint",
+        "local": "html/6a404e6a-2795-2581-4a79-2affd4575f71.htm"
+      },
+      {
+        "name": "ChangeName",
+        "local": "html/5a9929b5-e100-ddcf-d8f5-9707861e9783.htm"
+      },
+      {
+        "name": "Count",
+        "local": "html/bb5826b4-6eea-b9c5-b920-92fe46ffe295.htm"
+      },
+      {
+        "name": "Delete",
+        "local": "html/a9c44534-4aaa-9e2b-a000-cd6704fd5c64.htm"
+      },
+      {
+        "name": "DeleteLoadTemperature",
+        "local": "html/1cd839e0-1578-adc3-d21b-54c7bd3fe615.htm"
+      },
+      {
+        "name": "DeleteLoadUniform",
+        "local": "html/7e5c58ca-096c-6128-57a1-ffc15ebabf6d.htm"
+      },
+      {
+        "name": "DeleteLoadUniformToFrame",
+        "local": "html/bd4f27fb-70ba-0532-234a-45b0e02dc720.htm"
+      },
+      {
+        "name": "DeleteLoadWindPressure",
+        "local": "html/5709d569-db1e-5230-b3d3-14b8ef2a5932.htm"
+      },
+      {
+        "name": "DeleteMass",
+        "local": "html/f2455243-044f-e7b5-ad91-abea49a3cbfa.htm"
+      },
+      {
+        "name": "DeleteModifiers",
+        "local": "html/e80b1442-9f05-4c4c-3476-c4c5924db9f9.htm"
+      },
+      {
+        "name": "DeleteSpring",
+        "local": "html/8c7cc164-a774-dd0f-e88b-b6047bd10c8a.htm"
+      },
+      {
+        "name": "GetAllAreas",
+        "local": "html/f3d7a53a-260c-c290-ab5b-47d49ea40c9d.htm"
+      },
+      {
+        "name": "GetCurvedEdges",
+        "local": "html/57627146-e5b1-9303-0272-6daf623aaec6.htm"
+      },
+      {
+        "name": "GetDesignOrientation",
+        "local": "html/b666f884-88f7-3037-8eb7-05b64d8d2460.htm"
+      },
+      {
+        "name": "GetDiaphragm",
+        "local": "html/de2770ec-9c94-c3e2-d633-3e7a98787fd2.htm"
+      },
+      {
+        "name": "GetEdgeConstraint",
+        "local": "html/cc997487-53b8-2dfa-b7f9-47b1b1e7119d.htm"
+      },
+      {
+        "name": "GetElm",
+        "local": "html/ee969854-eb6e-b6a8-02c8-c4bb6c66991d.htm"
+      },
+      {
+        "name": "GetGroupAssign",
+        "local": "html/8776baf9-d226-ea7f-17ec-cc6d569d220c.htm"
+      },
+      {
+        "name": "GetGUID",
+        "local": "html/ffb6ef94-eb13-970b-8272-87062de64cff.htm"
+      },
+      {
+        "name": "GetLabelFromName",
+        "local": "html/8a01f576-f427-d98e-5e2c-0750f5cc33ee.htm"
+      },
+      {
+        "name": "GetLabelNameList",
+        "local": "html/3dfa558d-3fe7-5770-3396-20d991af442f.htm"
+      },
+      {
+        "name": "GetLoadTemperature",
+        "local": "html/242cede3-2e07-5344-8264-fb80aee8064e.htm"
+      },
+      {
+        "name": "GetLoadUniform",
+        "local": "html/f4d14f8a-2e07-8f09-314e-263eed7ac6b3.htm"
+      },
+      {
+        "name": "GetLoadUniformToFrame",
+        "local": "html/968cf2dd-a72d-871e-fbbd-d78483fed1fd.htm"
+      },
+      {
+        "name": "GetLoadWindPressure",
+        "local": "html/b57bf34a-aa5a-4a6a-0251-18e6ce2b65be.htm"
+      },
+      {
+        "name": "GetLocalAxes",
+        "local": "html/e9f531b3-191a-3000-e81f-dcf6f6744bb1.htm"
+      },
+      {
+        "name": "GetMass",
+        "local": "html/5d115da2-1fd2-5426-6915-20291230777b.htm"
+      },
+      {
+        "name": "GetMaterialOverwrite",
+        "local": "html/43c95fc0-4ba7-d784-857b-99a68d0498c3.htm"
+      },
+      {
+        "name": "GetModifiers",
+        "local": "html/841eeab5-f16c-06d3-9b6b-fae39c983622.htm"
+      },
+      {
+        "name": "GetNameFromLabel",
+        "local": "html/311df7a9-c5c4-deec-252f-fc195e54a721.htm"
+      },
+      {
+        "name": "GetNameList",
+        "local": "html/dc5d348b-7836-c2a9-b6ef-25c4cf6c312a.htm"
+      },
+      {
+        "name": "GetNameListOnStory",
+        "local": "html/6cc08826-586d-7069-d336-aac9d985cf2c.htm"
+      },
+      {
+        "name": "GetOffsets3",
+        "local": "html/df102335-11c9-c868-b2f7-c9f78b992cf6.htm"
+      },
+      {
+        "name": "GetOpening",
+        "local": "html/67b55aaa-ec09-e7da-4f3e-c23c2e296956.htm"
+      },
+      {
+        "name": "GetPier",
+        "local": "html/4a1c04ab-dd28-8548-c880-c47895234adc.htm"
+      },
+      {
+        "name": "GetPoints",
+        "local": "html/82ce0995-7c27-e15e-7ebd-91107c59a20a.htm"
+      },
+      {
+        "name": "GetProperty",
+        "local": "html/b7fb5305-2031-436c-2188-12e8de9ec260.htm"
+      },
+      {
+        "name": "GetRebarDataPier",
+        "local": "html/49c31649-f9ef-d966-ae4f-205b4cb63c17.htm"
+      },
+      {
+        "name": "GetRebarDataSpandrel",
+        "local": "html/5111a570-abfa-e500-e7df-daa14679d672.htm"
+      },
+      {
+        "name": "GetSelected",
+        "local": "html/687a6bb7-9c2c-d3ac-6049-bcbd607c4cab.htm"
+      },
+      {
+        "name": "GetSelectedEdge",
+        "local": "html/97a23f78-51ca-8e02-1c41-78090832050c.htm"
+      },
+      {
+        "name": "GetSpandrel",
+        "local": "html/a9235924-2019-efed-6151-cdc77235d922.htm"
+      },
+      {
+        "name": "GetSpringAssignment",
+        "local": "html/a0e0b8ca-0cf9-a240-25d9-3176ccb3efa2.htm"
+      },
+      {
+        "name": "GetTransformationMatrix",
+        "local": "html/1661c84a-6c48-b705-cfa6-cf7fbe3bf05a.htm"
+      },
+      {
+        "name": "SetDiaphragm",
+        "local": "html/042d1a7d-080b-3f5d-22ef-92e7eefa6dac.htm"
+      },
+      {
+        "name": "SetEdgeConstraint",
+        "local": "html/ccc21efb-1ce3-6330-64e3-5bb958248629.htm"
+      },
+      {
+        "name": "SetGroupAssign",
+        "local": "html/c8b85bd3-0091-4475-a4eb-3f4b1db96641.htm"
+      },
+      {
+        "name": "SetGUID",
+        "local": "html/5f5c48af-66dd-6d13-bfc5-c174e573c98e.htm"
+      },
+      {
+        "name": "SetLoadTemperature",
+        "local": "html/c7d8dd6e-0404-d30d-6c0a-7f5962a37f91.htm"
+      },
+      {
+        "name": "SetLoadUniform",
+        "local": "html/447c25fc-5ce3-322e-b34b-2482d2ae9126.htm"
+      },
+      {
+        "name": "SetLoadUniformToFrame",
+        "local": "html/7980160a-749b-ae20-20d5-f111b11c946b.htm"
+      },
+      {
+        "name": "SetLoadWindPressure",
+        "local": "html/0593a517-720b-6b42-3f0a-70757810c3c4.htm"
+      },
+      {
+        "name": "SetLocalAxes",
+        "local": "html/a7e5e395-0910-7b29-fbfc-3eb692e27666.htm"
+      },
+      {
+        "name": "SetMass",
+        "local": "html/7a0bb225-e73f-47c9-e47d-3f2eab7c756a.htm"
+      },
+      {
+        "name": "SetMaterialOverwrite",
+        "local": "html/4e718a9f-1f08-25bb-5334-74cb682a4338.htm"
+      },
+      {
+        "name": "SetModifiers",
+        "local": "html/f6ca6db1-2fc2-9d16-cdd9-b59758c628a8.htm"
+      },
+      {
+        "name": "SetOpening",
+        "local": "html/0c885ca6-e280-084d-04eb-833995481056.htm"
+      },
+      {
+        "name": "SetPier",
+        "local": "html/74d7d02e-9e30-eaf4-f127-55a7dcc839cc.htm"
+      },
+      {
+        "name": "SetProperty",
+        "local": "html/02c0c7ca-1bab-7787-c5c0-eb1ba791d2e9.htm"
+      },
+      {
+        "name": "SetSelected",
+        "local": "html/7ab72494-730b-e1b8-3064-d0ddf78cf692.htm"
+      },
+      {
+        "name": "SetSelectedEdge",
+        "local": "html/9d16276a-fac7-104f-21ec-8e5e1265fbdf.htm"
+      },
+      {
+        "name": "SetSpandrel",
+        "local": "html/8132524d-9eea-23d6-7204-a267cbdd0d4d.htm"
+      },
+      {
+        "name": "SetSpringAssignment",
+        "local": "html/31a68107-e914-b7cc-6068-735c4101a64c.htm"
+      }
+    ],
+    "local": "html/2cda9b42-232e-6821-8caa-dc87fd84fed0.htm"
+  },
+  "cAutoSeismic": {
+    "properties": [],
+    "methods": [
+      {
+        "name": "GetASCE716",
+        "local": "html/47c131d2-9867-3385-ca4c-798e79f18985.htm"
+      },
+      {
+        "name": "GetASCE716_1",
+        "local": "html/f060c877-713c-d5ff-8fec-68936d2625bc.htm"
+      },
+      {
+        "name": "GetIBC2006",
+        "local": "html/7c11ed7e-a605-0bdc-a235-2daf28f2abee.htm"
+      },
+      {
+        "name": "SetASCE716",
+        "local": "html/59f6c93d-0ffa-90fc-81a1-6d25344087c3.htm"
+      },
+      {
+        "name": "SetASCE716_1",
+        "local": "html/38c53b37-92a1-cb91-e0bb-18a06168850e.htm"
+      },
+      {
+        "name": "SetIBC2006",
+        "local": "html/ecea74c8-8fa2-7dfb-63db-e85b38bba662.htm"
+      }
+    ],
+    "local": "html/f2f6e7f5-4e26-ec58-22ee-1de39d107e36.htm"
+  },
+  "cCaseDirectHistoryLinear": {
+    "properties": [],
+    "methods": [
+      {
+        "name": "GetLoads",
+        "local": "html/8184ae75-474e-4935-9dcb-3076960d6a26.htm"
+      }
+    ],
+    "local": "html/850266fb-88b7-b169-a8ee-5516ac35b97a.htm"
+  },
+  "cCaseDirectHistoryNonlinear": {
+    "properties": [],
+    "methods": [
+      {
+        "name": "GetLoads",
+        "local": "html/d1be4bc0-48d3-a75f-7eea-9617baf81164.htm"
+      }
+    ],
+    "local": "html/b972439f-6ba7-3032-4a10-21f70f68b398.htm"
+  },
+  "cCaseHyperStatic": {
+    "properties": [],
+    "methods": [
+      {
+        "name": "GetBaseCase",
+        "local": "html/da31904b-424f-4a57-2cfd-3465ca822ee3.htm"
+      },
+      {
+        "name": "SetBaseCase",
+        "local": "html/60a20576-f92f-9abc-0a4f-30fb1fcd3bdb.htm"
+      },
+      {
+        "name": "SetCase",
+        "local": "html/803f0e60-1c9a-46b6-9e62-b38133b8d45f.htm"
+      }
+    ],
+    "local": "html/f550a21c-b27f-8121-5418-6bfad8689ffe.htm"
+  },
+  "cCaseModalEigen": {
+    "properties": [],
+    "methods": [
+      {
+        "name": "GetInitialCase",
+        "local": "html/41d57552-6645-ac71-0edd-42845a5d998e.htm"
+      },
+      {
+        "name": "GetLoads",
+        "local": "html/199c8deb-64b2-af34-18e9-f647266d1807.htm"
+      },
+      {
+        "name": "GetNumberModes",
+        "local": "html/52e23119-6f71-8023-b99e-192fabdc1d62.htm"
+      },
+      {
+        "name": "GetParameters",
+        "local": "html/5a80f41e-dbc7-85bb-e5fd-51f9c3b751d5.htm"
+      },
+      {
+        "name": "SetCase",
+        "local": "html/a8d131ae-b6b5-4d62-8bca-1c81ffd4ccbc.htm"
+      },
+      {
+        "name": "SetInitialCase",
+        "local": "html/1ebd4652-968f-75de-e5d7-a7bca7838d64.htm"
+      },
+      {
+        "name": "SetLoads",
+        "local": "html/a5b40286-ea3e-3627-85ff-ad4a260371ca.htm"
+      },
+      {
+        "name": "SetNumberModes",
+        "local": "html/db67005d-4dfd-578b-174b-507ac8ca7291.htm"
+      },
+      {
+        "name": "SetParameters",
+        "local": "html/618a0e83-e694-c99d-7669-3f8cbc80f86f.htm"
+      }
+    ],
+    "local": "html/ce70bec1-1d64-58a3-047b-ac9da596193f.htm"
+  },
+  "cCaseModalHistoryLinear": {
+    "properties": [],
+    "methods": [
+      {
+        "name": "GetLoads",
+        "local": "html/4905ea47-6672-0c04-fcca-93465d50de74.htm"
+      },
+      {
+        "name": "SetCase",
+        "local": "html/94fff18d-dbeb-9291-561d-7d7367121448.htm"
+      },
+      {
+        "name": "SetLoads",
+        "local": "html/90f2a069-a2b5-fed8-bd22-bb1218789ead.htm"
+      }
+    ],
+    "local": "html/596d9c06-2cea-4637-ae55-f2a928834e68.htm"
+  },
+  "cCaseModalHistoryNonlinear": {
+    "properties": [],
+    "methods": [
+      {
+        "name": "GetLoads",
+        "local": "html/1da22741-a6f7-5b57-d12d-319bcf2073ac.htm"
+      }
+    ],
+    "local": "html/b51a1358-051c-8c42-1694-daa3f7d6bc25.htm"
+  },
+  "cCaseModalRitz": {
+    "properties": [],
+    "methods": [
+      {
+        "name": "GetInitialCase",
+        "local": "html/efb9379d-e229-3fcd-8fcd-e7e47b78ad6e.htm"
+      },
+      {
+        "name": "GetLoads",
+        "local": "html/2c49fe76-6841-5ff1-c738-90b06d729719.htm"
+      },
+      {
+        "name": "GetNumberModes",
+        "local": "html/cf7df130-bf0f-c2d1-b390-b89e5f88f53c.htm"
+      },
+      {
+        "name": "SetCase",
+        "local": "html/6f29c2a3-de59-5e51-67cb-5b77bc79ae97.htm"
+      },
+      {
+        "name": "SetInitialCase",
+        "local": "html/3310cfea-974e-c2e3-316c-ecf61f1420e8.htm"
+      },
+      {
+        "name": "SetLoads",
+        "local": "html/128ef1d6-77da-0985-5429-396661797440.htm"
+      },
+      {
+        "name": "SetNumberModes",
+        "local": "html/d4146d8b-ce42-c966-eb5f-374327b0d4db.htm"
+      }
+    ],
+    "local": "html/b941bbb0-14e1-89de-a23d-04ab460380bd.htm"
+  },
+  "cCaseResponseSpectrum": {
+    "properties": [],
+    "methods": [
+      {
+        "name": "GetDampConstant",
+        "local": "html/7785948f-e10a-d61f-ec12-bf58c541a5cf.htm"
+      },
+      {
+        "name": "GetDampInterpolated",
+        "local": "html/0482c0ea-30a7-4469-87cb-6c63e7c52c99.htm"
+      },
+      {
+        "name": "GetDampOverrides",
+        "local": "html/6a70f842-ba8e-494d-31d8-b1c59c5a2834.htm"
+      },
+      {
+        "name": "GetDampProportional",
+        "local": "html/9ec73221-8075-d719-9dae-c417f59554c0.htm"
+      },
+      {
+        "name": "GetDampType",
+        "local": "html/da3ea47a-969f-37e1-6348-2a71ab4e35f6.htm"
+      },
+      {
+        "name": "GetDiaphragmEccentricityOverride",
+        "local": "html/531e5934-b9ad-3cee-aa21-8d44c18129d5.htm"
+      },
+      {
+        "name": "GetDirComb",
+        "local": "html/2f6e176e-bce1-349c-a7dc-a05266c77aba.htm"
+      },
+      {
+        "name": "GetEccentricity",
+        "local": "html/4468cb04-8848-6333-c557-5664f05c28af.htm"
+      },
+      {
+        "name": "GetLoads",
+        "local": "html/06e7c71e-e419-bc28-6164-4cba88ce1d18.htm"
+      },
+      {
+        "name": "GetModalCase",
+        "local": "html/1554f0e6-1ac3-baae-f0d1-d69e955d57ed.htm"
+      },
+      {
+        "name": "GetModalComb",
+        "local": "html/db6f22f7-a0df-f11c-c531-4039357a25b2.htm"
+      },
+      {
+        "name": "GetModalComb_1",
+        "local": "html/6c0c7293-0592-d018-2cce-2364982c7677.htm"
+      },
+      {
+        "name": "SetCase",
+        "local": "html/d457f415-bda6-d865-8d4d-1d5cb09967d8.htm"
+      },
+      {
+        "name": "SetEccentricity",
+        "local": "html/b3fcdb01-8d3b-9d81-ec54-f8d774bae4b1.htm"
+      },
+      {
+        "name": "SetLoads",
+        "local": "html/1df947e1-e04d-483f-6dc8-f4986513e0a3.htm"
+      },
+      {
+        "name": "SetModalCase",
+        "local": "html/6a062987-bf6f-2be3-4e5e-2fca843ba87f.htm"
+      }
+    ],
+    "local": "html/f7256d7e-b1fc-de3c-58c2-7283a518e9a1.htm"
+  },
+  "cCaseStaticLinear": {
+    "properties": [],
+    "methods": [
+      {
+        "name": "GetInitialCase",
+        "local": "html/f7701fac-9d31-4e45-be6b-57a3ac47745b.htm"
+      },
+      {
+        "name": "GetLoads",
+        "local": "html/19a889e9-08f7-22a6-6216-8092541bc6fe.htm"
+      },
+      {
+        "name": "SetCase",
+        "local": "html/312cebd3-88ff-24aa-51ff-8d3aba210890.htm"
+      },
+      {
+        "name": "SetInitialCase",
+        "local": "html/7c3ea9e0-50a0-2585-4460-415fb47c6db6.htm"
+      },
+      {
+        "name": "SetLoads",
+        "local": "html/4b79ff00-70ba-a026-338d-77a3f144c678.htm"
+      }
+    ],
+    "local": "html/f6b858ea-249e-f79d-4679-b81c04f8660e.htm"
+  },
+  "cCaseStaticNonlinear": {
+    "properties": [],
+    "methods": [
+      {
+        "name": "GetGeometricNonlinearity",
+        "local": "html/343070dd-bd74-80ac-a209-01d56a517ae3.htm"
+      },
+      {
+        "name": "GetHingeUnloading",
+        "local": "html/14c6dcb8-f788-62c2-4ff2-a841ceb433fe.htm"
+      },
+      {
+        "name": "GetInitialCase",
+        "local": "html/640dc198-e4b0-b57f-d571-8397cb048a39.htm"
+      },
+      {
+        "name": "GetLoadApplication",
+        "local": "html/a48c44f4-0bd6-b973-ad02-85e312c33faf.htm"
+      },
+      {
+        "name": "GetLoads",
+        "local": "html/01eb6b02-4c25-f9b5-8961-a8a3b0760697.htm"
+      },
+      {
+        "name": "GetMassSource",
+        "local": "html/73c2cc5e-c8c3-be6b-62c8-095fd7aef3c2.htm"
+      },
+      {
+        "name": "GetModalCase",
+        "local": "html/36817530-a753-c765-fe88-9ecfa71892ab.htm"
+      },
+      {
+        "name": "GetResultsSaved",
+        "local": "html/a996e37b-6f9e-0ace-1e9f-d6a345b3eb9a.htm"
+      },
+      {
+        "name": "GetSolControlParameters",
+        "local": "html/2ae6b8fb-540a-da21-61ce-cf10cdec6c2a.htm"
+      },
+      {
+        "name": "GetTargetForceParameters",
+        "local": "html/f150a464-1c37-b18d-f2be-6824b93fc303.htm"
+      },
+      {
+        "name": "SetCase",
+        "local": "html/662d94dd-3461-64b6-7597-855ecf848dcd.htm"
+      },
+      {
+        "name": "SetGeometricNonlinearity",
+        "local": "html/d6143c78-dcee-0c6c-6055-7eb2ff1b623d.htm"
+      },
+      {
+        "name": "SetHingeUnloading",
+        "local": "html/aac8206d-2cd1-cc84-d80a-023586822b08.htm"
+      },
+      {
+        "name": "SetInitialCase",
+        "local": "html/ba263306-9154-f893-166e-9cfb7cd22eac.htm"
+      },
+      {
+        "name": "SetLoadApplication",
+        "local": "html/b2a1e257-7338-66bf-4eba-0e1d67168e79.htm"
+      },
+      {
+        "name": "SetLoads",
+        "local": "html/41c8854b-6e37-0b44-36e3-cb622b49b591.htm"
+      },
+      {
+        "name": "SetMassSource",
+        "local": "html/e7871c09-bf0d-29ef-ed9a-349d6c09914b.htm"
+      },
+      {
+        "name": "SetModalCase",
+        "local": "html/2186488c-7163-3c75-6ec2-90ebe2e3ebd7.htm"
+      },
+      {
+        "name": "SetResultsSaved",
+        "local": "html/ee310e1d-6624-29fc-f566-bf5910e9fda4.htm"
+      },
+      {
+        "name": "SetSolControlParameters",
+        "local": "html/d752e14c-a906-638e-b384-7f8b75029f1d.htm"
+      },
+      {
+        "name": "SetTargetForceParameters",
+        "local": "html/b43c1d0d-7224-52c1-2950-b1a71782d22f.htm"
+      }
+    ],
+    "local": "html/f9b065f8-b096-3a32-1e6d-bdc5420bb195.htm"
+  },
+  "cCaseStaticNonlinearStaged": {
+    "properties": [],
+    "methods": [
+      {
+        "name": "GetGeometricNonlinearity",
+        "local": "html/119f1686-8e34-56fe-1a12-837ee9408508.htm"
+      },
+      {
+        "name": "GetHingeUnloading",
+        "local": "html/7fc2c8a5-d398-26a2-1408-8b7d1d6fb590.htm"
+      },
+      {
+        "name": "GetInitialCase",
+        "local": "html/75188402-d930-30b3-d332-e25fbcadf54f.htm"
+      },
+      {
+        "name": "GetMassSource",
+        "local": "html/3c41dc56-7aed-8a4e-6731-6af960c3eebf.htm"
+      },
+      {
+        "name": "GetMaterialNonlinearity",
+        "local": "html/193d0d7c-c34e-d9e3-4178-061c3e3c0e8e.htm"
+      },
+      {
+        "name": "GetResultsSaved",
+        "local": "html/ffd3c8c0-24aa-a72f-66fd-3e1ba242f528.htm"
+      },
+      {
+        "name": "GetSolControlParameters",
+        "local": "html/4f90d84a-87f9-3e4f-438e-efdfbd719679.htm"
+      },
+      {
+        "name": "GetStageData",
+        "local": "html/c8b70a4c-cf92-67d2-a2e8-f00d67f568cd.htm"
+      },
+      {
+        "name": "GetStageData_1",
+        "local": "html/39237b66-a2d5-6104-399f-036c1672634e.htm"
+      },
+      {
+        "name": "GetStageData_2",
+        "local": "html/e7a62f45-6944-1f26-ca31-08c55389ed2b.htm"
+      },
+      {
+        "name": "GetStageDefinitions",
+        "local": "html/bc2c30e2-a81f-51c7-9db8-d6b8a6256160.htm"
+      },
+      {
+        "name": "GetStageDefinitions_1",
+        "local": "html/633ce791-1c9f-4278-9350-12bddac2c7ff.htm"
+      },
+      {
+        "name": "GetStageDefinitions_2",
+        "local": "html/294c97c9-90c9-881e-3ec3-78b26355730a.htm"
+      },
+      {
+        "name": "GetTargetForceParameters",
+        "local": "html/01fbfb22-54b2-06b0-a81e-7e444cb5fd0a.htm"
+      },
+      {
+        "name": "SetCase",
+        "local": "html/e8d6a8e9-0c66-8707-60d5-aaf804241daf.htm"
+      },
+      {
+        "name": "SetGeometricNonlinearity",
+        "local": "html/7f89fd6c-0181-0cb8-5854-da1db24c27a9.htm"
+      },
+      {
+        "name": "SetHingeUnloading",
+        "local": "html/6483d877-af45-a829-965f-cb6d0c0eb74e.htm"
+      },
+      {
+        "name": "SetInitialCase",
+        "local": "html/405fec32-48cd-a5d3-9e17-1a9dc6fac7de.htm"
+      },
+      {
+        "name": "SetMassSource",
+        "local": "html/3548f9e4-6b01-e4b2-cd42-b0d206bfff88.htm"
+      },
+      {
+        "name": "SetMaterialNonlinearity",
+        "local": "html/c1c36d69-15ab-42a4-5a41-78878a314761.htm"
+      },
+      {
+        "name": "SetResultsSaved",
+        "local": "html/40445c24-ca6a-68f0-2800-5f939b1c172d.htm"
+      },
+      {
+        "name": "SetSolControlParameters",
+        "local": "html/f8e926e8-188c-6039-bddc-cc6a455a28b2.htm"
+      },
+      {
+        "name": "SetStageData",
+        "local": "html/d15cf517-ab44-9fd9-bd3f-b127ff219f80.htm"
+      },
+      {
+        "name": "SetStageData_1",
+        "local": "html/93afd346-1131-be7c-2921-6c8b6b4cb79d.htm"
+      },
+      {
+        "name": "SetStageData_2",
+        "local": "html/44d53218-5da8-837d-b0fd-968042e4ac51.htm"
+      },
+      {
+        "name": "SetStageDefinitions",
+        "local": "html/2cff128c-67fc-a982-1c51-f79432adfd04.htm"
+      },
+      {
+        "name": "SetStageDefinitions_1",
+        "local": "html/0f61ff65-f9f9-f0c4-0434-c0b894448d5d.htm"
+      },
+      {
+        "name": "SetStageDefinitions_2",
+        "local": "html/fdd842d9-b1d8-c6ec-7eb2-e58929e3e946.htm"
+      },
+      {
+        "name": "SetTargetForceParameters",
+        "local": "html/59d51a3d-2708-6a41-dcfc-bddd709ff1b8.htm"
+      }
+    ],
+    "local": "html/0a685b17-0f95-86e9-5911-13d6f362fdfc.htm"
+  },
+  "cCombo": {
+    "properties": [],
+    "methods": [
+      {
+        "name": "Add",
+        "local": "html/a709a568-c718-34d2-34dd-3733e8d1c557.htm"
+      },
+      {
+        "name": "AddDesignDefaultCombos",
+        "local": "html/8e66f9a6-58b9-f13e-86e3-c75bd2e74701.htm"
+      },
+      {
+        "name": "Delete",
+        "local": "html/72196c83-36bb-5a07-431e-a018f4e0de9a.htm"
+      },
+      {
+        "name": "DeleteCase",
+        "local": "html/f32f05ff-f188-83ad-73fd-4d215c5c3b52.htm"
+      },
+      {
+        "name": "GetCaseList",
+        "local": "html/b730838d-9040-2b9e-dc16-ea8acac60325.htm"
+      },
+      {
+        "name": "GetCaseList_1",
+        "local": "html/bfa3a317-c450-7776-09e9-05f14a2df7f5.htm"
+      },
+      {
+        "name": "GetNameList",
+        "local": "html/deb0f8fc-5299-e233-3747-9d051a0a31f8.htm"
+      },
+      {
+        "name": "GetTypeCombo",
+        "local": "html/f8046636-92a5-0c11-14a1-90bc006c4c7a.htm"
+      },
+      {
+        "name": "GetTypeOAPI",
+        "local": "html/a2eb25a7-77f9-f4ff-25af-8ef51f3c06ac.htm"
+      },
+      {
+        "name": "SetCaseList",
+        "local": "html/1e0b79da-c352-43f5-11aa-570a850ea0c0.htm"
+      },
+      {
+        "name": "SetCaseList_1",
+        "local": "html/d8916b66-1705-c8be-bcdf-ef1104d4a959.htm"
+      }
+    ],
+    "local": "html/8c1d1b19-f7ba-858c-25b3-5986a0d9cbb8.htm"
+  },
+  "cConstraint": {
+    "properties": [],
+    "methods": [
+      {
+        "name": "Delete",
+        "local": "html/6f121d91-7e39-8093-44ef-1c710dd5ace8.htm"
+      },
+      {
+        "name": "GetDiaphragm",
+        "local": "html/77251fb1-8041-f191-1845-45a67c805819.htm"
+      },
+      {
+        "name": "GetNameList",
+        "local": "html/e5825611-2ba8-6876-a197-82753ddd3eae.htm"
+      },
+      {
+        "name": "SetDiaphragm",
+        "local": "html/eff6b91e-6ba0-2c75-f13c-ec51f50d41aa.htm"
+      }
+    ],
+    "local": "html/59714db0-7a51-f435-5340-64df81d3b6e0.htm"
+  },
+  "cDatabaseTables": {
+    "properties": [],
+    "methods": [
+      {
+        "name": "ApplyEditedTables",
+        "local": "html/bbc84bd9-e864-c3e9-642c-2f2bda4e066c.htm"
+      },
+      {
+        "name": "CancelTableEditing",
+        "local": "html/f089af89-af1f-b462-307a-85c3266ef11a.htm"
+      },
+      {
+        "name": "GetAllFieldsInTable",
+        "local": "html/f1d1c64c-4cde-100b-98ca-38ac59687b06.htm"
+      },
+      {
+        "name": "GetAllTables",
+        "local": "html/adce211f-75ba-0d96-ff2f-540e73d4a4af.htm"
+      },
+      {
+        "name": "GetAvailableTables",
+        "local": "html/06be9356-26a5-d81b-7ddc-d758bbc000cc.htm"
+      },
+      {
+        "name": "GetLoadCasesSelectedForDisplay",
+        "local": "html/f7692bad-d964-98fd-8ebc-9c14084421cd.htm"
+      },
+      {
+        "name": "GetLoadCombinationsSelectedForDisplay",
+        "local": "html/af229c1f-0633-2d44-1fec-abf43ccf175a.htm"
+      },
+      {
+        "name": "GetLoadPatternsSelectedForDisplay",
+        "local": "html/67223617-1701-f46c-8e40-ecb92158cd18.htm"
+      },
+      {
+        "name": "GetObsoleteTableKeyList",
+        "local": "html/adf7e17c-13d0-e5a9-b1bb-c0ed3a57553d.htm"
+      },
+      {
+        "name": "GetOutputOptionsForDisplay",
+        "local": "html/e9f486af-b61d-8349-eff7-959fff9ca681.htm"
+      },
+      {
+        "name": "GetTableForDisplayArray",
+        "local": "html/3dc2fc02-1288-7ae6-0557-d31560533e96.htm"
+      },
+      {
+        "name": "GetTableForDisplayCSVFile",
+        "local": "html/3ffd7174-be56-d9cc-7802-781240f0581b.htm"
+      },
+      {
+        "name": "GetTableForDisplayCSVString",
+        "local": "html/ecc13740-0e61-a1df-5972-dbac8d0d8b42.htm"
+      },
+      {
+        "name": "GetTableForDisplayXMLString",
+        "local": "html/db234812-79f0-ad61-998b-1719a2ce6481.htm"
+      },
+      {
+        "name": "GetTableForEditingArray",
+        "local": "html/c1f8b914-5d10-7ff2-f7c1-ed1660352f9e.htm"
+      },
+      {
+        "name": "GetTableForEditingCSVFile",
+        "local": "html/e2d75320-d81f-63c8-c3c5-3bd80610dd01.htm"
+      },
+      {
+        "name": "GetTableForEditingCSVString",
+        "local": "html/550e2b5c-3f95-b720-f246-5822dcacfdad.htm"
+      },
+      {
+        "name": "SetLoadCasesSelectedForDisplay",
+        "local": "html/062231e1-8912-72b3-b1e0-2de541c62ae2.htm"
+      },
+      {
+        "name": "SetLoadCombinationsSelectedForDisplay",
+        "local": "html/6ffb2ede-8fb3-0de6-d16c-8dfc5ac313f3.htm"
+      },
+      {
+        "name": "SetLoadPatternsSelectedForDisplay",
+        "local": "html/44a55385-226c-7c47-0ebe-b5dce305dc0f.htm"
+      },
+      {
+        "name": "SetOutputOptionsForDisplay",
+        "local": "html/200f3ea7-25af-e99c-f8e3-5a0eaa86d9a0.htm"
+      },
+      {
+        "name": "SetTableForEditingArray",
+        "local": "html/2aeebf38-5ff8-2de2-9f23-3ca4cb8ca7cd.htm"
+      },
+      {
+        "name": "SetTableForEditingCSVFile",
+        "local": "html/4f837c4e-597c-3d54-f923-94b42033eab5.htm"
+      },
+      {
+        "name": "SetTableForEditingCSVString",
+        "local": "html/b80a5e9d-dc19-72af-766f-5b4f14d59577.htm"
+      },
+      {
+        "name": "ShowTablesInExcel",
+        "local": "html/a240d8bb-e778-1fea-ca53-8938ec0fa4a6.htm"
+      }
+    ],
+    "local": "html/ee40c9d3-38a7-f8fa-62e4-9da8c2cd3af7.htm"
+  },
+  "cDCoACI318_08_IBC2009": {
+    "properties": [],
+    "methods": [
+      {
+        "name": "GetOverwrite",
+        "local": "html/a52bfca9-c511-89db-72d3-24978c101ebf.htm"
+      },
+      {
+        "name": "GetPreference",
+        "local": "html/e336a428-3b5b-3ed0-3458-7d6dbebe2c4e.htm"
+      },
+      {
+        "name": "SetOverwrite",
+        "local": "html/836010d7-77d5-2401-f866-48aaeecc8954.htm"
+      },
+      {
+        "name": "SetPreference",
+        "local": "html/a3d5a286-3bbe-77bf-befb-9d48f3974966.htm"
+      }
+    ],
+    "local": "html/23a9047c-4a13-cd7e-42a2-1909a4342bf1.htm"
+  },
+  "cDCoACI318_11": {
+    "properties": [],
+    "methods": [
+      {
+        "name": "GetOverwrite",
+        "local": "html/d39da1f8-79cd-0028-3bd3-7c46debd22f9.htm"
+      },
+      {
+        "name": "GetPreference",
+        "local": "html/223d1ea1-719b-45d9-bbaa-57eb9c0e0c6d.htm"
+      },
+      {
+        "name": "SetOverwrite",
+        "local": "html/efd616b1-3dbb-0da0-3a34-af95d9c005d4.htm"
+      },
+      {
+        "name": "SetPreference",
+        "local": "html/0cb19d2e-b8e8-a1eb-d162-cbe0208fcc82.htm"
+      }
+    ],
+    "local": "html/ae880455-37b1-c286-a119-13b1bce9dd67.htm"
+  },
+  "cDCoACI318_14": {
+    "properties": [],
+    "methods": [
+      {
+        "name": "GetOverwrite",
+        "local": "html/02476e2b-4983-0baa-1187-bae02d85565f.htm"
+      },
+      {
+        "name": "GetPreference",
+        "local": "html/535e0c2d-3464-efa7-9cdc-cfdcf150f37b.htm"
+      },
+      {
+        "name": "SetOverwrite",
+        "local": "html/dae6e08a-3bd8-c51b-f16c-f29f759ea1d5.htm"
+      },
+      {
+        "name": "SetPreference",
+        "local": "html/efc7b6d5-5456-31fe-b0ee-d218c2156a93.htm"
+      }
+    ],
+    "local": "html/609c97e4-7051-ee4a-f7cb-2c7df86a78f8.htm"
+  },
+  "cDCoACI318_19": {
+    "properties": [],
+    "methods": [
+      {
+        "name": "GetOverwrite",
+        "local": "html/63644c98-c49c-8563-e9b5-49b409fd5ab9.htm"
+      },
+      {
+        "name": "GetPreference",
+        "local": "html/e706423d-c27f-a90d-2830-9ff6b3bfb363.htm"
+      },
+      {
+        "name": "SetOverwrite",
+        "local": "html/6706c66b-90fb-e2ef-38ec-efe3f659947f.htm"
+      },
+      {
+        "name": "SetPreference",
+        "local": "html/00d5c357-5232-c82a-928d-9859705f55ec.htm"
+      }
+    ],
+    "local": "html/2c872dbd-aef9-af1d-310f-eb0ea1e49cc0.htm"
+  },
+  "cDCoAS_3600_09": {
+    "properties": [],
+    "methods": [
+      {
+        "name": "GetOverwrite",
+        "local": "html/38f53853-4986-fb1e-be36-01fab67b57e9.htm"
+      },
+      {
+        "name": "GetPreference",
+        "local": "html/cbf4d05c-d6f2-9c14-ea37-681f3e5057f5.htm"
+      },
+      {
+        "name": "SetOverwrite",
+        "local": "html/b7b6c81f-5aa6-c48b-44a3-236c3edf8f92.htm"
+      },
+      {
+        "name": "SetPreference",
+        "local": "html/ebd1445b-9e75-09ba-af49-43c009045ce9.htm"
+      }
+    ],
+    "local": "html/b9c3d950-ab47-cb88-3846-76138f7bef64.htm"
+  },
+  "cDCoAS_3600_2018": {
+    "properties": [],
+    "methods": [
+      {
+        "name": "GetOverwrite",
+        "local": "html/d2b7f230-15cc-4982-f357-ec384b63d84c.htm"
+      },
+      {
+        "name": "GetPreference",
+        "local": "html/f4ddd6c7-829f-25f8-1ac8-67070389e5f4.htm"
+      },
+      {
+        "name": "SetOverwrite",
+        "local": "html/bb27588f-be01-2210-f436-29e735d55ac0.htm"
+      },
+      {
+        "name": "SetPreference",
+        "local": "html/66823abc-7da1-ba0a-bc02-ea0f867f181d.htm"
+      }
+    ],
+    "local": "html/50ea656a-a6eb-673b-c6c4-90ac077c31dd.htm"
+  },
+  "cDCoBS8110_97": {
+    "properties": [],
+    "methods": [
+      {
+        "name": "GetOverwrite",
+        "local": "html/17298d07-1894-4c8a-d5b8-7d3d464e4eff.htm"
+      },
+      {
+        "name": "GetPreference",
+        "local": "html/943b549e-8fe6-2be8-1e3d-c6985a26441d.htm"
+      },
+      {
+        "name": "SetOverwrite",
+        "local": "html/ab5f1bc3-0880-d21d-9f22-409618e2883f.htm"
+      },
+      {
+        "name": "SetPreference",
+        "local": "html/187f0930-17f9-5c0e-bebb-d73f22843177.htm"
+      }
+    ],
+    "local": "html/32e22438-09cf-62a6-8e8f-882d43576d09.htm"
+  },
+  "cDCoChinese_2010": {
+    "properties": [],
+    "methods": [
+      {
+        "name": "GetOverwrite",
+        "local": "html/cab3cc80-8825-0b3c-0e33-148360983324.htm"
+      },
+      {
+        "name": "GetPreference",
+        "local": "html/a4facad3-7522-d99b-0efd-b32279f87fc6.htm"
+      },
+      {
+        "name": "SetOverwrite",
+        "local": "html/2415acca-a385-adb9-6d7c-e3002c31b8b0.htm"
+      },
+      {
+        "name": "SetPreference",
+        "local": "html/9878443c-a300-f373-008b-d8b2c55002bf.htm"
+      }
+    ],
+    "local": "html/ff3d92a2-b111-e78d-5a81-9bdcfc5772ff.htm"
+  },
+  "cDCoEurocode_2_2004": {
+    "properties": [],
+    "methods": [
+      {
+        "name": "GetOverwrite",
+        "local": "html/d5eb3c6b-354a-ff26-beaa-3e52069fc564.htm"
+      },
+      {
+        "name": "GetPreference",
+        "local": "html/ea4c7938-f666-a9b7-f491-52e531c7f0c7.htm"
+      },
+      {
+        "name": "SetOverwrite",
+        "local": "html/58d38812-9a8c-88e1-9ac0-e745b5139c73.htm"
+      },
+      {
+        "name": "SetPreference",
+        "local": "html/396434ae-d288-b10b-d482-9bb1a8530538.htm"
+      }
+    ],
+    "local": "html/141ae9d4-bdc4-4f67-24c5-c0b94e4ee79b.htm"
+  },
+  "cDCoHong_Kong_CP_2013": {
+    "properties": [],
+    "methods": [
+      {
+        "name": "GetOverwrite",
+        "local": "html/c59ec813-288b-71c2-29c2-a5a557597b74.htm"
+      },
+      {
+        "name": "GetPreference",
+        "local": "html/e95a09eb-6eae-7816-5c4e-919cf77d897b.htm"
+      },
+      {
+        "name": "SetOverwrite",
+        "local": "html/faebddf4-b236-150f-b3f4-a6e946f2e866.htm"
+      },
+      {
+        "name": "SetPreference",
+        "local": "html/345b2681-b6b3-60a7-971f-16e55826646f.htm"
+      }
+    ],
+    "local": "html/d673297b-548e-e00e-1bdc-448723b7d97c.htm"
+  },
+  "cDCoIndian_IS_456_2000": {
+    "properties": [],
+    "methods": [
+      {
+        "name": "GetOverwrite",
+        "local": "html/0e8dca2e-3975-c145-b3ba-e75cc0477152.htm"
+      },
+      {
+        "name": "GetPreference",
+        "local": "html/835c9622-2498-30e6-d876-c9a11208e212.htm"
+      },
+      {
+        "name": "SetOverwrite",
+        "local": "html/5eda798f-8e0b-5251-d757-bb71e3d2baf2.htm"
+      },
+      {
+        "name": "SetPreference",
+        "local": "html/7e106a1a-fae2-864c-9e98-da5c31ad4fee.htm"
+      }
+    ],
+    "local": "html/f394ca67-62c6-6d49-e752-fa4dbf1696ad.htm"
+  },
+  "cDCoItalianNTC2008C": {
+    "properties": [],
+    "methods": [
+      {
+        "name": "GetOverwrite",
+        "local": "html/1a79b1c4-c1d5-e307-b81d-f2c20902c5c8.htm"
+      },
+      {
+        "name": "GetPreference",
+        "local": "html/23b93462-d397-400d-6afb-fe797abeb374.htm"
+      },
+      {
+        "name": "SetOverwrite",
+        "local": "html/1cdb85ae-760b-6c93-9628-874db8c70949.htm"
+      },
+      {
+        "name": "SetPreference",
+        "local": "html/d677bfa4-d427-5542-0500-a0e239d240d2.htm"
+      }
+    ],
+    "local": "html/df376ea7-dc14-947e-d99c-faa508bc2fe6.htm"
+  },
+  "cDCoMexican_RCDF_2004": {
+    "properties": [],
+    "methods": [
+      {
+        "name": "GetOverwrite",
+        "local": "html/77d3d65e-f86b-3ae2-e71b-6194ac384190.htm"
+      },
+      {
+        "name": "GetPreference",
+        "local": "html/d6bb1acd-e314-7737-7fa3-4a37634f75b7.htm"
+      },
+      {
+        "name": "SetOverwrite",
+        "local": "html/9912100e-520c-efee-2f4b-5d7573ce2ce7.htm"
+      },
+      {
+        "name": "SetPreference",
+        "local": "html/76d25845-a307-bae8-bddd-92f34986e584.htm"
+      }
+    ],
+    "local": "html/cbde9763-3608-121e-a091-320ff206d3ba.htm"
+  },
+  "cDCoMexican_RCDF_2017": {
+    "properties": [],
+    "methods": [
+      {
+        "name": "GetOverwrite",
+        "local": "html/efbafc20-adab-21a1-b66f-c006b38deed4.htm"
+      },
+      {
+        "name": "GetPreference",
+        "local": "html/a80ac7e2-dfea-159d-e9fc-8145cbeaa40d.htm"
+      },
+      {
+        "name": "SetOverwrite",
+        "local": "html/34309fa2-5087-1f7b-4421-7d2058af628c.htm"
+      },
+      {
+        "name": "SetPreference",
+        "local": "html/fce2f24b-1086-28ff-479e-aeb80f4b19ce.htm"
+      }
+    ],
+    "local": "html/f919ecfa-e0c2-5158-7043-1832562fab3a.htm"
+  },
+  "cDCompColAISC360_22": {
+    "properties": [],
+    "methods": [
+      {
+        "name": "GetOverwrite",
+        "local": "html/e9071f7f-2e0d-3223-14c0-9dca1ca82934.htm"
+      },
+      {
+        "name": "GetPreference",
+        "local": "html/4c2c9b62-1011-a79e-142f-cd9f1c244723.htm"
+      },
+      {
+        "name": "SetOverwrite",
+        "local": "html/b6a19b82-0c94-794a-173d-f2c590d48e93.htm"
+      },
+      {
+        "name": "SetPreference",
+        "local": "html/908e456e-9ec6-48a6-a618-ebd2f76e9d50.htm"
+      }
+    ],
+    "local": "html/0c3948ac-6e9e-2ade-2105-987bae6156c3.htm"
+  },
+  "cDCompColCSAS16_19": {
+    "properties": [],
+    "methods": [
+      {
+        "name": "GetOverwrite",
+        "local": "html/85a5c249-c17a-640e-7b26-c051c778b235.htm"
+      },
+      {
+        "name": "GetPreference",
+        "local": "html/6a58913d-6c9b-184d-8444-76b6b945630c.htm"
+      },
+      {
+        "name": "SetOverwrite",
+        "local": "html/55c5de2d-2b81-3df4-212d-dba5987cf39b.htm"
+      },
+      {
+        "name": "SetPreference",
+        "local": "html/b9394350-1c9a-04f6-5c11-db04da06b10d.htm"
+      }
+    ],
+    "local": "html/f31b51b6-a658-c137-7e5c-4e56b9d3557d.htm"
+  },
+  "cDCompColCSAS16_24": {
+    "properties": [],
+    "methods": [
+      {
+        "name": "GetOverwrite",
+        "local": "html/8178835e-d1da-6ee1-445f-315a85b6b6a9.htm"
+      },
+      {
+        "name": "GetPreference",
+        "local": "html/66f8259e-807f-5040-9359-b0212138a32a.htm"
+      },
+      {
+        "name": "SetOverwrite",
+        "local": "html/b114ed7e-b429-0e1c-4948-72aace89f6f0.htm"
+      },
+      {
+        "name": "SetPreference",
+        "local": "html/5502ab47-9306-a8d9-56f5-7a6b69e50d27.htm"
+      }
+    ],
+    "local": "html/1f212bda-2e51-00ef-0a4e-642c4046645e.htm"
+  },
+  "cDCompColEurocode_4_2004": {
+    "properties": [],
+    "methods": [
+      {
+        "name": "GetOverwrite",
+        "local": "html/5ab50008-563e-e1cc-f8a6-00c2d2a1990d.htm"
+      },
+      {
+        "name": "GetPreference",
+        "local": "html/28b1a39d-4553-b2eb-ba03-02bd27dbcaf4.htm"
+      },
+      {
+        "name": "SetOverwrite",
+        "local": "html/128451cc-42b1-52f6-07c0-ff0e1bc98138.htm"
+      },
+      {
+        "name": "SetPreference",
+        "local": "html/d1a97c09-7a91-a50f-54f7-b60a08ed9fbc.htm"
+      }
+    ],
+    "local": "html/a32f162e-92db-d04a-fb96-8274a968430c.htm"
+  },
+  "cDCompColIS11384_2022": {
+    "properties": [],
+    "methods": [
+      {
+        "name": "GetOverwrite",
+        "local": "html/478715d4-bf5b-6983-c11b-b03721a92456.htm"
+      },
+      {
+        "name": "GetPreference",
+        "local": "html/274a234a-6854-af50-a306-e0af1f150dff.htm"
+      },
+      {
+        "name": "SetOverwrite",
+        "local": "html/5bbf7cd7-c717-8007-9c3b-86c8c1d63e8c.htm"
+      },
+      {
+        "name": "SetPreference",
+        "local": "html/9506c3eb-36b5-29b6-9b92-bd03ac3ff3c2.htm"
+      }
+    ],
+    "local": "html/648c94c0-3686-665c-bf91-9b4f8b3b28f2.htm"
+  },
+  "cDConcreteShellDesignRequest": {
+    "properties": [],
+    "methods": [],
+    "local": "html/04ba3b6b-f00a-dc87-72de-aa364404295a.htm"
+  },
+  "cDConcShellACI350_20": {
+    "properties": [],
+    "methods": [],
+    "local": "html/95abb813-aa76-9830-337b-15daf0fe55e0.htm"
+  },
+  "cDConcSlabACI318_14": {
+    "properties": [],
+    "methods": [
+      {
+        "name": "GetPreference",
+        "local": "html/0ad6be82-577b-cc5e-b0df-d5364ffd8b0d.htm"
+      }
+    ],
+    "local": "html/059283ad-35d5-aba4-c96a-29dfafca6523.htm"
+  },
+  "cDConcSlabACI318_19": {
+    "properties": [],
+    "methods": [
+      {
+        "name": "GetPreference",
+        "local": "html/ba6d7365-bd84-710f-d006-844333ccc695.htm"
+      }
+    ],
+    "local": "html/506c2878-46ae-27f7-00ce-98324976cba5.htm"
+  },
+  "cDCoNZS_3101_2006": {
+    "properties": [],
+    "methods": [
+      {
+        "name": "GetOverwrite",
+        "local": "html/5844281b-20db-8371-b1c3-962710eda105.htm"
+      },
+      {
+        "name": "GetPreference",
+        "local": "html/57efdfb5-2cae-b7f6-9fd7-d24b7da83c7f.htm"
+      },
+      {
+        "name": "SetOverwrite",
+        "local": "html/72a0f7ac-0856-1d54-6b8b-8458de203e66.htm"
+      },
+      {
+        "name": "SetPreference",
+        "local": "html/09da80b3-2cdf-ebc4-6619-ef9331dafbc9.htm"
+      }
+    ],
+    "local": "html/6b06dee2-5704-a111-41b6-23c6e5e7283e.htm"
+  },
+  "cDCoSP63133302011": {
+    "properties": [],
+    "methods": [
+      {
+        "name": "GetOverwrite",
+        "local": "html/06416049-cc64-aa56-0dbb-32f5ef32e375.htm"
+      },
+      {
+        "name": "GetPreference",
+        "local": "html/b0ca698e-c33c-bb52-231a-41b2d020ae7f.htm"
+      },
+      {
+        "name": "SetOverwrite",
+        "local": "html/8217959b-ca49-a113-b09a-02733a611fdc.htm"
+      },
+      {
+        "name": "SetPreference",
+        "local": "html/1500a9a8-a482-5fa1-9778-cf62c8c2e0ea.htm"
+      }
+    ],
+    "local": "html/4a800ffa-6371-09f7-cbb2-a7d82d09dc54.htm"
+  },
+  "cDCoTS_500_2000": {
+    "properties": [],
+    "methods": [
+      {
+        "name": "GetOverwrite",
+        "local": "html/e3f553bb-5b93-dfa8-d853-577b7982bf19.htm"
+      },
+      {
+        "name": "GetPreference",
+        "local": "html/4077763c-d76b-2fc2-872b-0c13d20409d0.htm"
+      },
+      {
+        "name": "SetOverwrite",
+        "local": "html/25511b82-7d56-f8ec-1c8d-32b35997e281.htm"
+      },
+      {
+        "name": "SetPreference",
+        "local": "html/59b1c034-d76a-47c3-f7c1-b2a71c5603f1.htm"
+      }
+    ],
+    "local": "html/4ab0877c-424c-8a86-dd2b-1eb83dce6184.htm"
+  },
+  "cDCoTS_500_2000_R2018": {
+    "properties": [],
+    "methods": [
+      {
+        "name": "GetOverwrite",
+        "local": "html/ada6cc42-4312-311e-c6a4-c41f827d0b2b.htm"
+      },
+      {
+        "name": "GetPreference",
+        "local": "html/779868fd-f450-01f9-bb1a-0ef5549fe66d.htm"
+      },
+      {
+        "name": "SetOverwrite",
+        "local": "html/15db4673-22b3-16d9-cb71-c63e91692330.htm"
+      },
+      {
+        "name": "SetPreference",
+        "local": "html/5e886b5e-2ead-e171-54f8-6184a6029246.htm"
+      }
+    ],
+    "local": "html/4b834ddb-2e44-23a4-a75d-7dedf8ea9b26.htm"
+  },
+  "cDesignCompositeBeam": {
+    "properties": [],
+    "methods": [
+      {
+        "name": "DeleteResults",
+        "local": "html/a795c850-6082-8b54-e2b9-c0a68b5c861e.htm"
+      },
+      {
+        "name": "GetCode",
+        "local": "html/0c572fa6-4743-927a-8125-386049e47826.htm"
+      },
+      {
+        "name": "GetComboDeflection",
+        "local": "html/051afaaf-6d52-aea3-7ad0-e1dbc35d3581.htm"
+      },
+      {
+        "name": "GetComboStrength",
+        "local": "html/11eeefb8-cbe9-58bc-969c-98222f52c188.htm"
+      },
+      {
+        "name": "GetDesignSection",
+        "local": "html/ffdded6a-de7a-db91-e4dc-aa060abfc739.htm"
+      },
+      {
+        "name": "GetGroup",
+        "local": "html/a8ebc502-0c1b-a990-7cb9-f7406b085e9c.htm"
+      },
+      {
+        "name": "GetResultsAvailable",
+        "local": "html/514ef5cc-c2a3-e617-f672-d7b83f10e34b.htm"
+      },
+      {
+        "name": "GetSummaryResults",
+        "local": "html/caa001b5-094e-9b6c-3e37-b6d9359e2bbf.htm"
+      },
+      {
+        "name": "GetTargetDispl",
+        "local": "html/05ee7a11-4a35-3c79-5876-d60b36862fae.htm"
+      },
+      {
+        "name": "GetTargetPeriod",
+        "local": "html/1f858290-693a-6423-464b-78d43b3f9859.htm"
+      },
+      {
+        "name": "ResetOverwrites",
+        "local": "html/069996be-428c-198f-f508-3ec2f76240b2.htm"
+      },
+      {
+        "name": "SetAutoSelectNull",
+        "local": "html/262d21c5-db23-44a1-5c6a-0481acd4dd18.htm"
+      },
+      {
+        "name": "SetCode",
+        "local": "html/5f434179-b112-e701-3281-c6713b0897cb.htm"
+      },
+      {
+        "name": "SetComboDeflection",
+        "local": "html/af1c6419-2f78-8833-8194-b1e7767fc697.htm"
+      },
+      {
+        "name": "SetComboStrength",
+        "local": "html/4b44e87e-0dbe-5938-606b-0c0ca016a97c.htm"
+      },
+      {
+        "name": "SetDesignSection",
+        "local": "html/cad13951-3c2d-2ecb-f7f0-9b032f77144f.htm"
+      },
+      {
+        "name": "SetGroup",
+        "local": "html/eae8db37-0a54-acbd-4309-160edcf37d6e.htm"
+      },
+      {
+        "name": "SetTargetDispl",
+        "local": "html/7c59ef90-9641-d6b5-ec62-62159cfb7540.htm"
+      },
+      {
+        "name": "SetTargetPeriod",
+        "local": "html/7162422a-9b03-ef24-450c-3555b4a00502.htm"
+      },
+      {
+        "name": "StartDesign",
+        "local": "html/f5d1b4e6-1161-c30f-4223-22176f4fd3ca.htm"
+      },
+      {
+        "name": "VerifyPassed",
+        "local": "html/b44162a2-74f0-9d60-a646-5012eae2dc7c.htm"
+      },
+      {
+        "name": "VerifySections",
+        "local": "html/402593a9-d410-6b04-0d63-f926328cfd77.htm"
+      }
+    ],
+    "local": "html/b5d7edc6-6cac-7fe1-0aa5-b0243db20044.htm"
+  },
+  "cDesignCompositeColumn": {
+    "properties": [
+      {
+        "name": "AISC360_22",
+        "local": "html/3d7c6df0-66b6-341d-733c-7b11826f05c9.htm"
+      },
+      {
+        "name": "CSAS16_19",
+        "local": "html/c6aee407-e8b8-1822-07d8-1c4e13150f38.htm"
+      },
+      {
+        "name": "CSAS16_24",
+        "local": "html/2c6a04e1-e4af-8689-c4b0-3b08cbfe3142.htm"
+      },
+      {
+        "name": "Eurocode_4_2004",
+        "local": "html/f2bf4c05-708d-811c-0368-da6f65a58aba.htm"
+      },
+      {
+        "name": "IS11384_2022",
+        "local": "html/4512ea8e-5f0b-c45d-5b8b-8529b4b29ce1.htm"
+      }
+    ],
+    "methods": [
+      {
+        "name": "DeleteResults",
+        "local": "html/f7832243-ddf8-d1b1-7808-1c4728200b96.htm"
+      },
+      {
+        "name": "GetCode",
+        "local": "html/357d4d8f-4765-2880-1e1c-043dbb01aa52.htm"
+      },
+      {
+        "name": "GetComboDeflection",
+        "local": "html/592f5567-e72c-9dce-47de-71e4e6abdedf.htm"
+      },
+      {
+        "name": "GetComboStrength",
+        "local": "html/678a1837-9f1f-5378-a8d4-86b9125ca47c.htm"
+      },
+      {
+        "name": "GetDesignSection",
+        "local": "html/75c36ffc-e8ff-0813-8864-56f631446419.htm"
+      },
+      {
+        "name": "GetGroup",
+        "local": "html/beb1a119-3bef-38ed-131e-90200efdfa43.htm"
+      },
+      {
+        "name": "GetResultsAvailable",
+        "local": "html/2b2f06e8-b5c5-5d3e-99df-338ef5193e81.htm"
+      },
+      {
+        "name": "GetSummaryResults",
+        "local": "html/9445237f-a0f6-59a0-be68-adc48a169309.htm"
+      },
+      {
+        "name": "GetTargetDispl",
+        "local": "html/1c9ea748-01fa-a17f-dc1c-a40abf354fe5.htm"
+      },
+      {
+        "name": "GetTargetPeriod",
+        "local": "html/ad8e2120-d20b-3814-c15e-bbf4f6e1034b.htm"
+      },
+      {
+        "name": "ResetOverwrites",
+        "local": "html/dd9e9dcb-ff1c-dc3e-598d-973326d803cd.htm"
+      },
+      {
+        "name": "SetAutoSelectNull",
+        "local": "html/a4174d90-fcbf-f391-ee29-4e6cf7ba80de.htm"
+      },
+      {
+        "name": "SetCode",
+        "local": "html/c5a69edc-b7bb-e917-4c46-096e495a6b54.htm"
+      },
+      {
+        "name": "SetComboDeflection",
+        "local": "html/0f92dfa5-0e0b-8a07-3c54-86181160e28e.htm"
+      },
+      {
+        "name": "SetComboStrength",
+        "local": "html/b0e22ada-cab0-5f71-21f6-c07470237d82.htm"
+      },
+      {
+        "name": "SetDesignSection",
+        "local": "html/a4ee137b-7af2-73b1-b717-4ae9dc8bbc7c.htm"
+      },
+      {
+        "name": "SetGroup",
+        "local": "html/f13126dd-3455-6361-4a9f-9ed949e55c93.htm"
+      },
+      {
+        "name": "SetTargetDispl",
+        "local": "html/0558d5a6-785b-dc20-be6d-d50b43bb6567.htm"
+      },
+      {
+        "name": "SetTargetPeriod",
+        "local": "html/920c2bf6-af69-f688-ef89-565a595dda28.htm"
+      },
+      {
+        "name": "StartDesign",
+        "local": "html/127cb62e-cc5e-2baa-cdac-3b31c5ec0d8a.htm"
+      },
+      {
+        "name": "VerifyPassed",
+        "local": "html/ec219c80-9606-bc72-56cd-f90ec32d21ce.htm"
+      },
+      {
+        "name": "VerifySections",
+        "local": "html/ef42d520-2d62-3c38-35e7-ad2dd93e9bec.htm"
+      }
+    ],
+    "local": "html/5e565810-c33f-2757-e269-ba10feb0414d.htm"
+  },
+  "cDesignConcrete": {
+    "properties": [
+      {
+        "name": "ACI318_08_IBC2009",
+        "local": "html/a8622100-25be-973e-e6be-17ba55826eff.htm"
+      },
+      {
+        "name": "ACI318_14",
+        "local": "html/37a4da7f-6c64-2453-b100-c6c617b65dbe.htm"
+      },
+      {
+        "name": "ACI318_19",
+        "local": "html/bdd54f8a-6b86-4842-a7f8-de8376570a90.htm"
+      },
+      {
+        "name": "AS_3600_09",
+        "local": "html/94f159d0-402c-f8eb-9eb5-861ca0aead96.htm"
+      },
+      {
+        "name": "AS_3600_2018",
+        "local": "html/3ce4e9d0-5906-adee-535e-404be3e66200.htm"
+      },
+      {
+        "name": "BS8110_97",
+        "local": "html/2589a9f1-3692-f3e0-b475-8f7c4886c58d.htm"
+      },
+      {
+        "name": "Chinese_2010",
+        "local": "html/da1afff5-76a4-de04-a7b4-ae9e85eeda9e.htm"
+      },
+      {
+        "name": "Eurocode_2_2004",
+        "local": "html/e58b9521-15b1-5b54-b344-368c08019c1d.htm"
+      },
+      {
+        "name": "Indian_IS_456_2000",
+        "local": "html/1b9b3cff-dde8-7c57-7f89-a3c852bda317.htm"
+      },
+      {
+        "name": "Mexican_RCDF_2017",
+        "local": "html/f2161cd4-1590-bb5b-0abe-e0d341a21ab6.htm"
+      },
+      {
+        "name": "SP63_13330_2012",
+        "local": "html/cdef8201-982e-6374-038f-34a3706130ec.htm"
+      },
+      {
+        "name": "TS_500_2000_R2018",
+        "local": "html/05fb9532-5f5f-9774-68b4-b87beced4293.htm"
+      }
+    ],
+    "methods": [
+      {
+        "name": "GetCode",
+        "local": "html/77038449-a5fb-9c02-23b8-441dd233d9eb.htm"
+      },
+      {
+        "name": "GetDesignSection",
+        "local": "html/ca6fc984-5df2-86cf-90e5-ba4f1929dc48.htm"
+      },
+      {
+        "name": "GetRebarPrefsBeam",
+        "local": "html/6224b40e-0f99-e6c9-764e-a0fd1bb43c87.htm"
+      },
+      {
+        "name": "GetRebarPrefsColumn",
+        "local": "html/54472fc9-98aa-9d36-f4ce-f90b83774e56.htm"
+      },
+      {
+        "name": "GetResultsAvailable",
+        "local": "html/aca6c50f-0931-2828-de22-857763711b04.htm"
+      },
+      {
+        "name": "GetSeismicFramingType",
+        "local": "html/3b02d886-9d61-a901-f041-c55685384ae4.htm"
+      },
+      {
+        "name": "GetSummaryResultsBeam",
+        "local": "html/0e405de1-f02f-5dbb-6bfc-cc60ab0cea64.htm"
+      },
+      {
+        "name": "GetSummaryResultsBeam_2",
+        "local": "html/9ff7a4e2-da86-9b35-78c2-37201626f199.htm"
+      },
+      {
+        "name": "GetSummaryResultsColumn",
+        "local": "html/30c9fccf-1a48-4956-c580-3f701e7fecf5.htm"
+      },
+      {
+        "name": "GetSummaryResultsJoint",
+        "local": "html/9c231fb9-f99e-eaf1-38a4-2ea9b73d7cf7.htm"
+      },
+      {
+        "name": "SetCode",
+        "local": "html/56ba28a6-577d-dc53-96b5-1cc71fc0b2d2.htm"
+      },
+      {
+        "name": "SetComboStrength",
+        "local": "html/d9cb7be0-ec5c-55a5-4d69-6f8a3ed01a21.htm"
+      },
+      {
+        "name": "SetDesignSection",
+        "local": "html/c09dc51a-3611-d33b-8898-9c4c4ec2d0b5.htm"
+      },
+      {
+        "name": "StartDesign",
+        "local": "html/d4d38a27-edb2-44d0-3af9-a18e093dc062.htm"
+      }
+    ],
+    "local": "html/692d8043-f8d2-9265-f110-3f37b97ae059.htm"
+  },
+  "cDesignConcreteSlab": {
+    "properties": [
+      {
+        "name": "ACI318_14",
+        "local": "html/4fd6020f-de9a-ec13-a00f-dde59eff9e78.htm"
+      },
+      {
+        "name": "DesignStrip",
+        "local": "html/7f6f9899-064a-7d62-e3af-1cb9b7d0e648.htm"
+      }
+    ],
+    "methods": [
+      {
+        "name": "GetFlexureAndShear",
+        "local": "html/ee4e76b3-7819-ddeb-0419-1114dfd51166.htm"
+      },
+      {
+        "name": "GetSummaryResultsFlexureAndShear",
+        "local": "html/60d1cdf7-76e9-2cc9-d6e9-7a26af98d0f5.htm"
+      },
+      {
+        "name": "GetSummaryResultsSpanDefinition",
+        "local": "html/c6ed7027-be48-cd2b-9ab3-29f89163cab8.htm"
+      },
+      {
+        "name": "StartSlabDesign",
+        "local": "html/cd9e7732-7efd-e703-ec5c-eaf73b1b0f75.htm"
+      }
+    ],
+    "local": "html/a5c5241b-dd55-b98a-9865-6841fb277116.htm"
+  },
+  "cDesignForces": {
+    "properties": [],
+    "methods": [
+      {
+        "name": "BeamDesignForces",
+        "local": "html/8210ec8a-1c46-d31b-3149-1a164ad14212.htm"
+      },
+      {
+        "name": "BraceDesignForces",
+        "local": "html/789e9766-bdd7-6dc1-ad89-ec1118a1e1ff.htm"
+      },
+      {
+        "name": "ColumnDesignForces",
+        "local": "html/5a3c4a39-b5d5-8dba-236e-42c6b8981be7.htm"
+      },
+      {
+        "name": "PierDesignForces",
+        "local": "html/a05c6aa8-9b11-1e4a-9053-fd7f81e24932.htm"
+      },
+      {
+        "name": "SpandrelDesignForces",
+        "local": "html/b5da1b35-e1ac-732a-4c8d-b3ec507169c9.htm"
+      }
+    ],
+    "local": "html/4f77b6bb-819e-35e8-eee9-7c306bb12186.htm"
+  },
+  "cDesignResults": {
+    "properties": [
+      {
+        "name": "DesignForces",
+        "local": "html/4f29c7e2-caf0-9d5b-5eb0-ef6305a31620.htm"
+      }
+    ],
+    "methods": [],
+    "local": "html/7914a1c7-7dc9-2ce7-3017-fdc37e318f07.htm"
+  },
+  "cDesignShearWall": {
+    "properties": [],
+    "methods": [
+      {
+        "name": "GetPierSummaryResults",
+        "local": "html/0ec3babc-c78b-1efa-a563-d662e35543e6.htm"
+      },
+      {
+        "name": "GetRebar",
+        "local": "html/b1dd3f2b-55a5-a343-225a-bc69cdc6031a.htm"
+      },
+      {
+        "name": "GetRebarPrefsPier",
+        "local": "html/80f7ed08-dc81-7781-d4e5-367ddca0bd1f.htm"
+      },
+      {
+        "name": "GetRebarPrefsSpandrel",
+        "local": "html/ee33331a-8ad0-7cd2-4aa4-e85dfb5880d0.htm"
+      },
+      {
+        "name": "GetSpandrelSummaryResults",
+        "local": "html/c1c9c6a4-0a87-9caa-22f6-fc9e4c4debe0.htm"
+      },
+      {
+        "name": "SetComboStrength",
+        "local": "html/d76f521d-bfbf-e632-37e7-1de7544a7228.htm"
+      }
+    ],
+    "local": "html/f07e2722-5225-a490-780a-6779388d5216.htm"
+  },
+  "cDesignSteel": {
+    "properties": [
+      {
+        "name": "AISC_LRFD93",
+        "local": "html/cd1bbdb5-af71-865c-efe6-a91eb241675f.htm"
+      },
+      {
+        "name": "AISC360_05_IBC2006",
+        "local": "html/f0b856c7-02e9-5372-8fde-e80fe694a183.htm"
+      },
+      {
+        "name": "AISC360_10",
+        "local": "html/44506d7e-9163-6e58-0428-9843f0a50d30.htm"
+      },
+      {
+        "name": "AISC360_16",
+        "local": "html/75ea00fd-ac0a-066a-3638-df45818608ab.htm"
+      },
+      {
+        "name": "AISC360_22",
+        "local": "html/7e81bbea-eb34-5078-74e2-56defe2b607c.htm"
+      },
+      {
+        "name": "Australian_AS4100_2020",
+        "local": "html/1349847c-c000-07af-a702-3dfd46370e49.htm"
+      },
+      {
+        "name": "Australian_AS4100_98",
+        "local": "html/7818e049-9511-9261-ad1f-65a6a95b7ab9.htm"
+      },
+      {
+        "name": "BS5950_2000",
+        "local": "html/91af41ac-65a6-9008-1483-f6c67c046f8a.htm"
+      },
+      {
+        "name": "Canadian_S16_09",
+        "local": "html/55e915a4-ef4c-0811-c1d1-9f7202afa2e6.htm"
+      },
+      {
+        "name": "Canadian_S16_14",
+        "local": "html/f34df32a-871b-418b-7365-5fcf16e2c421.htm"
+      },
+      {
+        "name": "Canadian_S16_19",
+        "local": "html/9f042c9d-f0f2-d09e-9563-10d3740335aa.htm"
+      },
+      {
+        "name": "Canadian_S16_24",
+        "local": "html/81af9e39-05a3-e4da-debf-e06f7cec234d.htm"
+      },
+      {
+        "name": "Chinese_2010",
+        "local": "html/fd5f7eba-80d6-e62b-1bd7-bf4a87d1cb38.htm"
+      },
+      {
+        "name": "Chinese_2018",
+        "local": "html/57d25d4c-5927-bc48-da1b-90f6ad5bc8b7.htm"
+      },
+      {
+        "name": "EN1993_1_1_2005",
+        "local": "html/2908e9e9-84b6-fa6b-495e-6c557fe51953.htm"
+      },
+      {
+        "name": "Eurocode_3_2005",
+        "local": "html/f7d17287-ffcf-4d1b-5464-3dedd4e9bc7b.htm"
+      },
+      {
+        "name": "Indian_IS_800_2007",
+        "local": "html/369ea0b9-48a1-51b1-e930-f63629125b71.htm"
+      },
+      {
+        "name": "Italian_NTC_2008",
+        "local": "html/7a9339f2-9487-7ee2-5797-0c77ad3db16e.htm"
+      },
+      {
+        "name": "Italian_NTC_2018",
+        "local": "html/5efb3081-8cb7-efc7-13aa-3531fba76e61.htm"
+      },
+      {
+        "name": "NewZealand_NZS3404_97",
+        "local": "html/13c8b0b0-2694-140d-cf04-4c7eca3b6e36.htm"
+      },
+      {
+        "name": "SP16_13330_2011",
+        "local": "html/e959a3ec-58bb-3099-fa30-a0f750089d7d.htm"
+      }
+    ],
+    "methods": [
+      {
+        "name": "DeleteResults",
+        "local": "html/6c4f8ff5-3847-7423-47b3-ef82ec30468e.htm"
+      },
+      {
+        "name": "GetCode",
+        "local": "html/26726222-6cc9-b9f6-76fe-7c4d1698d063.htm"
+      },
+      {
+        "name": "GetComboDeflection",
+        "local": "html/88467344-bd4c-3223-3eb2-ee0ba7d441cc.htm"
+      },
+      {
+        "name": "GetComboStrength",
+        "local": "html/fd2ca8ec-cbb5-608f-6472-c7df7127506c.htm"
+      },
+      {
+        "name": "GetDesignSection",
+        "local": "html/d6d3c7be-5063-246f-d498-c13b06a83774.htm"
+      },
+      {
+        "name": "GetGroup",
+        "local": "html/4890e542-2a22-38d8-50be-0a6481f438f8.htm"
+      },
+      {
+        "name": "GetResultsAvailable",
+        "local": "html/d31a52f8-f336-cb25-e778-7f2873944984.htm"
+      },
+      {
+        "name": "GetSummaryResults",
+        "local": "html/38fd7535-fcd5-a1d3-19ae-35c8927d2847.htm"
+      },
+      {
+        "name": "GetSummaryResults_2",
+        "local": "html/f582a9f8-9459-bf2a-bdd9-90bc39485bcd.htm"
+      },
+      {
+        "name": "GetSummaryResults_3",
+        "local": "html/dfd57f26-0eb0-0590-258b-d33f3da78c21.htm"
+      },
+      {
+        "name": "GetTargetDispl",
+        "local": "html/86fb8d89-6a73-76d2-1632-b01885911658.htm"
+      },
+      {
+        "name": "GetTargetPeriod",
+        "local": "html/e376c374-9553-9d15-2fad-9b666084888b.htm"
+      },
+      {
+        "name": "ResetOverwrites",
+        "local": "html/5113102d-ccb8-f0b8-2f7c-31abb60956db.htm"
+      },
+      {
+        "name": "SetAutoSelectNull",
+        "local": "html/4460b172-ba4e-1229-b670-60135e754497.htm"
+      },
+      {
+        "name": "SetCode",
+        "local": "html/b5c78e72-a2a1-38d9-49ab-2fa38b305fc7.htm"
+      },
+      {
+        "name": "SetComboDeflection",
+        "local": "html/276500a0-34e6-5cb9-6b30-85f2d97183a5.htm"
+      },
+      {
+        "name": "SetComboStrength",
+        "local": "html/6c27d580-ba8d-5279-3335-3158cb35b471.htm"
+      },
+      {
+        "name": "SetDesignSection",
+        "local": "html/49c32555-7795-e24e-e777-2823a9f829b6.htm"
+      },
+      {
+        "name": "SetGroup",
+        "local": "html/0604f05e-054f-38bb-70ab-365d7671d71f.htm"
+      },
+      {
+        "name": "SetTargetDispl",
+        "local": "html/6e65f35a-89a5-40a4-def5-3d0f822475ca.htm"
+      },
+      {
+        "name": "SetTargetPeriod",
+        "local": "html/0620af43-984e-31bb-db11-dc896416ead4.htm"
+      },
+      {
+        "name": "StartDesign",
+        "local": "html/736a0a97-a0cb-6436-6367-6d6f3d2da819.htm"
+      },
+      {
+        "name": "VerifyPassed",
+        "local": "html/95abb5ca-f51e-726d-194c-fd7d431a32bc.htm"
+      },
+      {
+        "name": "VerifySections",
+        "local": "html/35681c70-1c5a-9676-eeae-9afe11e52d7c.htm"
+      }
+    ],
+    "local": "html/b1c226bd-117b-fef1-3ecf-9501e542b220.htm"
+  },
+  "cDesignStrip": {
+    "properties": [],
+    "methods": [
+      {
+        "name": "ChangeName",
+        "local": "html/ee3975e1-728b-2a72-34e5-5b3156812154.htm"
+      },
+      {
+        "name": "Delete",
+        "local": "html/5a545926-ea6d-04b4-309b-2df1dcd12f01.htm"
+      },
+      {
+        "name": "GetDesignStrip",
+        "local": "html/cbae6e9b-0b4d-0b54-e7d3-2d0ef5473bf4.htm"
+      },
+      {
+        "name": "GetDesignStrip_1",
+        "local": "html/69ff5ffb-d4aa-cfd4-fef2-f22e99d9378f.htm"
+      },
+      {
+        "name": "GetGUID",
+        "local": "html/e205c556-d5cb-b7ad-8e16-72eb28bb523a.htm"
+      },
+      {
+        "name": "GetNameList",
+        "local": "html/086cdb44-9f00-cae5-c317-07ca2c378aba.htm"
+      },
+      {
+        "name": "SetGUID",
+        "local": "html/345c7a9c-2725-7e7e-9a94-4012655a23e8.htm"
+      }
+    ],
+    "local": "html/a81b3f03-3ed3-5a32-06f5-af6bc3daf603.htm"
+  },
+  "cDetailing": {
+    "properties": [],
+    "methods": [
+      {
+        "name": "ClearDetailing",
+        "local": "html/9e093e0f-9ad7-2aca-f578-af77c0bfd2fe.htm"
+      },
+      {
+        "name": "GetBeamLongRebarData",
+        "local": "html/72dfb0b6-7903-567c-cb03-c283457539b5.htm"
+      },
+      {
+        "name": "GetBeamTieRebarData",
+        "local": "html/b62d0b5d-cf5f-ab58-fb89-1c667c3b3462.htm"
+      },
+      {
+        "name": "GetColumnLongRebarData",
+        "local": "html/d07b631e-9881-9614-793a-eae3b48c9ba7.htm"
+      },
+      {
+        "name": "GetColumnTieRebarData",
+        "local": "html/9656aafd-aa5b-a465-bf5a-8084662f48a0.htm"
+      },
+      {
+        "name": "GetDetailed_OneWallStack",
+        "local": "html/5b3a331b-ed83-cbce-15ea-aa6f00693c6c.htm"
+      },
+      {
+        "name": "GetDetailedBeamLineData",
+        "local": "html/d19d8757-c763-9ec1-8226-a464caf3858e.htm"
+      },
+      {
+        "name": "GetDetailedBeamLineData_1",
+        "local": "html/2025018b-41dd-1788-c236-896a472051d9.htm"
+      },
+      {
+        "name": "GetDetailedBeamLineData_2",
+        "local": "html/6faa93d8-0d25-083b-df85-e37df4a50979.htm"
+      },
+      {
+        "name": "GetDetailedBeamLineGuidData",
+        "local": "html/33555b43-0317-27c1-fc94-db9fb8f36b8f.htm"
+      },
+      {
+        "name": "GetDetailedBeamLines",
+        "local": "html/c48cf83b-0381-9365-5bb2-b22a18fb2f43.htm"
+      },
+      {
+        "name": "GetDetailedBeamLines_1",
+        "local": "html/b7356f7c-145b-d71d-9275-feb50f374df0.htm"
+      },
+      {
+        "name": "GetDetailedColumnStackData",
+        "local": "html/add5a968-41da-15ab-eed2-bb27af184dc1.htm"
+      },
+      {
+        "name": "GetDetailedColumnStackData_1",
+        "local": "html/152bf3d3-5e7d-16aa-f650-1059b0502d20.htm"
+      },
+      {
+        "name": "GetDetailedColumnStackData_2",
+        "local": "html/16071195-dcc6-1881-deda-09aa91c36789.htm"
+      },
+      {
+        "name": "GetDetailedColumnStackGuidData",
+        "local": "html/0c35d1f3-ddc5-5cbb-e805-a280d439a205.htm"
+      },
+      {
+        "name": "GetDetailedColumnStacks",
+        "local": "html/cb9314ed-b866-a4c7-f734-9344fa5dc92e.htm"
+      },
+      {
+        "name": "GetDetailedSlab_OneDetailingOutputInfo",
+        "local": "html/cfa37415-26c5-e3ad-8788-5ef95ab6ffcc.htm"
+      },
+      {
+        "name": "GetDetailedSlabBotBarData",
+        "local": "html/71801142-e94a-89f3-864a-3120b116b096.htm"
+      },
+      {
+        "name": "GetDetailedSlabBotBarData_1",
+        "local": "html/78f22135-ca6d-b59c-77d4-9931da613113.htm"
+      },
+      {
+        "name": "GetDetailedSlabs",
+        "local": "html/5f0c8822-57e3-73c4-cb85-5b1d544b6339.htm"
+      },
+      {
+        "name": "GetDetailedSlabTopBarData",
+        "local": "html/ba55d512-0daf-8609-3ac7-5f8301bfa6c3.htm"
+      },
+      {
+        "name": "GetDetailedSlabTopBarData_1",
+        "local": "html/ddec78b9-75d0-7d9c-a2d8-f456545164b4.htm"
+      },
+      {
+        "name": "GetDetailedWall_OnePier_OneDesignLeg_OneTieBar_OneTiePline_OnePoint",
+        "local": "html/89ca38d2-3a2b-6513-4173-c2871947ed3a.htm"
+      },
+      {
+        "name": "GetDetailedWall_OneWallStack_OnePier_OneDesignLeg_OneTieBar_OneTiePlineInfo",
+        "local": "html/5e7030d2-23dd-96cf-0802-80d473d3f5bb.htm"
+      },
+      {
+        "name": "GetDetailedWall_OneWallStack_OnePier_OneDesignLeg_OneTieBarInfo",
+        "local": "html/a12a2342-daf3-1253-ce52-26e15708e339.htm"
+      },
+      {
+        "name": "GetDetailedWall_OneWallStack_OnePier_OneDesignLeg_OneVerticalBarInfo",
+        "local": "html/1fdf4075-5431-d4b1-3475-4954dddbb026.htm"
+      },
+      {
+        "name": "GetDetailedWall_OneWallStack_OnePier_OneDesignLegOutputInfo",
+        "local": "html/2c9b644c-9c90-81e8-7439-92f0ae28e0b0.htm"
+      },
+      {
+        "name": "GetDetailedWall_OneWallStack_OnePierOutputInfo",
+        "local": "html/c74a28e6-2d19-e125-9730-f3fc7a219831.htm"
+      },
+      {
+        "name": "GetDetailedWall_OneWallStack_OneSpandrel_OneLongBarInfo",
+        "local": "html/8b1f23d0-e6c9-44cc-329f-cac488473426.htm"
+      },
+      {
+        "name": "GetDetailedWall_OneWallStack_OneSpandrel_OneStirrupsInfo",
+        "local": "html/f12140c2-7159-f828-5bde-70d0a105a80c.htm"
+      },
+      {
+        "name": "GetDetailedWall_OneWallStack_OneSpandrelOutputInfo",
+        "local": "html/29521d9f-14d8-c594-f327-232a58cd7a59.htm"
+      },
+      {
+        "name": "GetDetailingAvailable",
+        "local": "html/b4145135-9498-9ca7-29e3-6fc85cf0ff89.htm"
+      },
+      {
+        "name": "GetNumberDetailedSlabs",
+        "local": "html/59a96956-bb22-4667-134a-f54498434f14.htm"
+      },
+      {
+        "name": "GetNumberDetailedWallStacks",
+        "local": "html/c7c4e74b-ebca-ba24-1e71-a6f51e9ab526.htm"
+      },
+      {
+        "name": "GetOneDetailedSlab_OneDetailingOutput_OneStrip_OneDetailingRegion_OneBottomRebar_Bar1Info",
+        "local": "html/383bcb60-7161-d764-c7f9-77884adfcb78.htm"
+      },
+      {
+        "name": "GetOneDetailedSlab_OneDetailingOutput_OneStrip_OneDetailingRegion_OneBottomRebar_Bar2Info",
+        "local": "html/4ab3a438-a59c-56e2-4451-f54aba93a1f5.htm"
+      },
+      {
+        "name": "GetOneDetailedSlab_OneDetailingOutput_OneStrip_OneDetailingRegion_OneBottomRebarInfo",
+        "local": "html/76a509dd-de86-eb02-c9a1-415e0f7bb5b8.htm"
+      },
+      {
+        "name": "GetOneDetailedSlab_OneDetailingOutput_OneStrip_OneDetailingRegion_OneTopRebar_Bar1Info",
+        "local": "html/ccae8471-90fa-913c-bf93-0ff133053fda.htm"
+      },
+      {
+        "name": "GetOneDetailedSlab_OneDetailingOutput_OneStrip_OneDetailingRegion_OneTopRebar_Bar2Info",
+        "local": "html/52b77d9e-cd52-d88d-89b4-9c94305d11de.htm"
+      },
+      {
+        "name": "GetOneDetailedSlab_OneDetailingOutput_OneStrip_OneDetailingRegion_OneTopRebarInfo",
+        "local": "html/be08bb63-8baa-5ddd-b24a-05ebd0fe36f8.htm"
+      },
+      {
+        "name": "GetOneDetailedSlab_OneDetailingOutput_OneStrip_OneDetailingRegionInfo",
+        "local": "html/bc44a510-db51-0b0c-99be-3e83a4413a4b.htm"
+      },
+      {
+        "name": "GetOneDetailedSlab_OneDetailingOutput_StripGUID",
+        "local": "html/4798e80a-2125-6563-c67f-c51ed71a23e6.htm"
+      },
+      {
+        "name": "GetOneDetailedSlab_OneDetailingOutput_StripInfo",
+        "local": "html/6221a63a-e562-f6bc-9849-79a09a92fa75.htm"
+      },
+      {
+        "name": "GetSimilarBeamLines",
+        "local": "html/f12f6bf4-4631-d033-849a-0c58afd04c76.htm"
+      },
+      {
+        "name": "GetSimilarBeamLines_1",
+        "local": "html/847ad0c8-3c5a-c842-9528-9da909cad553.htm"
+      },
+      {
+        "name": "GetSimilarColumnStacks",
+        "local": "html/e06a20f4-0c87-e47a-f257-f5df828024e7.htm"
+      },
+      {
+        "name": "GetSimilarSlabs",
+        "local": "html/6a3d3ae8-2052-f7ba-d4ba-76b6d9327fe0.htm"
+      },
+      {
+        "name": "StartDetailing",
+        "local": "html/302a9dd9-8506-4534-e22a-0ea0efa24502.htm"
+      }
+    ],
+    "local": "html/361a91e7-25b4-8a09-dff9-a6b292f4ba73.htm"
+  },
+  "cDiaphragm": {
+    "properties": [],
+    "methods": [
+      {
+        "name": "ChangeName",
+        "local": "html/bddc983c-a791-8257-5f52-d471232af5c4.htm"
+      },
+      {
+        "name": "Delete",
+        "local": "html/0d3f6e93-4cc7-1393-17e9-48cd717f5919.htm"
+      },
+      {
+        "name": "GetDiaphragm",
+        "local": "html/0b2c9165-3fef-d957-e320-976a1f91d0fc.htm"
+      },
+      {
+        "name": "GetNameList",
+        "local": "html/2289d07f-2632-1f01-124b-b132df646c5b.htm"
+      },
+      {
+        "name": "SetDiaphragm",
+        "local": "html/bd18ade3-17cf-6fdf-b429-3c3a51fd9d7c.htm"
+      }
+    ],
+    "local": "html/079a559a-53b7-899a-df5b-92826a589cd7.htm"
+  },
+  "cDStAISC_ASD89": {
+    "properties": [],
+    "methods": [
+      {
+        "name": "GetOverwrite",
+        "local": "html/a39c673b-a74c-db7f-bc10-398a14d48c6f.htm"
+      },
+      {
+        "name": "GetPreference",
+        "local": "html/7a9b6cc8-24a6-504a-dc26-6ae5c3fdddb0.htm"
+      },
+      {
+        "name": "SetOverwrite",
+        "local": "html/ba992ec7-df88-59f4-85a2-3dbfff4639ad.htm"
+      },
+      {
+        "name": "SetPreference",
+        "local": "html/12d83bcd-88c7-831d-524b-b09d959deb0e.htm"
+      }
+    ],
+    "local": "html/cff7156c-2b7b-fc56-c079-9592a695dba7.htm"
+  },
+  "cDStAISC_LRFD93": {
+    "properties": [],
+    "methods": [
+      {
+        "name": "GetOverwrite",
+        "local": "html/29b07089-dd8c-0a8a-0f29-9ba7f47526a8.htm"
+      },
+      {
+        "name": "GetPreference",
+        "local": "html/010f393e-037d-1eaa-1088-1574654a4c98.htm"
+      },
+      {
+        "name": "SetOverwrite",
+        "local": "html/5de1a6a5-f1f1-68e5-d153-d4c138db2aae.htm"
+      },
+      {
+        "name": "SetPreference",
+        "local": "html/1fe66244-4d86-e106-2992-c985cc1893be.htm"
+      }
+    ],
+    "local": "html/71e56c6a-748e-6022-8ae2-ec499d16c6d6.htm"
+  },
+  "cDStAISC360_05_IBC2006": {
+    "properties": [],
+    "methods": [
+      {
+        "name": "GetOverwrite",
+        "local": "html/98ed21ad-e5fe-fd17-2495-9305b1a38993.htm"
+      },
+      {
+        "name": "GetPreference",
+        "local": "html/4ae1d595-129f-44d5-1cb5-85a0dba4161a.htm"
+      },
+      {
+        "name": "SetOverwrite",
+        "local": "html/0ff3fdf1-c03d-3e21-a87e-8def8cc8e4aa.htm"
+      },
+      {
+        "name": "SetPreference",
+        "local": "html/1991a2d8-6cdb-1510-e6ac-44747e301734.htm"
+      }
+    ],
+    "local": "html/95d16455-f7a6-10e7-95d4-c9947549f89a.htm"
+  },
+  "cDStAISC360_10": {
+    "properties": [],
+    "methods": [
+      {
+        "name": "GetOverwrite",
+        "local": "html/5effe6d8-fceb-1987-2f09-d14e8e51c094.htm"
+      },
+      {
+        "name": "GetPreference",
+        "local": "html/5d0d8966-06cf-1a1e-56da-51893ea0fbea.htm"
+      },
+      {
+        "name": "SetOverwrite",
+        "local": "html/eccc6c7d-b6ae-ab55-4591-7320d55b0d3b.htm"
+      },
+      {
+        "name": "SetPreference",
+        "local": "html/d04c8b8f-491d-9a4e-f94d-b29ecd943d78.htm"
+      }
+    ],
+    "local": "html/8fae9984-b4f1-cd12-e034-99012a53c54e.htm"
+  },
+  "cDStAISC360_16": {
+    "properties": [],
+    "methods": [
+      {
+        "name": "GetOverwrite",
+        "local": "html/d7c8d7ec-6766-c91b-5718-25e9b7fcdbba.htm"
+      },
+      {
+        "name": "GetPreference",
+        "local": "html/4ffc69bb-7bd7-4c83-3ede-0ef8f4ee3a1e.htm"
+      },
+      {
+        "name": "SetOverwrite",
+        "local": "html/03d7c35b-c5d9-7c76-a8b5-07d715f78149.htm"
+      },
+      {
+        "name": "SetPreference",
+        "local": "html/6fac5c68-e868-c286-71f7-4a7d9b6f0dd4.htm"
+      }
+    ],
+    "local": "html/ed3b1c48-027b-663b-0119-7042e883bcaf.htm"
+  },
+  "cDStAISC360_22": {
+    "properties": [],
+    "methods": [
+      {
+        "name": "GetOverwrite",
+        "local": "html/f0c21d6c-bd1f-ebb5-9965-651175cb532d.htm"
+      },
+      {
+        "name": "GetPreference",
+        "local": "html/beb666dd-9b4c-1888-8636-f91f4d620956.htm"
+      },
+      {
+        "name": "SetOverwrite",
+        "local": "html/00988fe8-36b2-bb03-174e-164e474bf9fa.htm"
+      },
+      {
+        "name": "SetPreference",
+        "local": "html/bd802cf8-bafa-56e6-4314-8a1562057a63.htm"
+      }
+    ],
+    "local": "html/ebdfd781-adc7-f60e-2d33-d9bf8af08635.htm"
+  },
+  "cDStAustralian_AS4100_2020": {
+    "properties": [],
+    "methods": [
+      {
+        "name": "GetOverwrite",
+        "local": "html/9a0b664f-b243-2782-beb2-a1278004de47.htm"
+      },
+      {
+        "name": "GetPreference",
+        "local": "html/84555c32-ab5b-b20a-b31c-1bd652ebec45.htm"
+      },
+      {
+        "name": "SetOverwrite",
+        "local": "html/b1cccbb1-31d4-a36e-72da-100c361360c8.htm"
+      },
+      {
+        "name": "SetPreference",
+        "local": "html/25f8260a-9e0d-2fa9-a1e4-f57c86052920.htm"
+      }
+    ],
+    "local": "html/0c973b59-70d0-a571-cb4f-781867a9a7eb.htm"
+  },
+  "cDStAustralian_AS4100_98": {
+    "properties": [],
+    "methods": [
+      {
+        "name": "GetOverwrite",
+        "local": "html/b44a47fa-82dd-bd5a-5903-0ff6ff66129d.htm"
+      },
+      {
+        "name": "GetPreference",
+        "local": "html/be6e285e-b65f-8a74-f8bd-2334e551c36b.htm"
+      },
+      {
+        "name": "SetOverwrite",
+        "local": "html/e600f260-ff14-c6c1-f28a-76a5b26362e0.htm"
+      },
+      {
+        "name": "SetPreference",
+        "local": "html/31562cda-b5dc-8c80-e786-a33b2153dff2.htm"
+      }
+    ],
+    "local": "html/2f607101-828b-627d-098e-4c646b1a3ae4.htm"
+  },
+  "cDStBS5950_2000": {
+    "properties": [],
+    "methods": [
+      {
+        "name": "GetOverwrite",
+        "local": "html/ffbc1f76-dd5d-3149-4651-1dd13661a826.htm"
+      },
+      {
+        "name": "GetPreference",
+        "local": "html/a1b25cf5-77d1-7547-303f-2ac9002d5e16.htm"
+      },
+      {
+        "name": "SetOverwrite",
+        "local": "html/5a721b38-6acf-146d-9bdc-5198c2dee2e1.htm"
+      },
+      {
+        "name": "SetPreference",
+        "local": "html/8ca7ba43-ee44-51ba-ceb1-16f7750b7009.htm"
+      }
+    ],
+    "local": "html/15dcafaa-fe1a-8211-2cc0-4755fcb91377.htm"
+  },
+  "cDStCanadian_S16_09": {
+    "properties": [],
+    "methods": [
+      {
+        "name": "GetOverwrite",
+        "local": "html/82f890ae-002d-98b6-a755-c374307513ee.htm"
+      },
+      {
+        "name": "GetPreference",
+        "local": "html/396f3c12-1d05-32c9-4833-736de84fa3ba.htm"
+      },
+      {
+        "name": "SetOverwrite",
+        "local": "html/ebf126e0-c04a-31d1-8c96-d8effc0ddd20.htm"
+      },
+      {
+        "name": "SetPreference",
+        "local": "html/b7561e99-fbd3-0f28-b031-733c91eed145.htm"
+      }
+    ],
+    "local": "html/8098b016-457a-70e2-6231-e36898328a5a.htm"
+  },
+  "cDStCanadian_S16_14": {
+    "properties": [],
+    "methods": [
+      {
+        "name": "GetOverwrite",
+        "local": "html/90c1fbd6-0941-6f65-acc5-8ce02a797503.htm"
+      },
+      {
+        "name": "GetPreference",
+        "local": "html/68ea2c8b-efff-c6d1-da2b-3209e1d430f3.htm"
+      },
+      {
+        "name": "SetOverwrite",
+        "local": "html/096bdde1-3e2e-8644-4838-c61157a31508.htm"
+      },
+      {
+        "name": "SetPreference",
+        "local": "html/6b9afc01-6510-6b55-b09a-4c804ccc1167.htm"
+      }
+    ],
+    "local": "html/65d5c385-1c24-dc87-e852-0781118caca2.htm"
+  },
+  "cDStCanadian_S16_19": {
+    "properties": [],
+    "methods": [
+      {
+        "name": "GetOverwrite",
+        "local": "html/c18d3c58-1144-35e8-8afb-712ccd9db275.htm"
+      },
+      {
+        "name": "GetPreference",
+        "local": "html/efa3b9c6-c8b7-61a9-c259-21f7ba33b139.htm"
+      },
+      {
+        "name": "SetOverwrite",
+        "local": "html/df3e1092-1e9f-3eb5-7557-9a2c84d9ca49.htm"
+      },
+      {
+        "name": "SetPreference",
+        "local": "html/6ebc306a-4f51-4b1c-b729-7381743821ed.htm"
+      }
+    ],
+    "local": "html/46b93cb0-d93c-a735-c636-0afb21458156.htm"
+  },
+  "cDStCanadian_S16_24": {
+    "properties": [],
+    "methods": [
+      {
+        "name": "GetOverwrite",
+        "local": "html/57b3703b-4d76-833b-33ed-489a6b591aaa.htm"
+      },
+      {
+        "name": "GetPreference",
+        "local": "html/54ad657e-6d52-1ae7-f9bb-66074666862c.htm"
+      },
+      {
+        "name": "SetOverwrite",
+        "local": "html/ca144710-8517-4f90-b5f9-afb156e8b33e.htm"
+      },
+      {
+        "name": "SetPreference",
+        "local": "html/f85bf53d-e2d0-8e3b-970d-9ae43ee61968.htm"
+      }
+    ],
+    "local": "html/d7112150-beb0-01ec-428e-c14f6ce1b9e5.htm"
+  },
+  "cDStChinese_2010": {
+    "properties": [],
+    "methods": [
+      {
+        "name": "GetOverwrite",
+        "local": "html/62e20d21-2148-6c83-3073-1b8bb3b2741b.htm"
+      },
+      {
+        "name": "GetPreference",
+        "local": "html/033e1246-bddc-7bdc-340d-1f35645e77a1.htm"
+      },
+      {
+        "name": "SetOverwrite",
+        "local": "html/89d0c9d4-47f5-762d-900e-187d721c4355.htm"
+      },
+      {
+        "name": "SetPreference",
+        "local": "html/01b8aba0-5652-d11f-6c60-b4df04135075.htm"
+      }
+    ],
+    "local": "html/179483fa-6c7a-6035-7d81-8adfb00f46f3.htm"
+  },
+  "cDStChinese_2018": {
+    "properties": [],
+    "methods": [
+      {
+        "name": "GetOverwrite",
+        "local": "html/ae7abe13-fc9a-81bc-3bc5-2c03023432c8.htm"
+      },
+      {
+        "name": "GetPreference",
+        "local": "html/5e4f73d0-2887-8be8-0494-1aca507a1382.htm"
+      },
+      {
+        "name": "SetOverwrite",
+        "local": "html/07f26bae-084f-bcdb-a80a-1681d984d342.htm"
+      },
+      {
+        "name": "SetPreference",
+        "local": "html/59a19f49-c9d4-05b8-f511-6644aff3e9a1.htm"
+      }
+    ],
+    "local": "html/56e8d07c-bbc2-7d75-2937-c59193215a25.htm"
+  },
+  "cDStEN1993_1_1_2005": {
+    "properties": [],
+    "methods": [
+      {
+        "name": "GetOverwrite",
+        "local": "html/f7bb539e-409e-9da5-1522-04b3bbacdc74.htm"
+      },
+      {
+        "name": "GetPreference",
+        "local": "html/19bdd8dc-63cf-b7cb-c961-61cd8561753c.htm"
+      },
+      {
+        "name": "SetOverwrite",
+        "local": "html/a9f8e6aa-4af0-02fd-a940-7964fb1b40ad.htm"
+      },
+      {
+        "name": "SetPreference",
+        "local": "html/c7b35bb2-5c58-a3db-c16b-f8a57272e6fc.htm"
+      }
+    ],
+    "local": "html/6d8731ff-f6e5-63d7-2bd5-547e3549d83b.htm"
+  },
+  "cDStEN1993_1_1_2022": {
+    "properties": [],
+    "methods": [
+      {
+        "name": "GetOverwrite",
+        "local": "html/d17dfde4-4355-ff0f-a1b6-777793be5c4f.htm"
+      },
+      {
+        "name": "GetPreference",
+        "local": "html/6f58d0fe-542c-52b6-2d30-cd1b97a63ad3.htm"
+      },
+      {
+        "name": "SetOverwrite",
+        "local": "html/1dacc641-efa0-9c8a-ebb0-3d6ebd58fb49.htm"
+      },
+      {
+        "name": "SetPreference",
+        "local": "html/889d0e61-15a7-c9d1-e86d-778d30451b6c.htm"
+      }
+    ],
+    "local": "html/a16833be-de3f-fdeb-be37-7cf86d872471.htm"
+  },
+  "cDStEurocode_3_2005": {
+    "properties": [],
+    "methods": [
+      {
+        "name": "GetOverwrite",
+        "local": "html/33552605-e9ef-f254-0ccf-94e5fd5f81d7.htm"
+      },
+      {
+        "name": "GetPreference",
+        "local": "html/886de2e3-a592-bbbf-02e9-f4a1692c884d.htm"
+      },
+      {
+        "name": "SetOverwrite",
+        "local": "html/8b7514db-4c09-cbb6-b79c-498915b1861d.htm"
+      },
+      {
+        "name": "SetPreference",
+        "local": "html/2a89d57c-6479-db0d-ab2f-75248a2c722a.htm"
+      }
+    ],
+    "local": "html/b61b1d65-1032-603a-6098-333d897a9215.htm"
+  },
+  "cDStIndian_IS_800_2007": {
+    "properties": [],
+    "methods": [
+      {
+        "name": "GetOverwrite",
+        "local": "html/3e80316f-5fbc-48bc-d1ee-4c2209b7bc28.htm"
+      },
+      {
+        "name": "GetPreference",
+        "local": "html/2413d3bd-0388-3360-59fb-9ab788232e52.htm"
+      },
+      {
+        "name": "SetOverwrite",
+        "local": "html/fb6b3526-e824-9e9b-dd62-52764641abd6.htm"
+      },
+      {
+        "name": "SetPreference",
+        "local": "html/859bd592-7af3-7796-a701-b16419748380.htm"
+      }
+    ],
+    "local": "html/778301aa-8f6c-0abc-7321-30a25ed37814.htm"
+  },
+  "cDStItalianNTC2008S": {
+    "properties": [],
+    "methods": [
+      {
+        "name": "GetOverwrite",
+        "local": "html/75d18de3-efc6-bd17-5897-6ca656904c32.htm"
+      },
+      {
+        "name": "GetPreference",
+        "local": "html/8b788c51-79df-18be-bbb9-5dd8310a3ac7.htm"
+      },
+      {
+        "name": "SetOverwrite",
+        "local": "html/50716055-d5a1-5186-6a86-4c522f058903.htm"
+      },
+      {
+        "name": "SetPreference",
+        "local": "html/6000887e-901a-bc4f-886a-01821553e7bb.htm"
+      }
+    ],
+    "local": "html/c37eaa94-370c-6bee-9779-f8e01f51a114.htm"
+  },
+  "cDStItalianNTC2018S": {
+    "properties": [],
+    "methods": [
+      {
+        "name": "GetOverwrite",
+        "local": "html/c127f0f5-c9d5-f208-a1ed-05753272c9c7.htm"
+      },
+      {
+        "name": "GetPreference",
+        "local": "html/98af5107-c440-f694-06e2-b338dd17ecd6.htm"
+      },
+      {
+        "name": "SetOverwrite",
+        "local": "html/3bfae206-cf18-9e29-b7ec-81795e45cd7b.htm"
+      },
+      {
+        "name": "SetPreference",
+        "local": "html/a2dea9de-1a06-933c-afe9-3e327c4cd8f6.htm"
+      }
+    ],
+    "local": "html/d1e0254d-07a1-346b-c39b-2c1b60926a31.htm"
+  },
+  "cDStNewZealand_NZS3404_97": {
+    "properties": [],
+    "methods": [
+      {
+        "name": "GetOverwrite",
+        "local": "html/1c1144a4-9cd2-46e6-16ab-05b3c6d54eb9.htm"
+      },
+      {
+        "name": "GetPreference",
+        "local": "html/eb3d2582-c472-9169-ba5c-ac63c53419cf.htm"
+      },
+      {
+        "name": "SetOverwrite",
+        "local": "html/adf713f1-4f88-93e1-6b37-767931dd2f56.htm"
+      },
+      {
+        "name": "SetPreference",
+        "local": "html/b8943764-bbf9-cf24-54a0-4ecb8cc5bf58.htm"
+      }
+    ],
+    "local": "html/80c17d7a-4bc0-0567-90b3-dd86ea51c434.htm"
+  },
+  "cDStSP16_13330_2011": {
+    "properties": [],
+    "methods": [
+      {
+        "name": "GetOverwrite",
+        "local": "html/4bf3c33a-808c-b891-a5cd-a47d0210325e.htm"
+      },
+      {
+        "name": "GetPreference",
+        "local": "html/6e73008d-5c29-8da1-265e-efd46406376a.htm"
+      },
+      {
+        "name": "SetOverwrite",
+        "local": "html/02b1c62c-4eff-a91f-1d2e-f460128ebf91.htm"
+      },
+      {
+        "name": "SetPreference",
+        "local": "html/81974dd3-f0da-54b2-1539-3c9c2803095b.htm"
+      }
+    ],
+    "local": "html/50971f79-76dc-77f6-159e-d13b835176fb.htm"
+  },
+  "cDStSP16_13330_2017": {
+    "properties": [],
+    "methods": [
+      {
+        "name": "GetOverwrite",
+        "local": "html/7242e3f6-909a-2969-6feb-5c5646bd93e0.htm"
+      },
+      {
+        "name": "GetPreference",
+        "local": "html/ababea0e-5681-25b9-4589-63f0fdc102a0.htm"
+      },
+      {
+        "name": "SetOverwrite",
+        "local": "html/8ad3b3fe-c647-297a-a900-7c79f1b4690b.htm"
+      },
+      {
+        "name": "SetPreference",
+        "local": "html/351d5ea6-9d71-1cbc-378d-175dc99715de.htm"
+      }
+    ],
+    "local": "html/d8ae5248-52aa-80fd-5835-43d94ce4324e.htm"
+  },
+  "cEditFrame": {
+    "properties": [],
+    "methods": [
+      {
+        "name": "ChangeConnectivity",
+        "local": "html/e4e49463-6fb3-0411-aa47-53af7ad211d7.htm"
+      }
+    ],
+    "local": "html/66e46e06-f0ef-79c3-1f2c-dab539cd5abc.htm"
+  },
+  "cEditGeneral": {
+    "properties": [],
+    "methods": [
+      {
+        "name": "Move",
+        "local": "html/7ccff748-06f8-fa7e-20fd-636ca684b423.htm"
+      }
+    ],
+    "local": "html/81f907a1-8c81-d9d1-f263-0943f9910372.htm"
+  },
+  "cFile": {
+    "properties": [],
+    "methods": [
+      {
+        "name": "ExportFile",
+        "local": "html/2f01a16e-56ac-47aa-c53c-e10a4a21199d.htm"
+      },
+      {
+        "name": "GetFilePath",
+        "local": "html/54913bb3-9e0d-786e-294e-b4b50758b2fc.htm"
+      },
+      {
+        "name": "ImportFile",
+        "local": "html/93a9f11b-79f9-63ba-0928-887b71616add.htm"
+      },
+      {
+        "name": "NewBlank",
+        "local": "html/94c09385-ac9c-b495-ccdc-2507dc65b236.htm"
+      },
+      {
+        "name": "NewGridOnly",
+        "local": "html/daf9b4a6-c0ff-2ecf-5f15-29e53e19a2f4.htm"
+      },
+      {
+        "name": "NewSteelDeck",
+        "local": "html/c97b6c9a-2eb2-e6fd-5a82-1e641320cb8f.htm"
+      },
+      {
+        "name": "OpenFile",
+        "local": "html/0b0d5c1d-dda5-8596-6797-957b9ba2c4ab.htm"
+      },
+      {
+        "name": "Save",
+        "local": "html/10383962-20e0-1a25-c990-ca06b18ebbff.htm"
+      }
+    ],
+    "local": "html/f6f938cb-b055-ca3e-0b01-e75804bd8885.htm"
+  },
+  "cFrameObj": {
+    "properties": [],
+    "methods": [
+      {
+        "name": "AddByCoord",
+        "local": "html/5dec5e4d-9c7e-2fb7-a038-425683354161.htm"
+      },
+      {
+        "name": "AddByPoint",
+        "local": "html/b2a44797-3c9f-b735-8dad-29f901680780.htm"
+      },
+      {
+        "name": "ChangeName",
+        "local": "html/fb280302-ba33-1641-61f7-15212aabf98f.htm"
+      },
+      {
+        "name": "Count",
+        "local": "html/a351a1b3-11b0-c16f-173a-9f32871f74e7.htm"
+      },
+      {
+        "name": "Delete",
+        "local": "html/21f353f6-369e-b589-36d2-2a2a82e37089.htm"
+      },
+      {
+        "name": "DeleteLateralBracing",
+        "local": "html/123b114e-5a78-f4c0-113d-8bfeb6fa9d38.htm"
+      },
+      {
+        "name": "DeleteLoadDistributed",
+        "local": "html/3e6e861b-cb74-5fdf-9956-60c7102291e6.htm"
+      },
+      {
+        "name": "DeleteLoadPoint",
+        "local": "html/12d7c9f5-01ff-8b2d-1116-73d6e17f70e3.htm"
+      },
+      {
+        "name": "DeleteLoadTemperature",
+        "local": "html/80e84d75-727b-b3da-390b-ffa2901a3966.htm"
+      },
+      {
+        "name": "DeleteMass",
+        "local": "html/94dfe7bf-a324-9e77-6f68-1331aa6bc60d.htm"
+      },
+      {
+        "name": "DeleteModifiers",
+        "local": "html/076f29d9-85dc-df31-3c54-3a103e6cb307.htm"
+      },
+      {
+        "name": "DeleteSpring",
+        "local": "html/443ef16f-35fb-8fe5-cf59-434a5560a733.htm"
+      },
+      {
+        "name": "GetAllFrames",
+        "local": "html/b6744895-c557-92b0-fe1c-0181772a5477.htm"
+      },
+      {
+        "name": "GetColumnSpliceOverwrite",
+        "local": "html/68746fd6-d5d8-a9d4-cd1d-502484a14f8c.htm"
+      },
+      {
+        "name": "GetCurved_2",
+        "local": "html/aba5a4a9-76f1-6313-f4ca-2cc69e002956.htm"
+      },
+      {
+        "name": "GetDesignOrientation",
+        "local": "html/a7f25b8c-377b-3815-e01a-c4995c2ed970.htm"
+      },
+      {
+        "name": "GetDesignProcedure",
+        "local": "html/c3d4f818-61ae-e604-c4e7-decf3fa3a3dc.htm"
+      },
+      {
+        "name": "GetElm",
+        "local": "html/fd77ee67-7e09-e6d1-36a4-b9c386b67085.htm"
+      },
+      {
+        "name": "GetEndLengthOffset",
+        "local": "html/ba927c37-af96-df15-11ee-dbe8b7d8d34e.htm"
+      },
+      {
+        "name": "GetGroupAssign",
+        "local": "html/a0a2465c-f2b2-9075-e150-e623b1a8e3f4.htm"
+      },
+      {
+        "name": "GetGUID",
+        "local": "html/55b5a341-5eb8-d727-aadd-bec253ad7e70.htm"
+      },
+      {
+        "name": "GetHingeAssigns",
+        "local": "html/5a2e2cc0-4ed9-e1f6-2358-b6d3240a9aa9.htm"
+      },
+      {
+        "name": "GetHingeAssigns_1",
+        "local": "html/13fd3220-e18a-c450-f4a5-68f75998b377.htm"
+      },
+      {
+        "name": "GetInsertionPoint",
+        "local": "html/6bbd833f-cd74-3c4d-2c7f-c54ecb1bb777.htm"
+      },
+      {
+        "name": "GetInsertionPoint_1",
+        "local": "html/ea3cc193-4efa-195e-db7d-39ab7678fffb.htm"
+      },
+      {
+        "name": "GetLabelFromName",
+        "local": "html/608bd49c-1cfb-6938-fb69-c19066bdfbd9.htm"
+      },
+      {
+        "name": "GetLabelNameList",
+        "local": "html/85c0b04a-d109-30e9-9cca-b0447496b9da.htm"
+      },
+      {
+        "name": "GetLateralBracing",
+        "local": "html/201594c2-d7dc-1c7a-eeb0-9384bbd436b9.htm"
+      },
+      {
+        "name": "GetLoadDistributed",
+        "local": "html/ae1dfb21-316b-e0d1-1275-0a3f3dc3ffc0.htm"
+      },
+      {
+        "name": "GetLoadPoint",
+        "local": "html/08836c01-ded8-5cd1-3cef-aeee4f44f95c.htm"
+      },
+      {
+        "name": "GetLoadTemperature",
+        "local": "html/9bee990d-c746-39b0-78fa-9396456e4c79.htm"
+      },
+      {
+        "name": "GetLocalAxes",
+        "local": "html/3338bc10-65ff-f5ad-61aa-19a30ca7c7c4.htm"
+      },
+      {
+        "name": "GetMass",
+        "local": "html/d8f9fbcd-b6b6-72d6-ea44-67b39982fa1f.htm"
+      },
+      {
+        "name": "GetMaterialOverwrite",
+        "local": "html/b3cf4430-ab1b-e6d4-a4cd-f899bf73c09d.htm"
+      },
+      {
+        "name": "GetModifiers",
+        "local": "html/4bc14410-4440-14ef-9180-fab53a4d5fab.htm"
+      },
+      {
+        "name": "GetNameFromLabel",
+        "local": "html/fc739a78-2f22-815e-8943-a536fe93da9f.htm"
+      },
+      {
+        "name": "GetNameList",
+        "local": "html/482ba459-331d-af57-38a3-8daa75adbc6f.htm"
+      },
+      {
+        "name": "GetNameListOnStory",
+        "local": "html/1a1b6f93-9c48-3d24-6027-fbe536737f38.htm"
+      },
+      {
+        "name": "GetOutputStations",
+        "local": "html/069da23f-5f1c-fc1e-753b-bbd47f4f54c8.htm"
+      },
+      {
+        "name": "GetPier",
+        "local": "html/4ec142d7-b4e5-8315-883a-0f2a4b405e55.htm"
+      },
+      {
+        "name": "GetPoints",
+        "local": "html/71f957cb-61ed-208a-c949-e015256b9740.htm"
+      },
+      {
+        "name": "GetReleases",
+        "local": "html/01393a81-9115-f26b-1b84-3d0ed5d4fc58.htm"
+      },
+      {
+        "name": "GetSection",
+        "local": "html/7cf48cbc-b0c5-6b16-e870-72e7c1ca1696.htm"
+      },
+      {
+        "name": "GetSectionNonPrismatic",
+        "local": "html/5244f65d-d6c5-041e-493f-2e7f5abff934.htm"
+      },
+      {
+        "name": "GetSelected",
+        "local": "html/a87a683f-bce5-35c3-bfbd-ac2afce5f63a.htm"
+      },
+      {
+        "name": "GetSpandrel",
+        "local": "html/b11f1d10-af39-b47f-59e3-7e36e50afba2.htm"
+      },
+      {
+        "name": "GetSpringAssignment",
+        "local": "html/9372ff5b-a4df-0aea-e45d-790342c42b43.htm"
+      },
+      {
+        "name": "GetSupports",
+        "local": "html/9cc07fde-6573-b145-fe8c-97f23dbb367e.htm"
+      },
+      {
+        "name": "GetTCLimits",
+        "local": "html/83bd1a9e-7078-7a13-5d08-5d2f38bd3026.htm"
+      },
+      {
+        "name": "GetTransformationMatrix",
+        "local": "html/e9dfd3f8-f465-a021-c00d-477b5b5b8b21.htm"
+      },
+      {
+        "name": "GetTypeOAPI",
+        "local": "html/80a9c301-2caa-9775-a8cf-919d43758dad.htm"
+      },
+      {
+        "name": "SetColumnSpliceOverwrite",
+        "local": "html/a75b42c9-8db4-9b30-0fbd-41d46baf0e69.htm"
+      },
+      {
+        "name": "SetDesignProcedure",
+        "local": "html/c3201243-971c-7cc3-09d3-2b6ddf1b6155.htm"
+      },
+      {
+        "name": "SetEndLengthOffset",
+        "local": "html/eec8bc3c-8b73-4725-5474-14d1997530bb.htm"
+      },
+      {
+        "name": "SetGroupAssign",
+        "local": "html/d66d54c8-842e-43d6-90e8-f4f1df0e6594.htm"
+      },
+      {
+        "name": "SetGUID",
+        "local": "html/5ef94b0d-ea70-5578-e14a-e460287596a6.htm"
+      },
+      {
+        "name": "SetInsertionPoint",
+        "local": "html/abf4aceb-e140-3690-c2e6-873f90de84e9.htm"
+      },
+      {
+        "name": "SetInsertionPoint_1",
+        "local": "html/fe0b015f-272a-295a-867b-2c89fa8ccaea.htm"
+      },
+      {
+        "name": "SetLateralBracing",
+        "local": "html/48ee18d6-6ec9-81bd-488d-3c84cfcc760a.htm"
+      },
+      {
+        "name": "SetLoadDistributed",
+        "local": "html/e6e28d05-29f3-1226-1b0e-491b0bf906ae.htm"
+      },
+      {
+        "name": "SetLoadPoint",
+        "local": "html/f0dbf21b-5b5d-f531-8a4f-ef10e1cfb376.htm"
+      },
+      {
+        "name": "SetLoadTemperature",
+        "local": "html/9959cc60-e5b4-547c-3e2a-2d3e529a2c0a.htm"
+      },
+      {
+        "name": "SetLocalAxes",
+        "local": "html/b8fd2363-f38e-1340-e70b-15e1ec66acd4.htm"
+      },
+      {
+        "name": "SetMass",
+        "local": "html/16db02a7-c365-a197-e53a-9727da62cef9.htm"
+      },
+      {
+        "name": "SetMaterialOverwrite",
+        "local": "html/a7c6551e-c468-6758-c6c7-6b76c41f869b.htm"
+      },
+      {
+        "name": "SetModifiers",
+        "local": "html/c55999c5-c9b8-6099-7c78-f2e0979dc42c.htm"
+      },
+      {
+        "name": "SetOutputStations",
+        "local": "html/e7f9ee98-4afe-4daf-60fa-3bb0e66f2828.htm"
+      },
+      {
+        "name": "SetPier",
+        "local": "html/e8b226a3-97cc-20ca-7bd8-cf43db8c9127.htm"
+      },
+      {
+        "name": "SetReleases",
+        "local": "html/5009f251-6397-3103-92b4-e3e1fd9340ef.htm"
+      },
+      {
+        "name": "SetSection",
+        "local": "html/d042b38a-f190-44b7-bac6-9551891bc1d6.htm"
+      },
+      {
+        "name": "SetSelected",
+        "local": "html/d303a2e4-5dc8-c940-1e22-089800ad2c40.htm"
+      },
+      {
+        "name": "SetSpandrel",
+        "local": "html/f7ef511d-437a-a838-60fc-fa16435cb83d.htm"
+      },
+      {
+        "name": "SetSpringAssignment",
+        "local": "html/c843336d-b872-b03f-bc22-e8f10164bc6a.htm"
+      },
+      {
+        "name": "SetTCLimits",
+        "local": "html/c8924f62-7985-c2fc-5077-267cd3f70a7a.htm"
+      }
+    ],
+    "local": "html/d5342667-2977-9fdc-9769-e4e2becc0803.htm"
+  },
+  "cFunction": {
+    "properties": [
+      {
+        "name": "FuncRS",
+        "local": "html/f0fa74b7-8098-b290-e365-8b85f8904db6.htm"
+      },
+      {
+        "name": "FuncTH",
+        "local": "html/3a832d23-1e96-eb62-c07e-8f1a93f33bc1.htm"
+      }
+    ],
+    "methods": [
+      {
+        "name": "ChangeName",
+        "local": "html/fb21bd35-f80a-0f2a-6aa9-f43e01d62a84.htm"
+      },
+      {
+        "name": "ConvertToUser",
+        "local": "html/baf8e079-8703-3d29-1ee0-876f40471497.htm"
+      },
+      {
+        "name": "Count",
+        "local": "html/716e9af1-7257-f17a-f466-5890aa89d7fa.htm"
+      },
+      {
+        "name": "Delete",
+        "local": "html/c82cc429-6370-d981-e1e4-676191286cc0.htm"
+      },
+      {
+        "name": "GetNameList",
+        "local": "html/703777bb-c1c0-441a-70b5-92ef3adea25b.htm"
+      },
+      {
+        "name": "GetTypeOAPI",
+        "local": "html/f057937e-ac6d-8955-6c64-51cdfe673163.htm"
+      },
+      {
+        "name": "GetValues",
+        "local": "html/924bdb92-82ce-62d6-e988-9ee5e4479a5f.htm"
+      }
+    ],
+    "local": "html/c8ba95ec-019c-40b4-b441-707805997216.htm"
+  },
+  "cFunctionRS": {
+    "properties": [],
+    "methods": [
+      {
+        "name": "GetNTC2008",
+        "local": "html/976e9f97-5d3b-281b-e7d3-b8ccb3dce297.htm"
+      },
+      {
+        "name": "GetNTC2018",
+        "local": "html/941c499c-4f09-f264-6c94-eea0bdcba879.htm"
+      },
+      {
+        "name": "SetNTC2008",
+        "local": "html/1f6e7d53-33a8-f1ce-44e3-495ac72cdbaf.htm"
+      },
+      {
+        "name": "SetNTC2018",
+        "local": "html/3127edf4-54d3-0e5a-9c61-c0204aee20e4.htm"
+      }
+    ],
+    "local": "html/9b423d88-7e6a-4037-2460-c4f2fee04920.htm"
+  },
+  "cGenDispl": {
+    "properties": [],
+    "methods": [
+      {
+        "name": "Add",
+        "local": "html/92dd3554-eff1-a2aa-4ae8-a63737569eec.htm"
+      },
+      {
+        "name": "ChangeName",
+        "local": "html/79468646-9639-6713-dc4e-ec84b458dfc3.htm"
+      },
+      {
+        "name": "Count",
+        "local": "html/b9f6dfc7-c341-3d1b-05f0-c02579f58bec.htm"
+      },
+      {
+        "name": "CountPoint",
+        "local": "html/56ea3c9c-13f0-65ad-6351-6e713dd8a28e.htm"
+      },
+      {
+        "name": "Delete",
+        "local": "html/6605b175-c3e2-0283-3774-2cd73aa78716.htm"
+      },
+      {
+        "name": "DeletePoint",
+        "local": "html/15251809-e5ff-7571-93b5-55eb5956cfd2.htm"
+      },
+      {
+        "name": "GetNameList",
+        "local": "html/0d1d6c81-ae4d-18b6-4821-a1af8f7fd5f0.htm"
+      },
+      {
+        "name": "GetPoint",
+        "local": "html/2a762558-f4c8-2e47-0ce5-e304dff7c5a7.htm"
+      },
+      {
+        "name": "GetTypeGenDispl",
+        "local": "html/06e55051-6ecd-27b7-8dc5-629fcd79ec1e.htm"
+      },
+      {
+        "name": "GetTypeOAPI",
+        "local": "html/8021e7bf-a767-5984-29b8-af5b4616728d.htm"
+      },
+      {
+        "name": "SetPoint",
+        "local": "html/cc16dcdc-d533-ea12-3233-7ece1c46cd72.htm"
+      },
+      {
+        "name": "SetType",
+        "local": "html/9fcc1851-d289-c8c2-413a-06af1d111a3b.htm"
+      },
+      {
+        "name": "SetTypeOAPI",
+        "local": "html/b8bad32c-25a5-b09a-0b30-139e61d9340c.htm"
+      }
+    ],
+    "local": "html/541befdd-2dbf-513b-3089-7c9eb64aae57.htm"
+  },
+  "cGridSys": {
+    "properties": [],
+    "methods": [
+      {
+        "name": "ChangeName",
+        "local": "html/bd2dbe19-6071-1e4f-8437-d73d0436c251.htm"
+      },
+      {
+        "name": "Count",
+        "local": "html/82b9926e-7dd9-5309-721c-30ad00539126.htm"
+      },
+      {
+        "name": "Delete",
+        "local": "html/f74f02c7-3759-3fee-7e34-94643f95d19b.htm"
+      },
+      {
+        "name": "GetGridSys",
+        "local": "html/3a40267c-5b14-0022-1aec-d791672ab99b.htm"
+      },
+      {
+        "name": "GetGridSys_2",
+        "local": "html/8958632f-db81-7d40-4385-755a5544206c.htm"
+      },
+      {
+        "name": "GetGridSysCartesian",
+        "local": "html/1d2abeca-7d14-c406-96cb-08b768514de3.htm"
+      },
+      {
+        "name": "GetGridSysCylindrical",
+        "local": "html/22790777-5400-bbe5-b1e3-5991b4b686e7.htm"
+      },
+      {
+        "name": "GetGridSysType",
+        "local": "html/eeb4b1e0-a65e-745b-9021-b5d9e0e39793.htm"
+      },
+      {
+        "name": "GetNameList",
+        "local": "html/60a76b3c-c63e-b778-227c-6370b02c05ef.htm"
+      },
+      {
+        "name": "GetNameTypeList",
+        "local": "html/b6953f6c-f305-27b8-da7f-c480ae063d74.htm"
+      },
+      {
+        "name": "GetTransformationMatrix",
+        "local": "html/d0447ee6-9449-0ec8-f665-f288812e0358.htm"
+      },
+      {
+        "name": "SetGridSys",
+        "local": "html/79f061c7-7a3e-300c-ee51-0168576efee3.htm"
+      }
+    ],
+    "local": "html/6d75f8ee-f454-9cd6-fa12-e524bf7df3c6.htm"
+  },
+  "cGroup": {
+    "properties": [],
+    "methods": [
+      {
+        "name": "Count",
+        "local": "html/37653237-eb24-d0df-a762-704ff82ab5ea.htm"
+      },
+      {
+        "name": "Delete",
+        "local": "html/a8597ec6-eb79-107f-56c3-d5e11afa1abb.htm"
+      },
+      {
+        "name": "GetAssignments",
+        "local": "html/46332b67-6847-c2b4-08b9-f85c842dd457.htm"
+      },
+      {
+        "name": "GetGroup",
+        "local": "html/4584f0f7-41a3-3b56-14b5-441c96d85c8a.htm"
+      },
+      {
+        "name": "GetGroup_1",
+        "local": "html/3a10fba5-4125-70c9-8853-ddbb7481ac36.htm"
+      },
+      {
+        "name": "GetNameList",
+        "local": "html/997aebf5-558a-0a26-61fe-389f15db2423.htm"
+      },
+      {
+        "name": "SetGroup",
+        "local": "html/10f2526c-31ea-2d02-bb42-8381b726af46.htm"
+      },
+      {
+        "name": "SetGroup_1",
+        "local": "html/6ecdb482-189b-1459-5b63-045b31bdcfde.htm"
+      }
+    ],
+    "local": "html/d823d73d-c8bb-2034-2e47-d78ed6992ad2.htm"
+  },
+  "cHelper": {
+    "properties": [],
+    "methods": [
+      {
+        "name": "CreateObject",
+        "local": "html/e070ca06-d6bc-bf74-d391-416766761e9a.htm"
+      },
+      {
+        "name": "CreateObjectHost",
+        "local": "html/1b10eea6-a7b3-2b2c-c681-baa0628a4f87.htm"
+      },
+      {
+        "name": "CreateObjectHostPort",
+        "local": "html/e30dde53-2b14-6b75-8ed2-fb2d579a49c1.htm"
+      },
+      {
+        "name": "CreateObjectProgID",
+        "local": "html/3f1a3df2-006a-723d-f97c-4fd19fd4fa03.htm"
+      },
+      {
+        "name": "CreateObjectProgIDHost",
+        "local": "html/75cdcae5-8097-eaee-a73b-8b6b158752c2.htm"
+      },
+      {
+        "name": "CreateObjectProgIDHostPort",
+        "local": "html/24fcc3b7-9a73-878b-6ce6-4ba508713180.htm"
+      },
+      {
+        "name": "GetOAPIVersionNumber",
+        "local": "html/d28f3634-a3f5-f333-0f77-748e390c4742.htm"
+      },
+      {
+        "name": "GetObject",
+        "local": "html/10421d6a-9180-f71a-b493-a7e7785053f1.htm"
+      },
+      {
+        "name": "GetObjectHost",
+        "local": "html/ff5862e3-3c50-9da4-0dbf-1f77fc0a0ed0.htm"
+      },
+      {
+        "name": "GetObjectHostPort",
+        "local": "html/863ace0a-b354-31fa-c5d8-cbc33c8c3a49.htm"
+      },
+      {
+        "name": "GetObjectProcess",
+        "local": "html/60e11852-5a41-2d7a-6024-26454b13c491.htm"
+      }
+    ],
+    "local": "html/26c23d4c-221d-7bb7-4ae5-e9d97657cdcf.htm"
+  },
+  "cLineElm": {
+    "properties": [],
+    "methods": [
+      {
+        "name": "Count",
+        "local": "html/2d2fbebf-94aa-a51c-0ea9-920cf0b93ca0.htm"
+      },
+      {
+        "name": "GetEndLengthOffset",
+        "local": "html/49a7ad90-3353-34cf-7d0d-df0ab908509f.htm"
+      },
+      {
+        "name": "GetInsertionPoint",
+        "local": "html/e04f4a74-cfbe-9723-18c7-5a09588f23f1.htm"
+      },
+      {
+        "name": "GetLoadDistributed",
+        "local": "html/1c7083f5-1ee9-8afa-94cc-83d460d4ce69.htm"
+      },
+      {
+        "name": "GetLoadPoint",
+        "local": "html/bd7b4a6b-9558-4e10-25ee-b3810930461e.htm"
+      },
+      {
+        "name": "GetLoadTemperature",
+        "local": "html/4bb8979e-62ac-4dea-7e5e-67dde717343b.htm"
+      },
+      {
+        "name": "GetLocalAxes",
+        "local": "html/4f7bf06e-2f13-6a5a-cfb8-f44b2061b6a5.htm"
+      },
+      {
+        "name": "GetMaterialOverwrite",
+        "local": "html/ca7b28a8-a970-1818-ffba-2e2852cd906e.htm"
+      },
+      {
+        "name": "GetModifiers",
+        "local": "html/cd4db075-f781-65ee-574d-2ec78d8896f4.htm"
+      },
+      {
+        "name": "GetNameList",
+        "local": "html/68b86670-7f9c-458e-b30d-839751e4c0ec.htm"
+      },
+      {
+        "name": "GetObj",
+        "local": "html/e27b5a52-aba5-ac74-aea9-a6da6fd24915.htm"
+      },
+      {
+        "name": "GetPoints",
+        "local": "html/da152579-a123-9ae8-8b27-713a900b31a2.htm"
+      },
+      {
+        "name": "GetProperty",
+        "local": "html/c872c30a-9578-f570-df1e-361ca935b912.htm"
+      },
+      {
+        "name": "GetReleases",
+        "local": "html/7415f976-2dda-4db4-bd79-3fa7255b8c47.htm"
+      },
+      {
+        "name": "GetTCLimits",
+        "local": "html/a35adb4d-848b-e7c2-257e-5ea266b8efe8.htm"
+      },
+      {
+        "name": "GetTransformationMatrix",
+        "local": "html/fbcded66-569f-cb0a-9f46-44c29313416b.htm"
+      }
+    ],
+    "local": "html/12845e9d-b6df-04f3-44cf-7b26f167b1fb.htm"
+  },
+  "cLinkObj": {
+    "properties": [],
+    "methods": [
+      {
+        "name": "AddByCoord",
+        "local": "html/c8b59a36-c265-790e-7038-285f2fda5869.htm"
+      },
+      {
+        "name": "AddByPoint",
+        "local": "html/9562a7dd-5c4c-c622-3087-566f74497f54.htm"
+      },
+      {
+        "name": "ChangeName",
+        "local": "html/4d806a79-0108-e55f-fd83-b9e45d6aa528.htm"
+      },
+      {
+        "name": "Count",
+        "local": "html/877998d3-f8c1-2cf8-53d2-167cd6604cc5.htm"
+      },
+      {
+        "name": "Delete",
+        "local": "html/79f42349-0252-7b19-35af-9dd89f12798b.htm"
+      },
+      {
+        "name": "GetElm",
+        "local": "html/2f1487a6-bc7e-fd58-6719-1e914279e306.htm"
+      },
+      {
+        "name": "GetGroupAssign",
+        "local": "html/19cd8c94-9d18-bd62-2510-8ef3e6173d00.htm"
+      },
+      {
+        "name": "GetGUID",
+        "local": "html/9953934b-71b9-7da2-bcab-94fd1183f870.htm"
+      },
+      {
+        "name": "GetLocalAxes",
+        "local": "html/fb86d51b-9862-c4ba-683d-6245d88108a2.htm"
+      },
+      {
+        "name": "GetLocalAxesAdvanced",
+        "local": "html/08d8aeac-4558-33dc-b65a-6817bfcc8459.htm"
+      },
+      {
+        "name": "GetNameList",
+        "local": "html/729a9284-69d0-1409-5433-dd87d00e12cc.htm"
+      },
+      {
+        "name": "GetNameListOnStory",
+        "local": "html/172171ea-2f8f-2578-a16d-35c00faf1447.htm"
+      },
+      {
+        "name": "GetPoints",
+        "local": "html/8afa90a9-fd9b-337b-afaf-8800debdc3dc.htm"
+      },
+      {
+        "name": "GetProperty",
+        "local": "html/ee3b733b-2b54-5ce4-54da-63d8702f4ebd.htm"
+      },
+      {
+        "name": "GetSelected",
+        "local": "html/de54765d-67be-9ea5-0fd3-3b0ffdcd0896.htm"
+      },
+      {
+        "name": "GetTransformationMatrix",
+        "local": "html/ab496301-f4fe-d09c-eae8-77bf4824ca59.htm"
+      },
+      {
+        "name": "SetGroupAssign",
+        "local": "html/21af9b4f-df72-ed0b-0cae-1d7e8390a874.htm"
+      },
+      {
+        "name": "SetGUID",
+        "local": "html/e7a54a43-9492-146e-b853-b250bf051387.htm"
+      },
+      {
+        "name": "SetLocalAxes",
+        "local": "html/4d601d10-1f08-919e-93ed-4272700da7e9.htm"
+      },
+      {
+        "name": "SetLocalAxesAdvanced",
+        "local": "html/48c40de0-07c2-7168-008a-cc7328950d5d.htm"
+      },
+      {
+        "name": "SetProperty",
+        "local": "html/161344c6-dd1b-6cc7-84c0-ce9611e14bd6.htm"
+      },
+      {
+        "name": "SetSelected",
+        "local": "html/72bb4350-4d31-1c27-bee1-5775046c8c5b.htm"
+      }
+    ],
+    "local": "html/de8a4ec7-1e74-f9b5-385e-f8c0db74b8f6.htm"
+  },
+  "cLoadCases": {
+    "properties": [
+      {
+        "name": "Buckling",
+        "local": "html/c8375a0a-a3b0-025f-5617-c959c6fc01a6.htm"
+      },
+      {
+        "name": "DirHistLinear",
+        "local": "html/4176962a-75ae-41f9-becd-242bd5974721.htm"
+      },
+      {
+        "name": "DirHistNonlinear",
+        "local": "html/8710419f-d542-9e3f-886f-04292810722e.htm"
+      },
+      {
+        "name": "HyperStatic",
+        "local": "html/ce4f4b0f-c0be-d9ce-3e9f-0423ef47bd42.htm"
+      },
+      {
+        "name": "ModalEigen",
+        "local": "html/0daa9580-4ec8-cecb-2203-28c7a3aeaf20.htm"
+      },
+      {
+        "name": "ModalRitz",
+        "local": "html/4270c6f6-b5f1-bb47-ba27-260015fc5f69.htm"
+      },
+      {
+        "name": "ModHistLinear",
+        "local": "html/7e40d2e0-b242-044f-58ac-16c92634de1c.htm"
+      },
+      {
+        "name": "ModHistNonlinear",
+        "local": "html/fb08ec26-d825-79ba-13dd-5aeb3e93aaba.htm"
+      },
+      {
+        "name": "ResponseSpectrum",
+        "local": "html/bd0aaa6c-bd7c-7dbb-7bac-a1195f4d7d19.htm"
+      },
+      {
+        "name": "StaticLinear",
+        "local": "html/cded33a9-df81-f682-cd1b-cb37d1c651b8.htm"
+      },
+      {
+        "name": "StaticNonlinear",
+        "local": "html/32b68761-b0b6-d62e-8bb4-752668b99205.htm"
+      },
+      {
+        "name": "StaticNonlinearStaged",
+        "local": "html/e6479551-4cac-9126-0bec-4fcbef8442f5.htm"
+      }
+    ],
+    "methods": [
+      {
+        "name": "ChangeName",
+        "local": "html/e15587b3-81b8-3e8f-8043-e0a5ffca416b.htm"
+      },
+      {
+        "name": "Count",
+        "local": "html/6e9269df-229c-3b20-8e2d-084f552be35f.htm"
+      },
+      {
+        "name": "Delete",
+        "local": "html/89e44d83-4657-f863-74f3-6c3e4ea94dd9.htm"
+      },
+      {
+        "name": "GetNameList",
+        "local": "html/f789cc86-9401-b46a-8605-49955a5d1364.htm"
+      },
+      {
+        "name": "GetTypeOAPI",
+        "local": "html/1445e191-7329-56c5-df63-a02dd7446af6.htm"
+      },
+      {
+        "name": "GetTypeOAPI_1",
+        "local": "html/67710cae-690c-7c38-d808-9cb3ac7cc203.htm"
+      },
+      {
+        "name": "SetDesignType",
+        "local": "html/8deb86a5-c0c8-ad01-53fd-d9678629f47d.htm"
+      }
+    ],
+    "local": "html/5af09358-fbf5-20ff-4d6c-6ebe67a3f1e4.htm"
+  },
+  "cLoadPatterns": {
+    "properties": [
+      {
+        "name": "AutoSeismic",
+        "local": "html/53c55a62-0c91-d325-46ce-5a402d7f5d4b.htm"
+      },
+      {
+        "name": "AutoWind",
+        "local": "html/5a8c7a36-6f0a-3c65-6400-ea4bdb29042d.htm"
+      }
+    ],
+    "methods": [
+      {
+        "name": "Add",
+        "local": "html/77af4274-5e74-fe67-0c4f-28968e4f65ca.htm"
+      },
+      {
+        "name": "ChangeName",
+        "local": "html/9a97c375-2ae9-c189-0b89-1b592d87f7e3.htm"
+      },
+      {
+        "name": "Count",
+        "local": "html/67b425a3-3631-390f-c5a3-257610d08445.htm"
+      },
+      {
+        "name": "Delete",
+        "local": "html/a48c37d6-208f-053d-2ed7-03f20e277d0b.htm"
+      },
+      {
+        "name": "GetAutoSeismicCode",
+        "local": "html/fd228654-adaf-a83a-82b0-26a4600799b1.htm"
+      },
+      {
+        "name": "GetAutoWindCode",
+        "local": "html/c31281c0-5c50-e4dc-9fcb-d8be1a3e9537.htm"
+      },
+      {
+        "name": "GetLoadType",
+        "local": "html/ba43780c-0c05-95e8-f170-fb10d7282d4e.htm"
+      },
+      {
+        "name": "GetNameList",
+        "local": "html/cd621b43-0e95-c6e5-6dc2-1c864eee52d7.htm"
+      },
+      {
+        "name": "GetSelfWTMultiplier",
+        "local": "html/58471acb-5fbb-f400-f07b-10337bebe5b8.htm"
+      },
+      {
+        "name": "SetLoadType",
+        "local": "html/7263ba2d-ad80-e1ef-5205-58ce9b9f878e.htm"
+      },
+      {
+        "name": "SetSelfWTMultiplier",
+        "local": "html/7d113664-3578-7182-06bd-613e377d5fa9.htm"
+      }
+    ],
+    "local": "html/dcd8ed1c-7819-2e9f-f5d8-70b95b81a3fe.htm"
+  },
+  "cOAPI": {
+    "properties": [
+      {
+        "name": "SapModel",
+        "local": "html/0678efc1-0c31-031e-e9ce-c0469a592a5a.htm"
+      }
+    ],
+    "methods": [
+      {
+        "name": "ApplicationExit",
+        "local": "html/ea9a9153-34ff-9cb7-c97e-ae603176fa35.htm"
+      },
+      {
+        "name": "ApplicationStart",
+        "local": "html/9780b1c4-791b-07a8-c329-970707104d91.htm"
+      },
+      {
+        "name": "GetOAPIVersionNumber",
+        "local": "html/cb755485-8207-1604-53b1-6b9b9d09f29b.htm"
+      },
+      {
+        "name": "Hide",
+        "local": "html/92afc559-4732-874d-e01d-80d8fa61df0b.htm"
+      },
+      {
+        "name": "InternalExec",
+        "local": "html/99d4552c-3097-bbb8-8ab7-b0a6b45ad639.htm"
+      },
+      {
+        "name": "SetAsActiveObject",
+        "local": "html/c2323686-dae4-960d-0d8a-5523dabc5ca3.htm"
+      },
+      {
+        "name": "Unhide",
+        "local": "html/26f2455b-1c02-47ec-26a9-45dd748b4d4d.htm"
+      },
+      {
+        "name": "UnsetAsActiveObject",
+        "local": "html/77953121-18fa-9b6a-bdd4-ba8a3da4fa4e.htm"
+      },
+      {
+        "name": "Visible",
+        "local": "html/ab0649bd-8275-c97d-b260-340ac255aedb.htm"
+      }
+    ],
+    "local": "html/85e13e9c-4b05-a5ed-4bfe-08903fdb79e1.htm"
+  },
+  "cOptions": {
+    "properties": [],
+    "methods": [
+      {
+        "name": "GetDefaultFunctionFolder",
+        "local": "html/b3779d8d-45c5-69f6-306e-b1467292a8e6.htm"
+      },
+      {
+        "name": "SetDefaultFunctionFolder",
+        "local": "html/5f3a574c-d3d3-a5f7-4267-12a5e7387c08.htm"
+      }
+    ],
+    "local": "html/8dae822c-cf70-60e3-8306-880ffdad9819.htm"
+  },
+  "cPierLabel": {
+    "properties": [],
+    "methods": [
+      {
+        "name": "ChangeName",
+        "local": "html/3399e9e3-10a5-f0df-9976-3fe3f5699d3d.htm"
+      },
+      {
+        "name": "Delete",
+        "local": "html/190cbfe9-7493-b675-0afc-6d9cb4ad313a.htm"
+      },
+      {
+        "name": "GetNameList",
+        "local": "html/d274ae33-8267-cfab-9168-197eedcb8bea.htm"
+      },
+      {
+        "name": "GetPier",
+        "local": "html/b20e5220-c96e-3f4e-f1fd-9ca951e43633.htm"
+      },
+      {
+        "name": "GetSectionProperties",
+        "local": "html/afe72798-64ed-792b-6afd-924cf55ed31e.htm"
+      },
+      {
+        "name": "SetPier",
+        "local": "html/ea493609-b20d-b189-b580-c048f0e36756.htm"
+      }
+    ],
+    "local": "html/478b791d-9607-9f60-d842-286490005236.htm"
+  },
+  "cPluginCallback": {
+    "properties": [
+      {
+        "name": "ErrorFlag",
+        "local": "html/fd420db0-bf90-3193-9726-a24a133dfcdf.htm"
+      },
+      {
+        "name": "Finished",
+        "local": "html/d3de9875-a7f5-506e-b8a9-d751fa32c411.htm"
+      }
+    ],
+    "methods": [
+      {
+        "name": "Finish",
+        "local": "html/44a6a04e-e6c6-41fe-6c78-d2a43c7607f4.htm"
+      }
+    ],
+    "local": "html/1cc5a33a-c4aa-da01-b5a4-b465828ffe46.htm"
+  },
+  "cPluginContract": {
+    "properties": [],
+    "methods": [
+      {
+        "name": "Info",
+        "local": "html/30ad9c37-0a83-1bbd-4268-bcd7fa9100de.htm"
+      },
+      {
+        "name": "Main",
+        "local": "html/7edd214e-bd87-f405-ecfc-1d4601406b51.htm"
+      }
+    ],
+    "local": "html/00bbfbfd-a28a-8eaf-1de4-b62f19de9fc5.htm"
+  },
+  "cPointElm": {
+    "properties": [],
+    "methods": [
+      {
+        "name": "Count",
+        "local": "html/c28142af-bfa2-1f33-9947-982b82f6ef42.htm"
+      },
+      {
+        "name": "CountConstraint",
+        "local": "html/1337abd9-a034-77f9-2ddd-4d9fdc5502fc.htm"
+      },
+      {
+        "name": "CountLoadDispl",
+        "local": "html/572e6a69-20c3-f952-7d9e-651e841b1597.htm"
+      },
+      {
+        "name": "CountLoadForce",
+        "local": "html/522b9b02-fd18-6261-4846-e736e6a66950.htm"
+      },
+      {
+        "name": "CountRestraint",
+        "local": "html/9d2c8738-3006-41b8-ce1c-1e753f8a8ebe.htm"
+      },
+      {
+        "name": "CountSpring",
+        "local": "html/97201e96-f134-383a-a172-6840cf6c3cec.htm"
+      },
+      {
+        "name": "GetConnectivity",
+        "local": "html/60448f5f-9fb0-218d-e3a0-ffbf782a55e5.htm"
+      },
+      {
+        "name": "GetConstraint",
+        "local": "html/8456159b-135c-e619-0d46-5a613565d9e1.htm"
+      },
+      {
+        "name": "GetCoordCartesian",
+        "local": "html/3cc45751-71ab-ea0c-798e-24aaf225c3f7.htm"
+      },
+      {
+        "name": "GetLoadDispl",
+        "local": "html/39bbbf88-1f91-2ac0-1ad9-9724fbab195d.htm"
+      },
+      {
+        "name": "GetLoadForce",
+        "local": "html/54c7a1d2-74d7-2d6d-ebc2-635e158a56bd.htm"
+      },
+      {
+        "name": "GetLocalAxes",
+        "local": "html/8045c850-452e-41b6-d29f-b1ccefd0ecc8.htm"
+      },
+      {
+        "name": "GetNameList",
+        "local": "html/c2d1272f-48e4-94e0-38be-6b2b381efd96.htm"
+      },
+      {
+        "name": "GetObj",
+        "local": "html/e9393304-7413-1ff3-ebb6-eb9201678941.htm"
+      },
+      {
+        "name": "GetPatternValue",
+        "local": "html/81253f8c-e833-ce35-9c0b-a395504af4c7.htm"
+      },
+      {
+        "name": "GetRestraint",
+        "local": "html/32ad35ed-d3f4-6ae2-108a-554f53dbd0e2.htm"
+      },
+      {
+        "name": "GetSpring",
+        "local": "html/53f4edb6-d8c9-07cc-1dea-d4655a780f14.htm"
+      },
+      {
+        "name": "GetSpringCoupled",
+        "local": "html/00034377-0582-a681-dc8c-81cf6e8fdcb6.htm"
+      },
+      {
+        "name": "GetTransformationMatrix",
+        "local": "html/b554fd1d-e23b-a386-a610-18ad079c1419.htm"
+      },
+      {
+        "name": "IsSpringCoupled",
+        "local": "html/d3047691-9672-98a0-e0d9-741d1203afb6.htm"
+      }
+    ],
+    "local": "html/bda576bc-89c2-e0ab-1a2b-f0690e9ae4ae.htm"
+  },
+  "cPointObj": {
+    "properties": [],
+    "methods": [
+      {
+        "name": "AddCartesian",
+        "local": "html/1cbd2c0c-8468-4eb1-7d48-6d635a523dbb.htm"
+      },
+      {
+        "name": "ChangeName",
+        "local": "html/631b1211-bb93-57a0-5573-e1530af66785.htm"
+      },
+      {
+        "name": "Count",
+        "local": "html/7c3a98f0-bc8c-8dfe-a73f-7f5214af8e75.htm"
+      },
+      {
+        "name": "CountLoadDispl",
+        "local": "html/2c0170a1-2127-f32b-133e-0a170f3c2636.htm"
+      },
+      {
+        "name": "CountLoadForce",
+        "local": "html/db6d5c6d-4cbe-70c6-a45f-af3537a5f7ca.htm"
+      },
+      {
+        "name": "CountPanelZone",
+        "local": "html/ba33252c-6ff0-0ccf-0099-da699403127f.htm"
+      },
+      {
+        "name": "CountRestraint",
+        "local": "html/df2650a3-966b-5dea-342c-8409cb41c086.htm"
+      },
+      {
+        "name": "CountSpring",
+        "local": "html/2a97f851-333f-bfbe-0340-769970600308.htm"
+      },
+      {
+        "name": "DeleteLoadDispl",
+        "local": "html/e98bc4eb-e665-d563-da3c-b6993532c2a7.htm"
+      },
+      {
+        "name": "DeleteLoadForce",
+        "local": "html/f3b8f6cc-5772-575f-f1c8-e6b95d867ed4.htm"
+      },
+      {
+        "name": "DeleteMass",
+        "local": "html/3cc0a471-6c2a-d4f7-9206-3f300ec48ef8.htm"
+      },
+      {
+        "name": "DeletePanelZone",
+        "local": "html/a8b6dd81-c4a2-47a8-c547-08c41a5cd09d.htm"
+      },
+      {
+        "name": "DeleteRestraint",
+        "local": "html/5ed6e21a-e24f-4c2e-7dc8-28d6f70a2f85.htm"
+      },
+      {
+        "name": "DeleteSpecialPoint",
+        "local": "html/f53fbdd2-a713-d726-f293-197d5c9f4697.htm"
+      },
+      {
+        "name": "DeleteSpring",
+        "local": "html/d7310c51-1ef2-90d7-2f1a-7c00d2c44b9b.htm"
+      },
+      {
+        "name": "GetAllPoints",
+        "local": "html/bc7e2258-e747-a623-86bd-adb193e86cd8.htm"
+      },
+      {
+        "name": "GetCommonTo",
+        "local": "html/825ac5d9-a64c-6d19-e0cc-3778bb881be7.htm"
+      },
+      {
+        "name": "GetConnectivity",
+        "local": "html/c0bdc330-7384-b4e0-ea45-a269d2e1e6a8.htm"
+      },
+      {
+        "name": "GetCoordCartesian",
+        "local": "html/b0b9bcdc-9d1c-0f0e-c0c1-b3d457335cb2.htm"
+      },
+      {
+        "name": "GetCoordCylindrical",
+        "local": "html/414ec971-fd32-6ca2-3847-e02474480bad.htm"
+      },
+      {
+        "name": "GetCoordSpherical",
+        "local": "html/67ea35ff-1992-7ecb-3a1e-96fa4dca4b8f.htm"
+      },
+      {
+        "name": "GetDiaphragm",
+        "local": "html/d6b324b0-a548-391a-859d-8b7660f3b8e9.htm"
+      },
+      {
+        "name": "GetElm",
+        "local": "html/6710e3b0-201e-90f5-79f6-ab398fa80063.htm"
+      },
+      {
+        "name": "GetGroupAssign",
+        "local": "html/5983fe42-67e2-3e8b-c5fa-4752082683f6.htm"
+      },
+      {
+        "name": "GetGUID",
+        "local": "html/136af4ab-1c6a-271e-998c-0568c452e061.htm"
+      },
+      {
+        "name": "GetLabelFromName",
+        "local": "html/90a09dcc-b4a0-5d91-d6da-714e57f968f6.htm"
+      },
+      {
+        "name": "GetLabelNameList",
+        "local": "html/cca52f90-0be4-9c4d-5081-f9a2e3438b05.htm"
+      },
+      {
+        "name": "GetLoadDispl",
+        "local": "html/5ecf3436-82ba-c701-d502-9ee0ddbd87cd.htm"
+      },
+      {
+        "name": "GetLoadForce",
+        "local": "html/c40b741a-c797-d11e-2822-6e5d156f5505.htm"
+      },
+      {
+        "name": "GetLocalAxes",
+        "local": "html/8d304afa-70e4-372e-0dc9-32ca8c8e5ea3.htm"
+      },
+      {
+        "name": "GetMass",
+        "local": "html/51eb544b-f781-2c45-62d5-2c629e91d05b.htm"
+      },
+      {
+        "name": "GetNameFromLabel",
+        "local": "html/87beb3b4-c01d-9417-c73e-f74aa874f67d.htm"
+      },
+      {
+        "name": "GetNameList",
+        "local": "html/04be0fd6-7714-d97f-96f6-fc6b6633ef9f.htm"
+      },
+      {
+        "name": "GetNameListOnStory",
+        "local": "html/a82d61fa-3ba0-2a68-8d72-ed56b7f62333.htm"
+      },
+      {
+        "name": "GetPanelZone",
+        "local": "html/1238680a-52d0-0fed-545f-ba16a96e1a8e.htm"
+      },
+      {
+        "name": "GetRestraint",
+        "local": "html/cabb094a-5766-a523-86cd-155dbdd57250.htm"
+      },
+      {
+        "name": "GetSelected",
+        "local": "html/366b31a3-87da-6a2b-6a54-e01ff8d75c09.htm"
+      },
+      {
+        "name": "GetSpecialPoint",
+        "local": "html/91f7d417-3362-12ba-a158-474c51f57ee7.htm"
+      },
+      {
+        "name": "GetSpring",
+        "local": "html/001c55da-41a5-a188-8af9-15c260f79748.htm"
+      },
+      {
+        "name": "GetSpringAssignment",
+        "local": "html/bbb02195-8e04-f369-e5bb-7cd33e54f923.htm"
+      },
+      {
+        "name": "GetSpringCoupled",
+        "local": "html/2bca72e5-dda3-be20-2b7a-db3033b0b728.htm"
+      },
+      {
+        "name": "GetTransformationMatrix",
+        "local": "html/bb49833f-a5d9-0bd0-3108-3976f0cc7ff3.htm"
+      },
+      {
+        "name": "IsSpringCoupled",
+        "local": "html/e16a5e55-6520-2c91-24d3-7a81241d4645.htm"
+      },
+      {
+        "name": "SetDiaphragm",
+        "local": "html/e9767ddd-290f-68bb-0127-51f5de3b3696.htm"
+      },
+      {
+        "name": "SetGroupAssign",
+        "local": "html/154a1e16-c48e-ce3d-b449-1b39e66e4dcc.htm"
+      },
+      {
+        "name": "SetGUID",
+        "local": "html/66ee53f8-de5b-1eee-7830-ce9d1bc08ff3.htm"
+      },
+      {
+        "name": "SetLoadDispl",
+        "local": "html/09224328-81c8-04b8-df73-b1e3315349b4.htm"
+      },
+      {
+        "name": "SetLoadForce",
+        "local": "html/ec92cef7-0528-4ff8-9285-f7c1903a98a4.htm"
+      },
+      {
+        "name": "SetMass",
+        "local": "html/1165ed64-348b-7606-f998-b0a7133e9514.htm"
+      },
+      {
+        "name": "SetMassByVolume",
+        "local": "html/9e482908-e220-469d-b762-1b86365d3b10.htm"
+      },
+      {
+        "name": "SetMassByWeight",
+        "local": "html/d3c9badc-0aae-f9f9-f343-12e9bdba98fe.htm"
+      },
+      {
+        "name": "SetPanelZone",
+        "local": "html/e247ceaa-50b9-3c2a-a918-510f5999e32c.htm"
+      },
+      {
+        "name": "SetRestraint",
+        "local": "html/8edff982-2e22-b301-9e2a-0a84f0d7087f.htm"
+      },
+      {
+        "name": "SetSelected",
+        "local": "html/c861222d-4285-35b9-cfaa-0c81b9f42e59.htm"
+      },
+      {
+        "name": "SetSpecialPoint",
+        "local": "html/c7ba17eb-f9e2-decb-2b62-796434ea246d.htm"
+      },
+      {
+        "name": "SetSpring",
+        "local": "html/4e2e460b-a9f4-0b40-169c-45c363772444.htm"
+      },
+      {
+        "name": "SetSpringAssignment",
+        "local": "html/634a204c-af04-bc39-1e90-75ffc7a8d4ef.htm"
+      },
+      {
+        "name": "SetSpringCoupled",
+        "local": "html/11db7e9e-a256-7dbf-07d1-ef6d68e802c8.htm"
+      }
+    ],
+    "local": "html/07661691-ffa8-f77b-7580-1973c7be1978.htm"
+  },
+  "cPropArea": {
+    "properties": [],
+    "methods": [
+      {
+        "name": "ChangeName",
+        "local": "html/566f2b79-8497-d72a-23a8-20c4d7d00a17.htm"
+      },
+      {
+        "name": "Count",
+        "local": "html/018b8cfa-d6c5-6a7f-de6a-bcbffa44cc27.htm"
+      },
+      {
+        "name": "Delete",
+        "local": "html/11f377ed-60f4-9473-6ff3-ed8448882f0f.htm"
+      },
+      {
+        "name": "GetDeck",
+        "local": "html/e19678bf-85ac-47d3-e665-52a085604507.htm"
+      },
+      {
+        "name": "GetDeck_1",
+        "local": "html/bb1f70f8-b844-725b-b4d5-10545e65b121.htm"
+      },
+      {
+        "name": "GetDeckFilled",
+        "local": "html/a918c237-a842-0f07-dddf-ab512ed3a9b1.htm"
+      },
+      {
+        "name": "GetDeckSolidSlab",
+        "local": "html/69caa577-8c87-9122-aeb8-0f51f6f8d53b.htm"
+      },
+      {
+        "name": "GetDeckUnfilled",
+        "local": "html/fc497b52-a3d5-9325-b4c5-84b984b3be57.htm"
+      },
+      {
+        "name": "GetModifiers",
+        "local": "html/c18492c5-fb08-df65-6018-5780218d9b74.htm"
+      },
+      {
+        "name": "GetNameList",
+        "local": "html/6c82b66e-b9be-edf6-3996-d2da7bd4ebca.htm"
+      },
+      {
+        "name": "GetShellDesign",
+        "local": "html/dc51d2f1-5026-04e6-0a8a-d64bf9c0d5a9.htm"
+      },
+      {
+        "name": "GetShellLayer",
+        "local": "html/149e10e4-5e5e-b24e-b2bd-9a5a0b96d0f3.htm"
+      },
+      {
+        "name": "GetShellLayer_1",
+        "local": "html/b3b33d5c-0416-d64d-c93e-74ec66acea9f.htm"
+      },
+      {
+        "name": "GetShellLayer_2",
+        "local": "html/f6d1c46a-3d92-93a3-1dc8-1cf5d75d90a6.htm"
+      },
+      {
+        "name": "GetSlab",
+        "local": "html/6b7799e6-a226-1222-28ff-eab9a6d08c68.htm"
+      },
+      {
+        "name": "GetSlabRibbed",
+        "local": "html/6362769b-980b-68da-911a-e284f6233491.htm"
+      },
+      {
+        "name": "GetSlabWaffle",
+        "local": "html/d09087ec-1bdc-d45d-2882-fc398e3da612.htm"
+      },
+      {
+        "name": "GetTypeOAPI",
+        "local": "html/25ef980c-93d4-494d-b8e2-9908e47f8186.htm"
+      },
+      {
+        "name": "GetWall",
+        "local": "html/cffb7c5f-0a56-931b-d96a-733a89d283dd.htm"
+      },
+      {
+        "name": "GetWallAutoSelectList",
+        "local": "html/fb129af7-3d3f-f54f-74a3-646feae95247.htm"
+      },
+      {
+        "name": "SetDeck",
+        "local": "html/f9ab6c11-c39e-beab-a6c0-0d709e5e189f.htm"
+      },
+      {
+        "name": "SetDeck_1",
+        "local": "html/b9bc2f86-7271-c835-e208-84d721929467.htm"
+      },
+      {
+        "name": "SetDeckFilled",
+        "local": "html/48a6505f-cb81-ec80-76f3-51cedfde82ab.htm"
+      },
+      {
+        "name": "SetDeckSolidSlab",
+        "local": "html/b49666b1-5276-2122-d665-573e6c668b63.htm"
+      },
+      {
+        "name": "SetDeckUnfilled",
+        "local": "html/b2541419-4326-88f4-0a14-04d0f9d0ea6b.htm"
+      },
+      {
+        "name": "SetModifiers",
+        "local": "html/5d2f1428-5110-7247-25dd-68899acd7561.htm"
+      },
+      {
+        "name": "SetShellDesign",
+        "local": "html/518faacb-99f6-d77a-a449-4e6e4cfb8eef.htm"
+      },
+      {
+        "name": "SetShellLayer",
+        "local": "html/64c839aa-ff61-299b-8d37-bafad66e6a4a.htm"
+      },
+      {
+        "name": "SetShellLayer_1",
+        "local": "html/f2b22071-9605-e183-bcac-2543e33caa97.htm"
+      },
+      {
+        "name": "SetShellLayer_2",
+        "local": "html/1c0c46da-73c3-252b-281b-94f70cd0802f.htm"
+      },
+      {
+        "name": "SetSlab",
+        "local": "html/8a4ffa0d-4f4c-2366-9638-3e0bba493e21.htm"
+      },
+      {
+        "name": "SetSlabRibbed",
+        "local": "html/1890a9dd-6559-c637-a807-bc7289698600.htm"
+      },
+      {
+        "name": "SetSlabWaffle",
+        "local": "html/587b6985-08e3-b0bb-b215-d1e3ceb3b2dc.htm"
+      },
+      {
+        "name": "SetWall",
+        "local": "html/9e012fa7-2cb5-1db3-b577-c688f5ff5bfe.htm"
+      },
+      {
+        "name": "SetWallAutoSelectList",
+        "local": "html/b89e4188-11da-d4e5-26f6-ad83d83ceb92.htm"
+      }
+    ],
+    "local": "html/05202e19-1948-3d93-0a27-426378bde769.htm"
+  },
+  "cPropAreaSpring": {
+    "properties": [],
+    "methods": [
+      {
+        "name": "ChangeName",
+        "local": "html/255527a8-c5c4-dc1e-7b0d-2385b0606fea.htm"
+      },
+      {
+        "name": "Delete",
+        "local": "html/5ab09a04-132d-9994-1ebe-b00c0f598e87.htm"
+      },
+      {
+        "name": "GetAreaSpringProp",
+        "local": "html/564f1208-b459-7ca5-53fa-c582828183aa.htm"
+      },
+      {
+        "name": "GetNameList",
+        "local": "html/a8aa9d30-d62c-4f89-7f1d-21b41730e851.htm"
+      },
+      {
+        "name": "SetAreaSpringProp",
+        "local": "html/6e545714-2007-11d7-e7ac-8a811d59af03.htm"
+      }
+    ],
+    "local": "html/868f72e8-9682-1aae-302b-4d89340a3705.htm"
+  },
+  "cPropFrame": {
+    "properties": [
+      {
+        "name": "SDShape",
+        "local": "html/e312860d-b065-2377-ce9f-0b0560c79eb5.htm"
+      }
+    ],
+    "methods": [
+      {
+        "name": "ChangeName",
+        "local": "html/bbeacae0-66af-596a-94ee-756d75248977.htm"
+      },
+      {
+        "name": "Count",
+        "local": "html/f5b884c3-9a06-d41d-4c7b-ac3ed4e9c820.htm"
+      },
+      {
+        "name": "Delete",
+        "local": "html/b956a2ed-7bbf-e28a-5aaf-ec5ed222a2ca.htm"
+      },
+      {
+        "name": "GetAllFrameProperties",
+        "local": "html/ccc59c32-f025-1e2e-725b-a3ec2074647e.htm"
+      },
+      {
+        "name": "GetAllFrameProperties_2",
+        "local": "html/b51ca055-ee09-7541-2d15-55be03e81657.htm"
+      },
+      {
+        "name": "GetAngle",
+        "local": "html/53fce911-0bc8-5647-9464-fcc731f9fc4d.htm"
+      },
+      {
+        "name": "GetAngle_1",
+        "local": "html/3b93bf90-8fa6-e94e-5b44-73b20df44d76.htm"
+      },
+      {
+        "name": "GetAutoSelectSteel",
+        "local": "html/d08132dd-eb74-a089-bd1c-6a66ebd1d680.htm"
+      },
+      {
+        "name": "GetChannel",
+        "local": "html/f8fce4e1-ee1a-f4d7-156b-403c405a4f88.htm"
+      },
+      {
+        "name": "GetChannel_1",
+        "local": "html/bf124a6a-3272-cd94-8730-c5e9b526b12a.htm"
+      },
+      {
+        "name": "GetChannel_2",
+        "local": "html/beec38aa-2e26-cb38-1248-57ea735f0d21.htm"
+      },
+      {
+        "name": "GetCircle",
+        "local": "html/bce5ef7b-47a7-8a7c-19d7-052dc4d24d65.htm"
+      },
+      {
+        "name": "GetColdC",
+        "local": "html/b42b88f4-5475-9ba2-cdb2-60d23a1d6236.htm"
+      },
+      {
+        "name": "GetColdC_1",
+        "local": "html/8e50e5ef-57cd-cd48-a3ae-ee31a2720a4d.htm"
+      },
+      {
+        "name": "GetColdHat",
+        "local": "html/ae440ce7-ed01-93e0-e5bd-ce910bd27c6a.htm"
+      },
+      {
+        "name": "GetColdHat_1",
+        "local": "html/39176e8e-d3ed-aafd-4c99-16e2969bd63b.htm"
+      },
+      {
+        "name": "GetColdZ",
+        "local": "html/d20cd2d6-6780-2edc-3718-844861e87ba5.htm"
+      },
+      {
+        "name": "GetColdZ_1",
+        "local": "html/c6ac948a-2763-ae7f-693b-7353cec0d263.htm"
+      },
+      {
+        "name": "GetConcreteBox",
+        "local": "html/5ad8db33-dd6f-43d0-176a-2a017b7063ca.htm"
+      },
+      {
+        "name": "GetConcreteCross",
+        "local": "html/2d283aeb-7fc9-eb2b-859a-95b68afc9558.htm"
+      },
+      {
+        "name": "GetConcreteL",
+        "local": "html/5cd128fe-bb50-58b4-c365-4d011d596fe0.htm"
+      },
+      {
+        "name": "GetConcretePipe",
+        "local": "html/3ba0af10-b40e-6231-bdf9-693f5a255d35.htm"
+      },
+      {
+        "name": "GetConcreteTee",
+        "local": "html/dcbb5c6b-437e-a556-3980-3b23291104b0.htm"
+      },
+      {
+        "name": "GetCoverPlatedI",
+        "local": "html/45a495b0-2450-f9fb-5425-47809926db45.htm"
+      },
+      {
+        "name": "GetDblAngle",
+        "local": "html/33eedc7b-b7d7-a6af-edc3-f76af2d2d27a.htm"
+      },
+      {
+        "name": "GetDblAngle_1",
+        "local": "html/e49a3699-4ed1-caa0-d0b4-d7782b5ff342.htm"
+      },
+      {
+        "name": "GetDblAngle_2",
+        "local": "html/551bfc7c-a67c-a3dd-194e-13c5af4d62eb.htm"
+      },
+      {
+        "name": "GetDblChannel",
+        "local": "html/849ac718-5e55-678f-e70b-8c25a3e24555.htm"
+      },
+      {
+        "name": "GetDblChannel_1",
+        "local": "html/047e6994-5d21-44cc-bc82-a8bad0e56535.htm"
+      },
+      {
+        "name": "GetGeneral",
+        "local": "html/7ec8ec04-db7f-a1a9-8d74-3ac4fb46c210.htm"
+      },
+      {
+        "name": "GetGeneral_1",
+        "local": "html/9b0777e4-831d-a5aa-d34d-6457f76eb7d9.htm"
+      },
+      {
+        "name": "GetISection",
+        "local": "html/c4957a00-bbef-2a2f-5b92-ef521e79afa3.htm"
+      },
+      {
+        "name": "GetISection_1",
+        "local": "html/b4c38c19-2ee8-509c-a844-f12f3b8127ce.htm"
+      },
+      {
+        "name": "GetMaterial",
+        "local": "html/f1f72beb-2537-9958-cd22-54085f1c5541.htm"
+      },
+      {
+        "name": "GetModifiers",
+        "local": "html/fa4e9890-c036-289a-9f81-3c47ce3727bc.htm"
+      },
+      {
+        "name": "GetNameInPropFile",
+        "local": "html/d7e9c4fc-f5fb-701f-3d93-7d370bd58a14.htm"
+      },
+      {
+        "name": "GetNameList",
+        "local": "html/58456579-ca9c-1e58-0c1d-164adba9192a.htm"
+      },
+      {
+        "name": "GetNonPrismatic",
+        "local": "html/693974b7-f60f-cc05-a557-6b4130f8da24.htm"
+      },
+      {
+        "name": "GetPipe",
+        "local": "html/64e8f3f3-a786-4d93-7e1e-35d2a863b098.htm"
+      },
+      {
+        "name": "GetPlate",
+        "local": "html/d73f5fe7-37ec-970a-1ea3-d24d2f2976cc.htm"
+      },
+      {
+        "name": "GetPrecastI",
+        "local": "html/35975a2b-198e-c9e2-6750-f6562e032988.htm"
+      },
+      {
+        "name": "GetPropFileNameList",
+        "local": "html/e4e5510c-6682-033e-fd6c-b609facf0993.htm"
+      },
+      {
+        "name": "GetRebarBeam",
+        "local": "html/9d56af74-7ea3-5207-c416-5fc1631a6caa.htm"
+      },
+      {
+        "name": "GetRebarColumn",
+        "local": "html/e6201439-c667-f222-efb4-cfa859916bef.htm"
+      },
+      {
+        "name": "GetRebarColumn_1",
+        "local": "html/9eaab22b-552a-725b-c033-8a5ecf5f8007.htm"
+      },
+      {
+        "name": "GetRectangle",
+        "local": "html/f3b45dfb-1d85-e8f9-5985-85fac9c21699.htm"
+      },
+      {
+        "name": "GetRod",
+        "local": "html/ea5cbec8-629e-5592-7ab2-f63dc6d4dcfd.htm"
+      },
+      {
+        "name": "GetSDSection",
+        "local": "html/6d8291d6-4352-f149-665c-ac7cab62341f.htm"
+      },
+      {
+        "name": "GetSectProps",
+        "local": "html/0159f87b-7698-38a1-d060-926f2dba8968.htm"
+      },
+      {
+        "name": "GetSteelAngle",
+        "local": "html/acdade8e-dd34-8fff-b807-af71fc79f936.htm"
+      },
+      {
+        "name": "GetSteelTee",
+        "local": "html/5569b081-85ab-4c08-23f8-3b1c2e20bfbb.htm"
+      },
+      {
+        "name": "GetTee",
+        "local": "html/28d8ea6c-70e4-ce44-e355-1cb213bdca91.htm"
+      },
+      {
+        "name": "GetTee_1",
+        "local": "html/7991c50a-0d48-b64b-0f32-eec68fd362c2.htm"
+      },
+      {
+        "name": "GetTrapezoidal",
+        "local": "html/a4ace302-8302-7f08-7f99-61011edf201b.htm"
+      },
+      {
+        "name": "GetTube",
+        "local": "html/25ab5bf4-2cdf-0863-efea-267ef30561f8.htm"
+      },
+      {
+        "name": "GetTube_1",
+        "local": "html/c6800983-a11c-9042-2e50-2bf99d6d6f83.htm"
+      },
+      {
+        "name": "GetTypeOAPI",
+        "local": "html/dc9fd53c-b4b4-c4aa-c0de-ab98cfb44938.htm"
+      },
+      {
+        "name": "GetTypeRebar",
+        "local": "html/e8541328-f767-8bcc-1b49-94cf4ff334d6.htm"
+      },
+      {
+        "name": "ImportProp",
+        "local": "html/58f38541-fc86-8e3a-5812-fbf1e9537cd7.htm"
+      },
+      {
+        "name": "SetAngle",
+        "local": "html/46b92d71-1893-80ec-3dcb-ad4138699790.htm"
+      },
+      {
+        "name": "SetAngle_1",
+        "local": "html/795a3b45-ddfc-b3a0-c289-c5b35639208a.htm"
+      },
+      {
+        "name": "SetAutoSelectSteel",
+        "local": "html/be291e82-2cf7-ddbc-57f8-b95ff71e5d47.htm"
+      },
+      {
+        "name": "SetChannel",
+        "local": "html/bc2c12f0-4a25-7f29-de83-ff4b18c9d494.htm"
+      },
+      {
+        "name": "SetChannel_1",
+        "local": "html/16c87baa-0cdf-0c78-2472-b10a5b0e21bc.htm"
+      },
+      {
+        "name": "SetChannel_2",
+        "local": "html/35ea0869-e84a-adad-8d02-1e0a1f8cdf0b.htm"
+      },
+      {
+        "name": "SetCircle",
+        "local": "html/9b4aa765-2415-9ebb-3c10-672f0fe934fd.htm"
+      },
+      {
+        "name": "SetColdC",
+        "local": "html/2d89e9b7-d4a0-e4b2-d9bf-7569b2705201.htm"
+      },
+      {
+        "name": "SetColdC_1",
+        "local": "html/ca370cee-6679-a4f7-b648-933b4af92294.htm"
+      },
+      {
+        "name": "SetColdHat",
+        "local": "html/98812fd9-968b-6d65-f59e-a78b5c4f1776.htm"
+      },
+      {
+        "name": "SetColdHat_1",
+        "local": "html/074af682-bf1f-75ca-8de1-6d74cdb206be.htm"
+      },
+      {
+        "name": "SetColdZ",
+        "local": "html/731747c9-4851-b031-c9a7-c271865eaf82.htm"
+      },
+      {
+        "name": "SetColdZ_1",
+        "local": "html/31fd2379-c000-d8a4-3c32-632b65b7212c.htm"
+      },
+      {
+        "name": "SetConcreteBox",
+        "local": "html/fc136485-7379-b25f-ad3b-289c5ebf5416.htm"
+      },
+      {
+        "name": "SetConcreteCross",
+        "local": "html/7f0cf070-60fd-14dc-f7b6-e3d35b7823bb.htm"
+      },
+      {
+        "name": "SetConcreteL",
+        "local": "html/a0f102e5-4871-6db9-f048-500f37154439.htm"
+      },
+      {
+        "name": "SetConcretePipe",
+        "local": "html/f1183d43-8787-48eb-a1d5-1f2299595ab1.htm"
+      },
+      {
+        "name": "SetConcreteTee",
+        "local": "html/ca6fc8b1-9ecb-c2d6-3c3b-6cddda4582b6.htm"
+      },
+      {
+        "name": "SetCoverPlatedI",
+        "local": "html/8fb1cff1-eefa-e4e5-beb6-c68e3355fba0.htm"
+      },
+      {
+        "name": "SetDblAngle",
+        "local": "html/a485e166-830b-9235-75dd-d11f9079d025.htm"
+      },
+      {
+        "name": "SetDblAngle_1",
+        "local": "html/41b0ab7e-7f3d-c87b-a9ac-22b73f58914c.htm"
+      },
+      {
+        "name": "SetDblAngle_2",
+        "local": "html/9b2ad7a9-0d3a-58b6-4c4b-601cbe6b3676.htm"
+      },
+      {
+        "name": "SetDblChannel",
+        "local": "html/0e00ab31-1247-a5df-0191-17b07822f5cf.htm"
+      },
+      {
+        "name": "SetDblChannel_1",
+        "local": "html/0f4c2262-c3e8-5314-331a-18f7a5604890.htm"
+      },
+      {
+        "name": "SetGeneral",
+        "local": "html/df266116-7005-b184-a41f-3458621c55db.htm"
+      },
+      {
+        "name": "SetGeneral_1",
+        "local": "html/88b8eca0-b686-7e31-d3d3-d365454589b7.htm"
+      },
+      {
+        "name": "SetISection",
+        "local": "html/fe13e151-3350-dfdd-6013-a0538e850b7d.htm"
+      },
+      {
+        "name": "SetISection_1",
+        "local": "html/5bcb814d-e8d2-1745-15b9-48699a230ff9.htm"
+      },
+      {
+        "name": "SetMaterial",
+        "local": "html/8d646a38-d066-ac95-49d4-ac03a0096d61.htm"
+      },
+      {
+        "name": "SetModifiers",
+        "local": "html/a0cef6e6-ea1a-941f-14d1-0aae7c55114f.htm"
+      },
+      {
+        "name": "SetNonPrismatic",
+        "local": "html/8200a4fc-cfca-d7c3-07e6-6e05789d02ee.htm"
+      },
+      {
+        "name": "SetPipe",
+        "local": "html/51f01fd8-06f6-cece-5e27-c741ef338466.htm"
+      },
+      {
+        "name": "SetPlate",
+        "local": "html/2d6df75c-d0f0-dd77-d2ff-2a9928188b65.htm"
+      },
+      {
+        "name": "SetPrecastI",
+        "local": "html/b8c08063-a588-6078-23c2-1a1f4287bfea.htm"
+      },
+      {
+        "name": "SetRebarBeam",
+        "local": "html/c4c0a5ba-917b-eef3-e474-ad28ecde3bd9.htm"
+      },
+      {
+        "name": "SetRebarColumn",
+        "local": "html/8e062323-d240-9446-37fa-93257b61e953.htm"
+      },
+      {
+        "name": "SetRectangle",
+        "local": "html/2c34924c-79a3-ad3d-fe42-95e82b9be6ee.htm"
+      },
+      {
+        "name": "SetRod",
+        "local": "html/46b0e1f2-9ca7-2098-cfe3-fde41109cc49.htm"
+      },
+      {
+        "name": "SetSDSection",
+        "local": "html/c3298644-a65c-fadf-52cd-c681db02c51a.htm"
+      },
+      {
+        "name": "SetSteelAngle",
+        "local": "html/298606d5-2cdd-5a4e-fbdc-86e6b49ebf58.htm"
+      },
+      {
+        "name": "SetSteelTee",
+        "local": "html/acefc770-2e90-e579-1087-904c208ad991.htm"
+      },
+      {
+        "name": "SetTee",
+        "local": "html/8c20ee03-d30f-1c78-50ee-ec7bc9dc5ba7.htm"
+      },
+      {
+        "name": "SetTee_1",
+        "local": "html/3b0333b7-0172-b720-136a-ac5add18f25d.htm"
+      },
+      {
+        "name": "SetTrapezoidal",
+        "local": "html/dd69f2ca-1cc9-7f1d-5918-61037cb4e77a.htm"
+      },
+      {
+        "name": "SetTube",
+        "local": "html/3873123f-4a67-53a0-e9d5-90be4752c9c8.htm"
+      },
+      {
+        "name": "SetTube_1",
+        "local": "html/6a1ff955-32ec-d9b2-5dd7-c40353a51141.htm"
+      }
+    ],
+    "local": "html/818573fe-2b13-6183-8dc9-0cf3e8e02c7a.htm"
+  },
+  "cPropFrameSDShape": {
+    "properties": [],
+    "methods": [
+      {
+        "name": "GetAngle",
+        "local": "html/1f14a4c4-2600-bc56-f30d-5ea356e3673c.htm"
+      },
+      {
+        "name": "GetConcreteL",
+        "local": "html/f3939898-2341-8253-3547-c6fcf613e8f4.htm"
+      },
+      {
+        "name": "GetConcreteTee",
+        "local": "html/ac780c4b-a5f5-c524-b6c8-52b9f58d3726.htm"
+      },
+      {
+        "name": "GetISection",
+        "local": "html/80fb72ef-65ac-1570-8235-25248dce8092.htm"
+      },
+      {
+        "name": "GetReinfCircle",
+        "local": "html/dd378391-716e-c79d-f851-a66a3ced857a.htm"
+      },
+      {
+        "name": "GetReinfCorner",
+        "local": "html/79fba1d0-4069-ad98-40fd-8292109d1e4c.htm"
+      },
+      {
+        "name": "GetReinfEdge",
+        "local": "html/b9e1d411-15f8-3851-0c10-31547b8ab6e2.htm"
+      },
+      {
+        "name": "GetReinfLine",
+        "local": "html/f7c2b141-7d19-546a-ae3f-e528b2893461.htm"
+      },
+      {
+        "name": "GetReinfRectangular",
+        "local": "html/032b5301-77c8-b64f-b9e2-4bbfe58ba29a.htm"
+      },
+      {
+        "name": "GetReinfSingle",
+        "local": "html/036f7f2b-1bf1-51b8-f291-5156509a9003.htm"
+      },
+      {
+        "name": "GetSolidCircle",
+        "local": "html/73cb77fc-e928-3791-9f68-302476f9a025.htm"
+      },
+      {
+        "name": "GetSolidRect",
+        "local": "html/9dd26933-e196-5a1d-8145-951c157be4ca.htm"
+      },
+      {
+        "name": "GetTee",
+        "local": "html/01348b3c-5ffa-f1dc-769b-f14250313a57.htm"
+      }
+    ],
+    "local": "html/a50f9a5e-4c7d-07d5-4326-58be7b557651.htm"
+  },
+  "cPropLineSpring": {
+    "properties": [],
+    "methods": [
+      {
+        "name": "ChangeName",
+        "local": "html/59b7beb4-6d1e-4ce6-51dd-6420d6a932ee.htm"
+      },
+      {
+        "name": "Delete",
+        "local": "html/5a732241-100b-fb21-a3d7-1de9cf5a7954.htm"
+      },
+      {
+        "name": "GetLineSpringProp",
+        "local": "html/2408ddb9-163b-4173-1a82-c49385607ec8.htm"
+      },
+      {
+        "name": "GetNameList",
+        "local": "html/6937abaa-622f-d4ab-1093-7d99d6b7722b.htm"
+      },
+      {
+        "name": "SetLineSpringProp",
+        "local": "html/4c64029f-f344-f8a9-f34f-0ef5054a46f1.htm"
+      }
+    ],
+    "local": "html/cd49fe2d-7a8d-fe2f-8e88-8eacf2c1a61d.htm"
+  },
+  "cPropLink": {
+    "properties": [],
+    "methods": [
+      {
+        "name": "ChangeName",
+        "local": "html/b64f4ed3-3240-de85-e241-9e1bfc8dbab8.htm"
+      },
+      {
+        "name": "Count",
+        "local": "html/b9633e80-a47d-72cf-7c5d-6939318eb14e.htm"
+      },
+      {
+        "name": "Delete",
+        "local": "html/944c1487-08d2-bdc2-f390-847e439d340b.htm"
+      },
+      {
+        "name": "GetAcceptanceCriteria",
+        "local": "html/df49ca33-87e3-d2be-b445-2354f3f3c26b.htm"
+      },
+      {
+        "name": "GetDamper",
+        "local": "html/e96ed896-226f-3fac-00d3-b8687696903b.htm"
+      },
+      {
+        "name": "GetDamperBilinear",
+        "local": "html/3df7e14d-a28f-6057-9a85-be178514f602.htm"
+      },
+      {
+        "name": "GetDamperFrictionSpring",
+        "local": "html/b3496758-fb94-b812-ad5c-f31c1405d6f6.htm"
+      },
+      {
+        "name": "GetFrictionIsolator",
+        "local": "html/6c82a6d3-2133-2c83-13f9-458526325b3e.htm"
+      },
+      {
+        "name": "GetGap",
+        "local": "html/abcd04fb-61ad-694d-6b36-49f64e88f759.htm"
+      },
+      {
+        "name": "GetHook",
+        "local": "html/d367111f-871f-9af3-fa56-fce269a748cb.htm"
+      },
+      {
+        "name": "GetLinear",
+        "local": "html/4a632cf4-e2ec-95a6-7bc6-85752c34c349.htm"
+      },
+      {
+        "name": "GetMultiLinearElastic",
+        "local": "html/1aa23b30-f71e-3c98-de11-818c52ee07d0.htm"
+      },
+      {
+        "name": "GetMultiLinearPlastic",
+        "local": "html/5ff39d5c-5aba-a6e7-48a9-9e2e3710fb90.htm"
+      },
+      {
+        "name": "GetMultiLinearPoints",
+        "local": "html/a4aa1834-b7bc-65d5-ca61-d4edd83225ba.htm"
+      },
+      {
+        "name": "GetNameList",
+        "local": "html/e6ef1e66-23dd-83af-4a0a-d2c793f1ae3f.htm"
+      },
+      {
+        "name": "GetPDelta",
+        "local": "html/427260de-d18b-345e-f72e-a46fb1088cd5.htm"
+      },
+      {
+        "name": "GetPlasticWen",
+        "local": "html/a2db2b07-18f9-68df-374c-c347f3b7720d.htm"
+      },
+      {
+        "name": "GetRubberIsolator",
+        "local": "html/aaf8915a-1574-e918-e573-a2e5f8b4050e.htm"
+      },
+      {
+        "name": "GetSpringData",
+        "local": "html/1f437108-2497-91dd-02ed-5859ed29af58.htm"
+      },
+      {
+        "name": "GetTCFrictionIsolator",
+        "local": "html/4a1551f1-2636-f5c7-0140-d2a7799f3338.htm"
+      },
+      {
+        "name": "GetTypeOAPI",
+        "local": "html/c655f722-ff2b-786d-8341-ba058aacceeb.htm"
+      },
+      {
+        "name": "GetWeightAndMass",
+        "local": "html/6f9b0229-3107-7ddd-2591-48506af2da02.htm"
+      },
+      {
+        "name": "SetAcceptanceCriteria",
+        "local": "html/6f2cb1e3-35ec-2eb6-a359-daf7dd1c17ce.htm"
+      },
+      {
+        "name": "SetDamper",
+        "local": "html/27d8ab6a-fe84-6b0d-9810-c46b9f59d269.htm"
+      },
+      {
+        "name": "SetDamperBilinear",
+        "local": "html/9f9f5e41-56e2-0177-7870-dc879f0a5ed4.htm"
+      },
+      {
+        "name": "SetDamperFrictionSpring",
+        "local": "html/b0b711db-d827-c698-0893-9fd4b83e47af.htm"
+      },
+      {
+        "name": "SetFrictionIsolator",
+        "local": "html/db81c7a7-21a0-3c8d-d274-5cc7bb098577.htm"
+      },
+      {
+        "name": "SetGap",
+        "local": "html/d500746b-2f09-1204-de7f-388b1034a0ab.htm"
+      },
+      {
+        "name": "SetHook",
+        "local": "html/6e16d4b8-3a1d-be06-8ff4-bc0bf5b94be0.htm"
+      },
+      {
+        "name": "SetLinear",
+        "local": "html/05ec099e-6741-fb00-0568-43900dc46ef0.htm"
+      },
+      {
+        "name": "SetMultiLinearElastic",
+        "local": "html/edc45f96-3152-dd94-a9f0-f7d5722b32a8.htm"
+      },
+      {
+        "name": "SetMultiLinearPlastic",
+        "local": "html/ff7b168f-9d58-d475-5177-b791ed593dd5.htm"
+      },
+      {
+        "name": "SetMultiLinearPoints",
+        "local": "html/b6816e20-0afe-579f-ff49-407bf56777b9.htm"
+      },
+      {
+        "name": "SetPDelta",
+        "local": "html/6f4d750e-9c26-2d10-ab76-0a4f2b92fe40.htm"
+      },
+      {
+        "name": "SetPlasticWen",
+        "local": "html/5b45c67b-bd14-642e-4d55-90a93822171f.htm"
+      },
+      {
+        "name": "SetRubberIsolator",
+        "local": "html/4ff5aa58-5aba-f73a-15c3-51d5c6b5f427.htm"
+      },
+      {
+        "name": "SetSpringData",
+        "local": "html/4c73b170-9ca9-5d1b-3f16-c671f3a8ab95.htm"
+      },
+      {
+        "name": "SetTCFrictionIsolator",
+        "local": "html/54bfe900-8f72-64d9-b744-d5964aa34589.htm"
+      },
+      {
+        "name": "SetWeightAndMass",
+        "local": "html/c1525a87-be6a-40ff-9c50-33e047107d95.htm"
+      }
+    ],
+    "local": "html/a76cf100-6278-6a57-2daf-e0425fef43cb.htm"
+  },
+  "cPropMaterial": {
+    "properties": [
+      {
+        "name": "TimeDep",
+        "local": "html/69a51ab7-b9be-8666-46c0-d0049ed5c202.htm"
+      }
+    ],
+    "methods": [
+      {
+        "name": "AddMaterial",
+        "local": "html/f31946f0-c2ba-a1b0-c060-ffbb161c0e1a.htm"
+      },
+      {
+        "name": "ChangeName",
+        "local": "html/d6c7ffbb-b267-5637-932a-a28c2cda4228.htm"
+      },
+      {
+        "name": "Count",
+        "local": "html/af298de5-f432-1ec5-43a2-8f48a627a1cf.htm"
+      },
+      {
+        "name": "Delete",
+        "local": "html/2827b44f-1207-2fd0-88e1-8a4848722daf.htm"
+      },
+      {
+        "name": "GetDamping",
+        "local": "html/12ed43c3-3dfc-881b-c256-9285887b993e.htm"
+      },
+      {
+        "name": "GetMassSource",
+        "local": "html/7c7d6afe-1039-35f1-ce27-8dff955f1047.htm"
+      },
+      {
+        "name": "GetMassSource_1",
+        "local": "html/3fe46836-82f4-35e8-3eb5-86f2efba259c.htm"
+      },
+      {
+        "name": "GetMaterial",
+        "local": "html/27aa8a4e-e0c5-0f6d-488e-146d8c870349.htm"
+      },
+      {
+        "name": "GetMPAnisotropic",
+        "local": "html/d3fd1125-8aea-b767-42bc-f2b68ae12392.htm"
+      },
+      {
+        "name": "GetMPIsotropic",
+        "local": "html/cd8094ad-c5a3-48c2-b3d9-052379bbbaa7.htm"
+      },
+      {
+        "name": "GetMPOrthotropic",
+        "local": "html/2523f4af-3f60-888b-d75c-892d9aa7cf73.htm"
+      },
+      {
+        "name": "GetMPUniaxial",
+        "local": "html/67391fca-42c2-abaf-59c8-f29d5af4c406.htm"
+      },
+      {
+        "name": "GetNameList",
+        "local": "html/cd7f2797-19ae-cfef-7a67-2dc416885b7c.htm"
+      },
+      {
+        "name": "GetOConcrete",
+        "local": "html/4bee55de-7150-52a4-af8c-a5b869001c97.htm"
+      },
+      {
+        "name": "GetOConcrete_1",
+        "local": "html/46dece72-6507-46c6-cfc9-6c790cc4f196.htm"
+      },
+      {
+        "name": "GetONoDesign",
+        "local": "html/511610bc-75c6-4d0c-e5bd-29154840ebbb.htm"
+      },
+      {
+        "name": "GetORebar",
+        "local": "html/311a1e93-776b-f96f-e19a-9e612d878e26.htm"
+      },
+      {
+        "name": "GetORebar_1",
+        "local": "html/a1bb06fc-1f00-615f-efb2-cededf5d54ea.htm"
+      },
+      {
+        "name": "GetOSteel",
+        "local": "html/84aacf8b-e7b1-9b58-cd6a-5bd0b8a458a1.htm"
+      },
+      {
+        "name": "GetOSteel_1",
+        "local": "html/f471f7a3-9b41-04a5-531d-f2f693d02189.htm"
+      },
+      {
+        "name": "GetOTendon",
+        "local": "html/3470f6be-27f2-a59d-b523-6fda95a41a66.htm"
+      },
+      {
+        "name": "GetOTendon_1",
+        "local": "html/4b888f9e-bd6f-861d-2ab3-37ba147f5f95.htm"
+      },
+      {
+        "name": "GetSSCurve",
+        "local": "html/a07c1d99-87f3-4516-e297-c65dc41c9fa4.htm"
+      },
+      {
+        "name": "GetTemp",
+        "local": "html/1fb9cef2-95dd-7dd4-427c-b5f41ffe38fe.htm"
+      },
+      {
+        "name": "GetTypeOAPI",
+        "local": "html/e721f27d-80a5-162a-20b1-803cb544d72c.htm"
+      },
+      {
+        "name": "GetWeightAndMass",
+        "local": "html/35a593d3-423d-53f1-47be-c3aebb058e2e.htm"
+      },
+      {
+        "name": "SetDamping",
+        "local": "html/455d48fc-ad70-2b02-9f97-6b9aff76b1a8.htm"
+      },
+      {
+        "name": "SetMassSource",
+        "local": "html/b3aceea3-ebd6-c290-2380-b595e3b69e86.htm"
+      },
+      {
+        "name": "SetMassSource_1",
+        "local": "html/5b5b4cd5-6993-036e-644c-6b3781d8f37c.htm"
+      },
+      {
+        "name": "SetMaterial",
+        "local": "html/11fb330c-4776-7bb8-0dd4-0b79e6e3555d.htm"
+      },
+      {
+        "name": "SetMPAnisotropic",
+        "local": "html/75456438-3132-8517-589a-2cd0474c8010.htm"
+      },
+      {
+        "name": "SetMPIsotropic",
+        "local": "html/832a196d-3d1f-db2f-6ced-2e5b3e906d68.htm"
+      },
+      {
+        "name": "SetMPOrthotropic",
+        "local": "html/294aac51-374d-3eb7-a708-7fc63ed5fedb.htm"
+      },
+      {
+        "name": "SetMPUniaxial",
+        "local": "html/31ac64e4-68e5-dee4-7b7c-f80363878544.htm"
+      },
+      {
+        "name": "SetOConcrete",
+        "local": "html/e75afa41-27e0-2613-9d8d-01eb061b2cb8.htm"
+      },
+      {
+        "name": "SetOConcrete_1",
+        "local": "html/7386b953-1236-363a-a125-999b0fd0b54d.htm"
+      },
+      {
+        "name": "SetONoDesign",
+        "local": "html/74cd9cf8-83bd-80d4-bff6-e30fa0ad2904.htm"
+      },
+      {
+        "name": "SetORebar",
+        "local": "html/08f2cf8d-1691-7f79-2bc4-4551d449b8e0.htm"
+      },
+      {
+        "name": "SetORebar_1",
+        "local": "html/a17f0ac2-a0e4-bab8-b8d7-0531e9768db0.htm"
+      },
+      {
+        "name": "SetOSteel",
+        "local": "html/3570f377-cad5-7f56-c68c-3d1d72ce7c54.htm"
+      },
+      {
+        "name": "SetOSteel_1",
+        "local": "html/ac57f076-b644-b539-1fb9-08b4a3bd5a08.htm"
+      },
+      {
+        "name": "SetOTendon",
+        "local": "html/6f1c640c-cab6-0071-36ec-f9a58b31c5d8.htm"
+      },
+      {
+        "name": "SetOTendon_1",
+        "local": "html/cc3d4405-e2f0-bb4b-70ac-3cf01bb5b421.htm"
+      },
+      {
+        "name": "SetSSCurve",
+        "local": "html/d5003462-d5e7-44c4-265c-bb6a86a9acd2.htm"
+      },
+      {
+        "name": "SetTemp",
+        "local": "html/5a36e51b-cf71-1012-3d45-9af97fd242f6.htm"
+      },
+      {
+        "name": "SetWeightAndMass",
+        "local": "html/40efa942-eba4-3777-ef54-a267e7286f9d.htm"
+      }
+    ],
+    "local": "html/9c207615-6f75-9e34-741c-041d0b2ac537.htm"
+  },
+  "cPropPointSpring": {
+    "properties": [],
+    "methods": [
+      {
+        "name": "ChangeName",
+        "local": "html/40f03c47-0042-a622-9139-0e506ace90c3.htm"
+      },
+      {
+        "name": "Delete",
+        "local": "html/d4fb8a43-dd4d-7b73-c792-7f3ffa682deb.htm"
+      },
+      {
+        "name": "GetLinks",
+        "local": "html/c307945f-1023-dd60-c238-48dbdcc6c28d.htm"
+      },
+      {
+        "name": "GetNameList",
+        "local": "html/093ef2d8-b105-b716-c001-11d7f1e8f101.htm"
+      },
+      {
+        "name": "GetPointSpringProp",
+        "local": "html/7e28e6fd-d50d-b05b-af48-f887d2417444.htm"
+      },
+      {
+        "name": "SetLinks",
+        "local": "html/a75f8288-7d7a-4402-8374-803db93372bd.htm"
+      },
+      {
+        "name": "SetPointSpringProp",
+        "local": "html/de7acb07-fe06-8689-80cd-b508188ab6c4.htm"
+      }
+    ],
+    "local": "html/5aebc0c8-513b-c181-6c46-9a290a96c99b.htm"
+  },
+  "cPropRebar": {
+    "properties": [],
+    "methods": [
+      {
+        "name": "GetNameList",
+        "local": "html/da0e0ee8-75f3-1291-8ecf-82ada0c9dafc.htm"
+      },
+      {
+        "name": "GetNameListWithData",
+        "local": "html/86a29060-ad85-b4d0-e584-193b70f96190.htm"
+      },
+      {
+        "name": "GetRebarProps",
+        "local": "html/fc575c6f-d372-d78a-3dd2-3d8a07b79063.htm"
+      },
+      {
+        "name": "GetRebarPropsWithGUID",
+        "local": "html/3869ee11-a982-5c59-57c7-00158b7fcd47.htm"
+      }
+    ],
+    "local": "html/47c53370-e93f-bb32-ca2b-5e99e90862c4.htm"
+  },
+  "cPropTendon": {
+    "properties": [],
+    "methods": [
+      {
+        "name": "ChangeName",
+        "local": "html/6b1dba59-2186-ed31-7b3c-ea14e8b09c6e.htm"
+      },
+      {
+        "name": "Count",
+        "local": "html/32b913d8-9772-2e70-4c94-643390d5c0ad.htm"
+      },
+      {
+        "name": "Delete",
+        "local": "html/06ee9670-59f0-d318-1f2c-303ec1662045.htm"
+      },
+      {
+        "name": "GetNameList",
+        "local": "html/1227312b-e578-4470-3809-db6b07047920.htm"
+      },
+      {
+        "name": "GetProp",
+        "local": "html/308e2a54-be35-a1fd-e185-fabc93c087fc.htm"
+      },
+      {
+        "name": "SetProp",
+        "local": "html/83ff1d5b-5d2d-4182-2bce-07bc4a2dfb30.htm"
+      }
+    ],
+    "local": "html/086f87a2-2b98-d01d-90f8-1dd5d276b0de.htm"
+  },
+  "cSapModel": {
+    "properties": [
+      {
+        "name": "Analyze",
+        "local": "html/60fd8343-7468-5e79-c5e7-0d9f5712e439.htm"
+      },
+      {
+        "name": "AreaElm",
+        "local": "html/289ca7c6-0ea5-9cac-6cbd-6e91996e3c3c.htm"
+      },
+      {
+        "name": "AreaObj",
+        "local": "html/aa449054-1856-26ce-b123-6ef670712915.htm"
+      },
+      {
+        "name": "ConstraintDef",
+        "local": "html/052b1fd7-5cd8-e719-5b41-4baf467b4d47.htm"
+      },
+      {
+        "name": "DatabaseTables",
+        "local": "html/e39eded9-8da2-c558-ecbc-a942b9bb42a3.htm"
+      },
+      {
+        "name": "DesignCompositeBeam",
+        "local": "html/589b2428-83cc-a79e-69d2-bf77418ea7e2.htm"
+      },
+      {
+        "name": "DesignCompositeColumn",
+        "local": "html/b949d2db-479d-790f-ec68-aee78bcf07c2.htm"
+      },
+      {
+        "name": "DesignConcrete",
+        "local": "html/e231f49b-02a2-3b91-38ae-0803ba9dfc5d.htm"
+      },
+      {
+        "name": "DesignConcreteSlab",
+        "local": "html/306d552f-5cdf-73d2-a84b-79d715b72af8.htm"
+      },
+      {
+        "name": "DesignResults",
+        "local": "html/407af15a-505c-2d77-adb7-9b7858a3fbee.htm"
+      },
+      {
+        "name": "DesignShearWall",
+        "local": "html/e00c3d2a-0b55-c1ac-c296-8c35a7058056.htm"
+      },
+      {
+        "name": "DesignSteel",
+        "local": "html/1c2395f7-ebe1-f1db-ed40-c5bbe212ff66.htm"
+      },
+      {
+        "name": "Detailing",
+        "local": "html/2dfa2dff-3975-cc5d-f910-23cfedf7cdb8.htm"
+      },
+      {
+        "name": "Diaphragm",
+        "local": "html/9cd05e3b-04c6-ad62-2055-5c625e94a21c.htm"
+      },
+      {
+        "name": "EditArea",
+        "local": "html/51b3f161-b2f1-fb7a-1781-b20eaa59d9cc.htm"
+      },
+      {
+        "name": "EditFrame",
+        "local": "html/91a0cae3-bb6c-d83b-e515-0d39c4ba3e07.htm"
+      },
+      {
+        "name": "EditGeneral",
+        "local": "html/34ab79fa-530e-ea76-bdde-f2da50d0175c.htm"
+      },
+      {
+        "name": "EditPoint",
+        "local": "html/61bcb686-53d9-176f-6c6a-d7b38cb47d19.htm"
+      },
+      {
+        "name": "File",
+        "local": "html/b2bcc6df-224c-3f7e-7b4a-5562a1adc4e3.htm"
+      },
+      {
+        "name": "FrameObj",
+        "local": "html/ba5f9854-764d-039a-64a8-18de56dcf23d.htm"
+      },
+      {
+        "name": "Func",
+        "local": "html/24c52618-424b-8451-5f7f-40f31afd8359.htm"
+      },
+      {
+        "name": "GDispl",
+        "local": "html/b3ff8379-5858-5b98-9fa5-dd00b8e017c8.htm"
+      },
+      {
+        "name": "GridSys",
+        "local": "html/c51b3195-32fb-3bdb-6b88-7aa166a94ef5.htm"
+      },
+      {
+        "name": "GroupDef",
+        "local": "html/efd039f4-6d0a-8f39-3782-ee80aa01d33d.htm"
+      },
+      {
+        "name": "LineElm",
+        "local": "html/a66a5d01-2ec8-d900-71ec-3714217e27b8.htm"
+      },
+      {
+        "name": "LinkElm",
+        "local": "html/4a278b0a-affa-19e5-eebb-6ec18a2d4555.htm"
+      },
+      {
+        "name": "LinkObj",
+        "local": "html/cb51edd5-9559-74c9-2778-856876e39bc8.htm"
+      },
+      {
+        "name": "LoadCases",
+        "local": "html/38a62a0e-ff9c-17c0-9872-d85e7a3bed8a.htm"
+      },
+      {
+        "name": "LoadPatterns",
+        "local": "html/0e6bda8c-ccd1-f04a-cf26-2747c825aa75.htm"
+      },
+      {
+        "name": "Options",
+        "local": "html/de0a14cc-ab4e-d994-b07c-0d4129d71e91.htm"
+      },
+      {
+        "name": "PatternDef",
+        "local": "html/3e8efe53-d8ba-6e1f-4ec0-90cdae0bdba2.htm"
+      },
+      {
+        "name": "PierLabel",
+        "local": "html/a11bd748-711b-8a98-0dd3-e56909b5a702.htm"
+      },
+      {
+        "name": "PointElm",
+        "local": "html/d1cb488d-b603-459c-c0e4-5b49870bad3a.htm"
+      },
+      {
+        "name": "PointObj",
+        "local": "html/f861d61b-ab44-d053-0280-b28fac014143.htm"
+      },
+      {
+        "name": "PropArea",
+        "local": "html/d88bbf51-0b3b-926e-5683-4755b819a596.htm"
+      },
+      {
+        "name": "PropAreaSpring",
+        "local": "html/9f94fe86-0c8c-efb1-66a5-d737517af730.htm"
+      },
+      {
+        "name": "PropFrame",
+        "local": "html/2e4b87d5-ce74-99e8-4f36-afb0dfd47019.htm"
+      },
+      {
+        "name": "PropLineSpring",
+        "local": "html/c4c4362d-e79d-ad04-7303-253a739312ea.htm"
+      },
+      {
+        "name": "PropLink",
+        "local": "html/925127e9-644d-15e7-1237-724fe99e8413.htm"
+      },
+      {
+        "name": "PropMaterial",
+        "local": "html/11462a76-5338-1e8f-8e55-d1c4deb9aa45.htm"
+      },
+      {
+        "name": "PropPointSpring",
+        "local": "html/eae3849b-d91a-eaf5-5614-2b6b2330c8b9.htm"
+      },
+      {
+        "name": "PropRebar",
+        "local": "html/04ec8bc6-6813-8d90-a6b8-0bb581e1740a.htm"
+      },
+      {
+        "name": "PropTendon",
+        "local": "html/c0e95ad2-4281-86fc-f529-72602d10b0c8.htm"
+      },
+      {
+        "name": "RespCombo",
+        "local": "html/fab795e5-dacc-1c30-6c4a-ca5753829166.htm"
+      },
+      {
+        "name": "Results",
+        "local": "html/0c2bc8bd-2382-75be-9075-b0a8245283c3.htm"
+      },
+      {
+        "name": "SelectObj",
+        "local": "html/ebc661c5-1e7a-3e10-507b-88ce90c4418e.htm"
+      },
+      {
+        "name": "SpandrelLabel",
+        "local": "html/d9c24cd4-9e24-cbd0-936e-64527608e52e.htm"
+      },
+      {
+        "name": "Story",
+        "local": "html/cddd0ce4-3c22-0d2d-849e-27eaa1fb1301.htm"
+      },
+      {
+        "name": "TendonObj",
+        "local": "html/c7b14486-12eb-480e-9940-47ee5a7de26e.htm"
+      },
+      {
+        "name": "Tower",
+        "local": "html/c1631f6d-606d-4a41-b5ec-fe3a9dff785b.htm"
+      },
+      {
+        "name": "View",
+        "local": "html/b5059f28-8642-283a-08e5-e912035ca2ee.htm"
+      }
+    ],
+    "methods": [
+      {
+        "name": "GetDatabaseUnits",
+        "local": "html/68cf97d9-6614-f336-7b00-7e516ae39043.htm"
+      },
+      {
+        "name": "GetDatabaseUnits_2",
+        "local": "html/fb780d03-aa2a-02bb-a9c2-ff0038bbba36.htm"
+      },
+      {
+        "name": "GetMergeTol",
+        "local": "html/654e8ce1-b3b6-ed80-697b-7b4488559a92.htm"
+      },
+      {
+        "name": "GetModelFilename",
+        "local": "html/27a2df6d-448c-34f8-0212-17ea8adb5dfb.htm"
+      },
+      {
+        "name": "GetModelFilepath",
+        "local": "html/a10687ab-6664-4d55-5292-22c9e5edea60.htm"
+      },
+      {
+        "name": "GetModelIsLocked",
+        "local": "html/db145aa4-4a3e-c63d-f436-5b6dfbeefc2e.htm"
+      },
+      {
+        "name": "GetPresentCoordSystem",
+        "local": "html/9ec7c077-fb3b-62c8-67d7-82313324e48d.htm"
+      },
+      {
+        "name": "GetPresentUnits",
+        "local": "html/6fbe9d0d-1ede-7dcd-a575-78cff93f615e.htm"
+      },
+      {
+        "name": "GetPresentUnits_2",
+        "local": "html/bbeca1c7-a471-6d04-bd18-2df96a44a7a3.htm"
+      },
+      {
+        "name": "GetProgramInfo",
+        "local": "html/7f4ac5f3-89a6-3ec3-bab7-3262135e312d.htm"
+      },
+      {
+        "name": "GetProjectInfo",
+        "local": "html/01af6c4a-1bd0-b904-5d5c-c0968b298803.htm"
+      },
+      {
+        "name": "GetVersion",
+        "local": "html/efe0e1d2-0834-f2ce-6f25-a06d4485ee04.htm"
+      },
+      {
+        "name": "InitializeNewModel",
+        "local": "html/33caebe7-93de-5428-4fb6-f943001db0d6.htm"
+      },
+      {
+        "name": "SetMergeTol",
+        "local": "html/586a7c1b-f842-723a-548a-e6e64bc7f2a2.htm"
+      },
+      {
+        "name": "SetModelIsLocked",
+        "local": "html/733bb925-cbbd-6dc7-2986-db119a5f16f6.htm"
+      },
+      {
+        "name": "SetPresentUnits",
+        "local": "html/0fc9432b-eec5-bcd0-a45c-d19cf92d347d.htm"
+      },
+      {
+        "name": "SetPresentUnits_2",
+        "local": "html/78a3d044-770b-6a3e-1bcc-39c132a5ab0d.htm"
+      },
+      {
+        "name": "SetProjectInfo",
+        "local": "html/885f5b16-1b34-7021-aa7f-04eae862d91c.htm"
+      },
+      {
+        "name": "TreeIsUpdateSuspended",
+        "local": "html/3c8b3a71-16fe-8813-ab6c-529daadddc47.htm"
+      },
+      {
+        "name": "TreeResumeUpdateData",
+        "local": "html/c2472b7f-9ce1-cea2-8cc6-59db45c8a4b4.htm"
+      },
+      {
+        "name": "TreeSuspendUpdateData",
+        "local": "html/6633ded4-c0a1-7a4c-3aaf-2c2ff063d2c2.htm"
+      }
+    ],
+    "local": "html/fe0b0096-9fef-56a3-9d57-cdef76e0f611.htm"
+  },
+  "cSelect": {
+    "properties": [],
+    "methods": [
+      {
+        "name": "All",
+        "local": "html/49818c1f-209f-d5ff-f236-856d270dd652.htm"
+      },
+      {
+        "name": "ClearSelection",
+        "local": "html/17cb77d1-147b-14e7-574b-9d021f5f82ce.htm"
+      },
+      {
+        "name": "GetSelected",
+        "local": "html/6075658e-1124-8493-8893-baac5a7557a1.htm"
+      },
+      {
+        "name": "Group",
+        "local": "html/5de5ed9b-bffd-446b-db7b-324923ddf10d.htm"
+      },
+      {
+        "name": "InvertSelection",
+        "local": "html/3c374d1f-b960-7e2a-ba92-ca4663e23002.htm"
+      },
+      {
+        "name": "PreviousSelection",
+        "local": "html/f46afb09-ce59-69cb-f0c5-af1093cb90fc.htm"
+      }
+    ],
+    "local": "html/2acbe9e9-0b14-af63-ad0e-30aff46bf8f7.htm"
+  },
+  "cSpandrelLabel": {
+    "properties": [],
+    "methods": [
+      {
+        "name": "ChangeName",
+        "local": "html/b45ffdb9-b62c-f648-8066-c7202bfd6369.htm"
+      },
+      {
+        "name": "Delete",
+        "local": "html/0370d4f5-a0de-fafb-1edb-91b59a210285.htm"
+      },
+      {
+        "name": "GetNameList",
+        "local": "html/f5de53a1-c6a3-5d9f-df6f-f838de3d5563.htm"
+      },
+      {
+        "name": "GetSectionProperties",
+        "local": "html/e6015581-9d31-6dfb-ef11-93a60c7aac5a.htm"
+      },
+      {
+        "name": "GetSpandrel",
+        "local": "html/7c39e456-d889-b47c-219a-f8d97385d21a.htm"
+      },
+      {
+        "name": "SetSpandrel",
+        "local": "html/fef7440e-913e-359d-7ed2-8002885dc26e.htm"
+      }
+    ],
+    "local": "html/940f5cae-e95b-f2b3-6925-5449189f374f.htm"
+  },
+  "cStory": {
+    "properties": [],
+    "methods": [
+      {
+        "name": "GetElevation",
+        "local": "html/6bd9a3fe-9a90-1551-996a-1c314d71b940.htm"
+      },
+      {
+        "name": "GetGUID",
+        "local": "html/7d69f5ee-1d57-754c-1b4d-c53fb2ac9b09.htm"
+      },
+      {
+        "name": "GetHeight",
+        "local": "html/37caf9a0-2ad5-1934-bda0-6378f7cb4c8e.htm"
+      },
+      {
+        "name": "GetMasterStory",
+        "local": "html/e5bfa9d6-c38e-0e37-8de1-142a42974cb3.htm"
+      },
+      {
+        "name": "GetNameList",
+        "local": "html/da6bfe37-713c-d2bf-7e54-f3a94f4a84bd.htm"
+      },
+      {
+        "name": "GetSimilarTo",
+        "local": "html/79ccb69d-51de-6743-4c3c-bb66bb54e263.htm"
+      },
+      {
+        "name": "GetSplice",
+        "local": "html/2220d27e-29d6-f9db-529e-b8abf5c481e9.htm"
+      },
+      {
+        "name": "GetStories",
+        "local": "html/c365b275-7271-8b2f-eea6-779b985d17ce.htm"
+      },
+      {
+        "name": "GetStories_2",
+        "local": "html/cdbfa89c-ce72-fe61-a677-71d44012704f.htm"
+      },
+      {
+        "name": "SetElevation",
+        "local": "html/9938f92e-11b7-9c89-faf1-55dc3c77cd10.htm"
+      },
+      {
+        "name": "SetGUID",
+        "local": "html/e8b8f661-42dd-fb00-9595-4dcc09f4c938.htm"
+      },
+      {
+        "name": "SetHeight",
+        "local": "html/27326393-c3a3-e49c-2535-060c1cfaad39.htm"
+      },
+      {
+        "name": "SetMasterStory",
+        "local": "html/05070dc5-1715-0867-97dc-5122d41a3ec8.htm"
+      },
+      {
+        "name": "SetSimilarTo",
+        "local": "html/41751e3e-47b3-ff02-6249-3f9c89d55a6e.htm"
+      },
+      {
+        "name": "SetSplice",
+        "local": "html/0326f74b-f34a-a366-20a4-30f58287bb17.htm"
+      },
+      {
+        "name": "SetStories",
+        "local": "html/17059006-d39e-2341-a029-02e48aa4802f.htm"
+      },
+      {
+        "name": "SetStories_2",
+        "local": "html/4d9a32f2-52d2-5fc1-3bf7-97a5b1c35198.htm"
+      }
+    ],
+    "local": "html/1683ba07-55f5-11ab-520a-fc7bab96a41c.htm"
+  },
+  "cTendonObj": {
+    "properties": [],
+    "methods": [
+      {
+        "name": "ChangeName",
+        "local": "html/cd2cdf27-5465-4b3c-f4bf-29abdd71e017.htm"
+      },
+      {
+        "name": "Count",
+        "local": "html/bedbd275-84bf-b29e-f4be-c1aff2ee9628.htm"
+      },
+      {
+        "name": "GetDatumOffset",
+        "local": "html/47e4e8e2-1e3e-7fda-0608-c062e70fcf1f.htm"
+      },
+      {
+        "name": "GetDrawingPoint",
+        "local": "html/a8dde8bb-ee50-d524-5ee2-9a19cde103e9.htm"
+      },
+      {
+        "name": "GetGroupAssign",
+        "local": "html/2526b225-aa84-7f31-7e98-5a0b39037313.htm"
+      },
+      {
+        "name": "GetLoadForceStress_1",
+        "local": "html/62efa216-d3c6-4a1a-74aa-4a01f6b23c97.htm"
+      },
+      {
+        "name": "GetLossesDetailed",
+        "local": "html/fe49f59f-ea90-0964-015c-d7c0c8c11d53.htm"
+      },
+      {
+        "name": "GetLossesFixed",
+        "local": "html/00bed940-da4c-10e7-9afc-ec4e5cf4f567.htm"
+      },
+      {
+        "name": "GetLossesPercent",
+        "local": "html/cd847078-2e83-5f3b-a288-b298e6548e89.htm"
+      },
+      {
+        "name": "GetNameList",
+        "local": "html/77b9b405-b0d2-f497-e0a5-8bddd974f615.htm"
+      },
+      {
+        "name": "GetNameListOnStory",
+        "local": "html/a221d405-ccb1-6b38-02b6-ceec9bb27030.htm"
+      },
+      {
+        "name": "GetNumberStrands",
+        "local": "html/c8d82a6e-3868-a438-d1ed-a7b00263e4a9.htm"
+      },
+      {
+        "name": "GetProperty",
+        "local": "html/95381330-2908-6585-b882-c7bab06dc379.htm"
+      },
+      {
+        "name": "GetSelected",
+        "local": "html/3cd21263-2b51-7a58-c9da-380d6eeabc5c.htm"
+      },
+      {
+        "name": "GetTendonGeometry",
+        "local": "html/56a4c58d-0fa9-7f1b-a647-18a9a78f231b.htm"
+      },
+      {
+        "name": "SetGroupAssign",
+        "local": "html/42fcf3ba-9f85-50ff-a6a7-c361f4ed82d4.htm"
+      },
+      {
+        "name": "SetSelected",
+        "local": "html/46d20e6b-70b0-411d-0c9d-0e66332d7469.htm"
+      }
+    ],
+    "local": "html/753dc190-17d4-bab1-89d0-5d2bf9ce763f.htm"
+  },
+  "cTower": {
+    "properties": [],
+    "methods": [
+      {
+        "name": "AddCopyOfTower",
+        "local": "html/ae3321e2-f330-4a52-6ca1-a0c98aa717a2.htm"
+      },
+      {
+        "name": "AddNewTower",
+        "local": "html/c8b3d247-106a-8234-5021-cfe3d9e4ce60.htm"
+      },
+      {
+        "name": "AllowMultipleTowers",
+        "local": "html/7e2ebb28-bba5-6fcf-d326-1795f39e8f8c.htm"
+      },
+      {
+        "name": "DeleteTower",
+        "local": "html/bf8e8bbc-5c1a-b60f-7deb-4f0e3c44c103.htm"
+      },
+      {
+        "name": "GetActiveTower",
+        "local": "html/9240fa65-2998-5888-5295-88dcbb0a8db4.htm"
+      },
+      {
+        "name": "GetNameList",
+        "local": "html/d65a6802-594a-79e4-2a4e-27d6b119662a.htm"
+      },
+      {
+        "name": "RenameTower",
+        "local": "html/f09359a9-db2b-41ab-c9f5-4814154e7c10.htm"
+      },
+      {
+        "name": "SetActiveTower",
+        "local": "html/59404401-796c-f28d-0c18-314f935a59b0.htm"
+      }
+    ],
+    "local": "html/1bb0c5f8-7995-5710-920d-d085c36229bc.htm"
+  },
+  "cView": {
+    "properties": [],
+    "methods": [
+      {
+        "name": "RefreshView",
+        "local": "html/9061bdec-5f09-9925-06e6-ccabb9ec7f2e.htm"
+      },
+      {
+        "name": "RefreshWindow",
+        "local": "html/c75e6bde-9d6f-5108-de06-b451c46a7f44.htm"
+      }
+    ],
+    "local": "html/c11f51ce-75cb-68e0-ce06-c0352f2b77f8.htm"
+  }
+}
