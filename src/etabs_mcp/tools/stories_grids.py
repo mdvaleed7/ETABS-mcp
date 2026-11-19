@@ -33,20 +33,35 @@ def register(mcp: FastMCP) -> None:
             conn.ensure_connected()
             sm = conn.sap_model
 
-            ret = sm.Story.GetStories_2(
-                0, [], [], [], [], [], [], [], 0, ""
-            )
-            if not isinstance(ret, tuple) or ret[0] != 0:
-                return error_response("Failed to get stories.")
+            # ETABS 22 COM via comtypes: GetStories returns a list (not tuple):
+            # [retCode, Names[], Elevations[], Heights[], IsMaster[], SimilarTo[],
+            #  SpliceAbove[], SpliceHeight[], NumberStories]
+            # NumberStories is at index 8 (last), arrays at indices 1-7.
+            ret = sm.Story.GetStories(0, [], [], [], [], [], [], [])
+            if not isinstance(ret, (tuple, list)) or len(ret) < 9:
+                return error_response(
+                    f"Unexpected return structure from GetStories: {type(ret).__name__}, "
+                    f"length={len(ret) if hasattr(ret, '__len__') else 'N/A'}"
+                )
+            if ret[0] != 0:
+                return error_response(f"GetStories returned error code {ret[0]}.")
 
-            num = ret[1]
-            story_names = to_python_list(ret[2])
-            elevations = to_python_list(ret[3])
-            heights = to_python_list(ret[4])
-            is_master = to_python_list(ret[5])
-            similar_to = to_python_list(ret[6])
-            splice = to_python_list(ret[7])
-            splice_height = to_python_list(ret[8])
+            # NumberStories is at index 8 in ETABS 22 COM returns
+            num = ret[8]
+            if not isinstance(num, int):
+                return error_response(
+                    f"GetStories returned unexpected type for NumberStories at index 8: "
+                    f"expected int, got {type(num).__name__}={num!r}. "
+                    f"Full return: {ret!r}"
+                )
+
+            story_names = to_python_list(ret[1])
+            elevations = to_python_list(ret[2])
+            heights = to_python_list(ret[3])
+            is_master = to_python_list(ret[4])
+            similar_to = to_python_list(ret[5])
+            splice = to_python_list(ret[6])
+            splice_height = to_python_list(ret[7])
 
             stories = []
             for i in range(num):
