@@ -134,11 +134,23 @@ class ETABSConnection:
             logger.info("Disconnected from ETABS.")
 
     def ensure_connected(self) -> None:
-        """Raise if not connected to ETABS."""
+        """Raise if not connected to ETABS. Auto-clears stale connections."""
         if not self.attached or self.sap_model is None:
             raise ConnectionError(
                 "Not connected to ETABS. Call connect() first or start ETABS."
             )
+        # Verify the COM connection is actually alive by pinging ETABS
+        try:
+            _ = self.sap_model.GetModelIsLocked()
+        except OSError as exc:
+            # COM connection is stale — clear state so caller can reconnect
+            logger.warning("Stale COM connection detected in ensure_connected: %s", exc)
+            self.etabs_object = None
+            self.sap_model = None
+            self.attached = False
+            raise ConnectionError(
+                "ETABS connection lost (COM server unavailable). Restart ETABS and retry."
+            ) from exc
 
     # ------------------------------------------------------------------ #
     #  Convenience accessors for sub-interfaces
@@ -183,6 +195,15 @@ class ETABSConnection:
                 file_name = self.sap_model.GetModelFilename()
                 info["model_file"] = file_name if file_name else "(unsaved)"
                 info["model_is_locked"] = bool(self.sap_model.GetModelIsLocked())
+            except OSError as exc:
+                # COM connection is stale (e.g., ETABS closed/crashed)
+                # Clear state so next call can reconnect
+                logger.warning("Stale COM connection detected: %s", exc)
+                self.etabs_object = None
+                self.sap_model = None
+                self.attached = False
+                info["connected"] = False
+                info["model_file"] = "(connection lost)"
             except Exception:
                 info["model_file"] = "(unable to query)"
         return info
@@ -196,8 +217,9 @@ class ETABSConnection:
         if self.program_path and os.path.isfile(self.program_path):
             return self.program_path
 
-        # Common install locations
+        # Common install locations (newest first)
         candidates = [
+            r"C:\Program Files\Computers and Structures\ETABS 23\ETABS.exe",
             r"C:\Program Files\Computers and Structures\ETABS 22\ETABS.exe",
             r"C:\Program Files\Computers and Structures\ETABS 21\ETABS.exe",
             r"C:\Program Files\Computers and Structures\ETABS 20\ETABS.exe",
